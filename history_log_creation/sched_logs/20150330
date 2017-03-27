@@ -1,0 +1,55 @@
+03/30/2015 01:13:35;0002; pbs_sched;Svr;Log;Log opened
+03/30/2015 01:13:35;0040; pbs_sched;Job;50146.tyrone-cluster;Job Run
+03/30/2015 01:16:29;0040; pbs_sched;Job;50147.tyrone-cluster;Job Run
+03/30/2015 01:23:45;0040; pbs_sched;Job;50148.tyrone-cluster;Job Run
+03/30/2015 01:23:47;0040; pbs_sched;Job;50149.tyrone-cluster;Queue job limit reached
+03/30/2015 02:47:41;0040; pbs_sched;Job;50149.tyrone-cluster;Job Run
+03/30/2015 07:41:48;0040; pbs_sched;Job;50150.tyrone-cluster;Job Run
+03/30/2015 07:44:13;0040; pbs_sched;Job;50151.tyrone-cluster;Job Run
+03/30/2015 07:47:17;0040; pbs_sched;Job;50152.tyrone-cluster;Job Run
+03/30/2015 07:48:42;0040; pbs_sched;Job;50153.tyrone-cluster;Job Run
+03/30/2015 07:49:13;0040; pbs_sched;Job;50154.tyrone-cluster;Job Run
+03/30/2015 07:51:57;0040; pbs_sched;Job;50155.tyrone-cluster;Job Run
+03/30/2015 07:52:44;0040; pbs_sched;Job;50156.tyrone-cluster;Job Run
+03/30/2015 07:55:16;0040; pbs_sched;Job;50157.tyrone-cluster;Job Run
+03/30/2015 10:28:40;0040; pbs_sched;Job;50158.tyrone-cluster;Job Run
+03/30/2015 11:22:42;0040; pbs_sched;Job;50159.tyrone-cluster;Queue job limit reached
+03/30/2015 11:22:43;0040; pbs_sched;Job;50160.tyrone-cluster;Job Run
+03/30/2015 11:34:40;0040; pbs_sched;Job;50161.tyrone-cluster;Job Run
+03/30/2015 12:44:43;0040; pbs_sched;Job;50162.tyrone-cluster;Queue job limit reached
+03/30/2015 13:09:50;0040; pbs_sched;Job;50159.tyrone-cluster;Job Run
+03/30/2015 13:55:23;0040; pbs_sched;Job;50163.tyrone-cluster;Queue job limit reached
+03/30/2015 13:55:27;0040; pbs_sched;Job;50164.tyrone-cluster;Queue job limit reached
+03/30/2015 14:07:29;0040; pbs_sched;Job;50163.tyrone-cluster;Not enough of the right type of nodes available
+03/30/2015 14:07:29;0040; pbs_sched;Job;50164.tyrone-cluster;Not enough of the right type of nodes available
+03/30/2015 14:07:37;0040; pbs_sched;Job;50163.tyrone-cluster;Job Run
+03/30/2015 14:07:37;0040; pbs_sched;Job;50164.tyrone-cluster;Queue job limit reached
+03/30/2015 14:07:46;0040; pbs_sched;Job;50164.tyrone-cluster;Job Run
+03/30/2015 14:07:59;0040; pbs_sched;Job;50165.tyrone-cluster;Job Run
+03/30/2015 14:07:59;0040; pbs_sched;Job;50166.tyrone-cluster;Queue job limit reached
+03/30/2015 14:08:07;0040; pbs_sched;Job;50166.tyrone-cluster;Job Run
+03/30/2015 14:34:10;0040; pbs_sched;Job;50167.tyrone-cluster;Job Run
+03/30/2015 15:11:37;0040; pbs_sched;Job;50168.tyrone-cluster;Job Run
+03/30/2015 15:14:32;0040; pbs_sched;Job;50169.tyrone-cluster;Job Run
+03/30/2015 15:18:01;0040; pbs_sched;Job;50170.tyrone-cluster;Job Run
+03/30/2015 16:06:53;0040; pbs_sched;Job;50171.tyrone-cluster;Queue job limit reached
+04/01/2015 16:25:18;0002; pbs_sched;Svr;Log;Log closed
+03/30/2015 20:42:26;0002; pbs_sched;Svr;Log;Log opened
+03/30/2015 20:42:26;0040; pbs_sched;Job;50174.tyrone-cluster;Job Run
+03/30/2015 21:15:57;0040; pbs_sched;Job;50177.tyrone-cluster;Job Run
+03/30/2015 21:25:32;0040; pbs_sched;Job;50178.tyrone-cluster;Job Run
+03/30/2015 21:40:49;0040; pbs_sched;Job;50179.tyrone-cluster;Queue job limit reached
+03/30/2015 21:42:40;0040; pbs_sched;Job;50180.tyrone-cluster;Queue job limit reached
+03/30/2015 21:43:29;0040; pbs_sched;Job;50181.tyrone-cluster;Queue job limit reached
+03/30/2015 21:44:32;0040; pbs_sched;Job;50182.tyrone-cluster;Queue job limit reached
+03/30/2015 21:45:25;0040; pbs_sched;Job;50183.tyrone-cluster;Queue job limit reached
+03/30/2015 21:46:20;0040; pbs_sched;Job;50184.tyrone-cluster;Queue job limit reached
+03/30/2015 22:16:44;0040; pbs_sched;Job;50185.tyrone-cluster;Queue job limit reached
+03/30/2015 23:16:20;0040; pbs_sched;Job;50185.tyrone-cluster;Job Run
+03/30/2015 23:21:22;0040; pbs_sched;Job;50179.tyrone-cluster;Job Run
+03/30/2015 23:21:24;0040; pbs_sched;Job;50180.tyrone-cluster;Job Run
+03/30/2015 23:21:25;0040; pbs_sched;Job;50181.tyrone-cluster;Job Run
+03/30/2015 23:21:27;0040; pbs_sched;Job;50182.tyrone-cluster;Job Run
+03/30/2015 23:21:28;0040; pbs_sched;Job;50183.tyrone-cluster;Job Run
+03/30/2015 23:21:29;0040; pbs_sched;Job;50184.tyrone-cluster;Job Run
+03/31/2015 00:00:19;0002; pbs_sched;Svr;Log;Log closed

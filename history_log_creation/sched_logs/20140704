@@ -1,0 +1,26 @@
+07/04/2014 09:10:55;0002; pbs_sched;Svr;Log;Log opened
+07/04/2014 09:10:55;0040; pbs_sched;Job;40234.tyrone-cluster;Job Run
+07/04/2014 09:11:30;0040; pbs_sched;Job;40235.tyrone-cluster;Queue job limit reached
+07/04/2014 10:01:16;0040; pbs_sched;Job;40236.tyrone-cluster;Job Run
+07/04/2014 11:47:54;0040; pbs_sched;Job;40169.tyrone-cluster;Not enough of the right type of nodes available
+07/04/2014 11:47:54;0040; pbs_sched;Job;40219.tyrone-cluster;Not enough of the right type of nodes available
+07/04/2014 11:47:54;0040; pbs_sched;Job;40220.tyrone-cluster;Not enough of the right type of nodes available
+07/04/2014 16:20:36;0002; pbs_sched;Svr;Log;Log opened
+07/04/2014 16:20:36;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140704 opened
+07/04/2014 16:20:36;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 40428
+07/04/2014 16:21:08;0040; pbs_sched;Job;40239.tyrone-cluster;Queue job limit reached
+07/04/2014 16:21:08;0040; pbs_sched;Job;40237.tyrone-cluster;Job Run
+07/04/2014 16:21:08;0040; pbs_sched;Job;40169.tyrone-cluster;Job Run
+07/04/2014 16:21:08;0040; pbs_sched;Job;40219.tyrone-cluster;Job Run
+07/04/2014 16:21:08;0040; pbs_sched;Job;40220.tyrone-cluster;Queue job limit reached
+07/04/2014 16:21:08;0040; pbs_sched;Job;40170.tyrone-cluster;Queue job limit reached
+07/04/2014 16:21:08;0040; pbs_sched;Job;40238.tyrone-cluster;Queue job limit reached
+07/04/2014 16:21:08;0040; pbs_sched;Job;40240.tyrone-cluster;Queue job limit reached
+07/04/2014 16:21:08;0080; pbs_sched;Svr;main;brk point 14544896
+07/04/2014 16:21:11;0040; pbs_sched;Job;40220.tyrone-cluster;Job Run
+07/04/2014 16:21:14;0040; pbs_sched;Job;40170.tyrone-cluster;Queue user limit reached
+07/04/2014 16:21:14;0040; pbs_sched;Job;40238.tyrone-cluster;Job Run
+07/04/2014 16:21:15;0040; pbs_sched;Job;40240.tyrone-cluster;Job Run
+07/04/2014 18:01:55;0040; pbs_sched;Job;40185.tyrone-cluster;Job Run
+07/04/2014 18:02:23;0040; pbs_sched;Job;40183.tyrone-cluster;Queue job limit reached
+07/05/2014 00:27:12;0002; pbs_sched;Svr;Log;Log closed

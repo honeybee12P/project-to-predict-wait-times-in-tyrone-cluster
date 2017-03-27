@@ -1,0 +1,52 @@
+04/28/2014 00:08:00;0002; pbs_sched;Svr;Log;Log opened
+04/28/2014 00:08:00;0040; pbs_sched;Job;37837.tyrone-cluster;Job Run
+04/28/2014 07:16:59;0040; pbs_sched;Job;37783.tyrone-cluster;Not enough of the right type of nodes available
+04/28/2014 07:16:59;0040; pbs_sched;Job;37784.tyrone-cluster;Not enough of the right type of nodes available
+04/28/2014 07:16:59;0040; pbs_sched;Job;37785.tyrone-cluster;Not enough of the right type of nodes available
+04/28/2014 07:16:59;0040; pbs_sched;Job;37786.tyrone-cluster;Not enough of the right type of nodes available
+04/28/2014 07:16:59;0040; pbs_sched;Job;37649.tyrone-cluster;Queue user limit reached
+04/28/2014 07:16:59;0040; pbs_sched;Job;37657.tyrone-cluster;Queue user limit reached
+04/28/2014 07:16:59;0040; pbs_sched;Job;37658.tyrone-cluster;Queue user limit reached
+04/28/2014 07:17:02;0040; pbs_sched;Job;37783.tyrone-cluster;Job Run
+04/28/2014 07:17:02;0040; pbs_sched;Job;37784.tyrone-cluster;Queue job limit reached
+04/28/2014 07:17:02;0040; pbs_sched;Job;37785.tyrone-cluster;Queue job limit reached
+04/28/2014 07:17:02;0040; pbs_sched;Job;37786.tyrone-cluster;Queue job limit reached
+04/28/2014 07:17:02;0040; pbs_sched;Job;37649.tyrone-cluster;Queue job limit reached
+04/28/2014 07:17:02;0040; pbs_sched;Job;37657.tyrone-cluster;Queue job limit reached
+04/28/2014 07:17:02;0040; pbs_sched;Job;37658.tyrone-cluster;Queue job limit reached
+04/28/2014 07:53:45;0040; pbs_sched;Job;37784.tyrone-cluster;Queue user limit reached
+04/28/2014 07:53:45;0040; pbs_sched;Job;37785.tyrone-cluster;Job Run
+04/28/2014 07:54:15;0040; pbs_sched;Job;37784.tyrone-cluster;Queue job limit reached
+04/28/2014 08:37:02;0040; pbs_sched;Job;37838.tyrone-cluster;Job Run
+04/28/2014 08:41:30;0040; pbs_sched;Job;37839.tyrone-cluster;Job Run
+04/28/2014 09:24:07;0040; pbs_sched;Job;37840.tyrone-cluster;Job Run
+04/28/2014 10:32:19;0040; pbs_sched;Job;37841.tyrone-cluster;Job Run
+04/28/2014 10:43:10;0040; pbs_sched;Job;37784.tyrone-cluster;Queue user limit reached
+04/28/2014 10:43:10;0040; pbs_sched;Job;37786.tyrone-cluster;Queue user limit reached
+04/28/2014 10:43:10;0040; pbs_sched;Job;37657.tyrone-cluster;Queue user limit reached
+04/28/2014 10:43:10;0040; pbs_sched;Job;37658.tyrone-cluster;Queue user limit reached
+04/28/2014 13:02:16;0040; pbs_sched;Job;37842.tyrone-cluster;Job Run
+04/28/2014 13:02:18;0040; pbs_sched;Job;37784.tyrone-cluster;Queue job limit reached
+04/28/2014 13:02:18;0040; pbs_sched;Job;37786.tyrone-cluster;Queue job limit reached
+04/28/2014 13:02:18;0040; pbs_sched;Job;37657.tyrone-cluster;Queue job limit reached
+04/28/2014 13:02:18;0040; pbs_sched;Job;37658.tyrone-cluster;Queue job limit reached
+04/28/2014 13:09:00;0040; pbs_sched;Job;37843.tyrone-cluster;Queue job limit reached
+04/28/2014 15:27:20;0040; pbs_sched;Job;37784.tyrone-cluster;Queue user limit reached
+04/28/2014 15:27:20;0040; pbs_sched;Job;37786.tyrone-cluster;Queue user limit reached
+04/28/2014 15:27:20;0040; pbs_sched;Job;37657.tyrone-cluster;Job Run
+04/28/2014 15:27:27;0040; pbs_sched;Job;37784.tyrone-cluster;Queue job limit reached
+04/28/2014 15:27:27;0040; pbs_sched;Job;37786.tyrone-cluster;Queue job limit reached
+04/28/2014 15:27:27;0040; pbs_sched;Job;37659.tyrone-cluster;Queue job limit reached
+04/28/2014 15:54:10;0040; pbs_sched;Job;37844.tyrone-cluster;Job Run
+04/28/2014 16:18:36;0040; pbs_sched;Job;37799.tyrone-cluster;Queue user limit reached
+04/28/2014 16:46:34;0002; pbs_sched;Svr;Log;Log opened
+04/28/2014 16:46:34;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140428 opened
+04/28/2014 16:46:34;0002; pbs_sched;Svr;main;pbs_sched startup pid 56802
+04/28/2014 16:47:05;0040; pbs_sched;Job;37845.tyrone-cluster;Queue job limit reached
+04/28/2014 16:47:05;0040; pbs_sched;Job;37799.tyrone-cluster;Job Run
+04/28/2014 16:48:52;0002; pbs_sched;Svr;Log;Log opened
+04/28/2014 16:48:52;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140428 opened
+04/28/2014 16:48:52;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 56854
+04/28/2014 17:06:33;0002; pbs_sched;Svr;Log;Log opened
+04/28/2014 17:06:33;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140428 opened
+04/28/2014 17:06:33;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 57243

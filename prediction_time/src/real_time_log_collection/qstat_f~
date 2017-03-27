@@ -1,0 +1,782 @@
+Job Id: 59688.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    resources_used.cput = 18:24:43
+    resources_used.mem = 376432kb
+    resources_used.vmem = 2500480kb
+    resources_used.walltime = 02:33:39
+    job_state = R
+    queue = qp256
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Sat Feb  6 15:47:17 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59688
+    exec_host = tyrone-node12/63+tyrone-node12/62+tyrone-node12/61+tyrone-node
+	12/60+tyrone-node12/59+tyrone-node12/58+tyrone-node12/57+tyrone-node12
+	/56+tyrone-node12/55+tyrone-node12/54+tyrone-node12/53+tyrone-node12/5
+	2+tyrone-node12/51+tyrone-node12/50+tyrone-node12/49+tyrone-node12/48+
+	tyrone-node12/47+tyrone-node12/46+tyrone-node12/45+tyrone-node12/44+ty
+	rone-node12/43+tyrone-node12/42+tyrone-node12/41+tyrone-node12/40+tyro
+	ne-node12/39+tyrone-node12/38+tyrone-node12/37+tyrone-node12/36+tyrone
+	-node12/35+tyrone-node12/34+tyrone-node12/33+tyrone-node12/32+tyrone-n
+	ode12/31+tyrone-node12/30+tyrone-node12/29+tyrone-node12/28+tyrone-nod
+	e12/27+tyrone-node12/26+tyrone-node12/25+tyrone-node12/24+tyrone-node1
+	2/23+tyrone-node12/22+tyrone-node12/21+tyrone-node12/20+tyrone-node12/
+	19+tyrone-node12/18+tyrone-node12/17+tyrone-node12/16+tyrone-node12/15
+	+tyrone-node12/14+tyrone-node12/13+tyrone-node12/12+tyrone-node12/11+t
+	yrone-node12/10+tyrone-node12/9+tyrone-node12/8+tyrone-node12/7+tyrone
+	-node12/6+tyrone-node12/5+tyrone-node12/4+tyrone-node12/3+tyrone-node1
+	2/2+tyrone-node12/1+tyrone-node12/0+tyrone-node11/63+tyrone-node11/62+
+	tyrone-node11/61+tyrone-node11/60+tyrone-node11/59+tyrone-node11/58+ty
+	rone-node11/57+tyrone-node11/56+tyrone-node11/55+tyrone-node11/54+tyro
+	ne-node11/53+tyrone-node11/52+tyrone-node11/51+tyrone-node11/50+tyrone
+	-node11/49+tyrone-node11/48+tyrone-node11/47+tyrone-node11/46+tyrone-n
+	ode11/45+tyrone-node11/44+tyrone-node11/43+tyrone-node11/42+tyrone-nod
+	e11/41+tyrone-node11/40+tyrone-node11/39+tyrone-node11/38+tyrone-node1
+	1/37+tyrone-node11/36+tyrone-node11/35+tyrone-node11/34+tyrone-node11/
+	33+tyrone-node11/32+tyrone-node11/31+tyrone-node11/30+tyrone-node11/29
+	+tyrone-node11/28+tyrone-node11/27+tyrone-node11/26+tyrone-node11/25+t
+	yrone-node11/24+tyrone-node11/23+tyrone-node11/22+tyrone-node11/21+tyr
+	one-node11/20+tyrone-node11/19+tyrone-node11/18+tyrone-node11/17+tyron
+	e-node11/16+tyrone-node11/15+tyrone-node11/14+tyrone-node11/13+tyrone-
+	node11/12+tyrone-node11/11+tyrone-node11/10+tyrone-node11/9+tyrone-nod
+	e11/8+tyrone-node11/7+tyrone-node11/6+tyrone-node11/5+tyrone-node11/4+
+	tyrone-node11/3+tyrone-node11/2+tyrone-node11/1+tyrone-node11/0+tyrone
+	-node10/63+tyrone-node10/62+tyrone-node10/61+tyrone-node10/60+tyrone-n
+	ode10/59+tyrone-node10/58+tyrone-node10/57+tyrone-node10/56+tyrone-nod
+	e10/55+tyrone-node10/54+tyrone-node10/53+tyrone-node10/52+tyrone-node1
+	0/51+tyrone-node10/50+tyrone-node10/49+tyrone-node10/48+tyrone-node10/
+	47+tyrone-node10/46+tyrone-node10/45+tyrone-node10/44+tyrone-node10/43
+	+tyrone-node10/42+tyrone-node10/41+tyrone-node10/40+tyrone-node10/39+t
+	yrone-node10/38+tyrone-node10/37+tyrone-node10/36+tyrone-node10/35+tyr
+	one-node10/34+tyrone-node10/33+tyrone-node10/32+tyrone-node10/31+tyron
+	e-node10/30+tyrone-node10/29+tyrone-node10/28+tyrone-node10/27+tyrone-
+	node10/26+tyrone-node10/25+tyrone-node10/24+tyrone-node10/23+tyrone-no
+	de10/22+tyrone-node10/21+tyrone-node10/20+tyrone-node10/19+tyrone-node
+	10/18+tyrone-node10/17+tyrone-node10/16+tyrone-node10/15+tyrone-node10
+	/14+tyrone-node10/13+tyrone-node10/12+tyrone-node10/11+tyrone-node10/1
+	0+tyrone-node10/9+tyrone-node10/8+tyrone-node10/7+tyrone-node10/6+tyro
+	ne-node10/5+tyrone-node10/4+tyrone-node10/3+tyrone-node10/2+tyrone-nod
+	e10/1+tyrone-node10/0+tyrone-node9/63+tyrone-node9/62+tyrone-node9/61+
+	tyrone-node9/60+tyrone-node9/59+tyrone-node9/58+tyrone-node9/57+tyrone
+	-node9/56+tyrone-node9/55+tyrone-node9/54+tyrone-node9/53+tyrone-node9
+	/52+tyrone-node9/51+tyrone-node9/50+tyrone-node9/49+tyrone-node9/48+ty
+	rone-node9/47+tyrone-node9/46+tyrone-node9/45+tyrone-node9/44+tyrone-n
+	ode9/43+tyrone-node9/42+tyrone-node9/41+tyrone-node9/40+tyrone-node9/3
+	9+tyrone-node9/38+tyrone-node9/37+tyrone-node9/36+tyrone-node9/35+tyro
+	ne-node9/34+tyrone-node9/33+tyrone-node9/32+tyrone-node9/31+tyrone-nod
+	e9/30+tyrone-node9/29+tyrone-node9/28+tyrone-node9/27+tyrone-node9/26+
+	tyrone-node9/25+tyrone-node9/24+tyrone-node9/23+tyrone-node9/22+tyrone
+	-node9/21+tyrone-node9/20+tyrone-node9/19+tyrone-node9/18+tyrone-node9
+	/17+tyrone-node9/16+tyrone-node9/15+tyrone-node9/14+tyrone-node9/13+ty
+	rone-node9/12+tyrone-node9/11+tyrone-node9/10+tyrone-node9/9+tyrone-no
+	de9/8+tyrone-node9/7+tyrone-node9/6+tyrone-node9/5+tyrone-node9/4+tyro
+	ne-node9/3+tyrone-node9/2+tyrone-node9/1+tyrone-node9/0
+    exec_port = 15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 15:12:09 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59688
+    Priority = 0
+    qtime = Mon Feb  8 15:11:10 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    session_id = 64231
+    comment = Job started on Tue Feb 09 at 15:11
+    etime = Mon Feb  8 15:11:10 2016
+    submit_args = kscript.sh
+    start_time = Tue Feb  9 15:11:15 2016
+    Walltime.Remaining = 77135
+    start_count = 1
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59689.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = qp256
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Sat Feb  6 15:49:42 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59689
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 15:11:35 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59689
+    Priority = 0
+    qtime = Tue Feb  9 15:11:30 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: User has reached queue running job limit.
+    etime = Tue Feb  9 15:11:30 2016
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59690.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Sat Feb  6 15:52:10 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59690
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Sat Feb  6 15:52:10 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59690
+    Priority = 0
+    qtime = Sat Feb  6 15:52:10 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59748.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 16:03:51 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59748
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 16:03:51 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59748
+    Priority = 0
+    qtime = Mon Feb  8 16:03:51 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59750.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 16:09:09 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59750
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 16:09:09 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59750
+    Priority = 0
+    qtime = Mon Feb  8 16:09:09 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59751.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 16:11:56 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59751
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 16:11:56 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59751
+    Priority = 0
+    qtime = Mon Feb  8 16:11:56 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59752.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 16:13:29 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59752
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 16:13:30 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59752
+    Priority = 0
+    qtime = Mon Feb  8 16:13:29 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59753.tyrone-cluster
+    Job_Name = kscript.sh
+    Job_Owner = ssctush@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 16:17:05 2016
+    Error_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.e59753
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 16:17:05 2016
+    Output_Path = tyrone-cluster:/home/phd/12/ssctush/dell/kscript.sh.o59753
+    Priority = 0
+    qtime = Mon Feb  8 16:17:05 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=64:large
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = kscript.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/phd/12/ssctush/dell
+
+Job Id: 59759.tyrone-cluster
+    Job_Name = Vmg-r-8
+    Job_Owner = mbunisha@tyrone-cluster
+    resources_used.cput = 633:25:44
+    resources_used.mem = 3099000kb
+    resources_used.vmem = 9947676kb
+    resources_used.walltime = 20:04:03
+    job_state = R
+    queue = qp128
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 21:40:59 2016
+    Error_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.e5975
+	9
+    exec_host = tyrone-node6/31+tyrone-node6/30+tyrone-node6/29+tyrone-node6/2
+	8+tyrone-node6/27+tyrone-node6/26+tyrone-node6/25+tyrone-node6/24+tyro
+	ne-node6/23+tyrone-node6/22+tyrone-node6/21+tyrone-node6/20+tyrone-nod
+	e6/19+tyrone-node6/18+tyrone-node6/17+tyrone-node6/16+tyrone-node6/15+
+	tyrone-node6/14+tyrone-node6/13+tyrone-node6/12+tyrone-node6/11+tyrone
+	-node6/10+tyrone-node6/9+tyrone-node6/8+tyrone-node6/7+tyrone-node6/6+
+	tyrone-node6/5+tyrone-node6/4+tyrone-node6/3+tyrone-node6/2+tyrone-nod
+	e6/1+tyrone-node6/0+tyrone-node5/31+tyrone-node5/30+tyrone-node5/29+ty
+	rone-node5/28+tyrone-node5/27+tyrone-node5/26+tyrone-node5/25+tyrone-n
+	ode5/24+tyrone-node5/23+tyrone-node5/22+tyrone-node5/21+tyrone-node5/2
+	0+tyrone-node5/19+tyrone-node5/18+tyrone-node5/17+tyrone-node5/16+tyro
+	ne-node5/15+tyrone-node5/14+tyrone-node5/13+tyrone-node5/12+tyrone-nod
+	e5/11+tyrone-node5/10+tyrone-node5/9+tyrone-node5/8+tyrone-node5/7+tyr
+	one-node5/6+tyrone-node5/5+tyrone-node5/4+tyrone-node5/3+tyrone-node5/
+	2+tyrone-node5/1+tyrone-node5/0+tyrone-node4/31+tyrone-node4/30+tyrone
+	-node4/29+tyrone-node4/28+tyrone-node4/27+tyrone-node4/26+tyrone-node4
+	/25+tyrone-node4/24+tyrone-node4/23+tyrone-node4/22+tyrone-node4/21+ty
+	rone-node4/20+tyrone-node4/19+tyrone-node4/18+tyrone-node4/17+tyrone-n
+	ode4/16+tyrone-node4/15+tyrone-node4/14+tyrone-node4/13+tyrone-node4/1
+	2+tyrone-node4/11+tyrone-node4/10+tyrone-node4/9+tyrone-node4/8+tyrone
+	-node4/7+tyrone-node4/6+tyrone-node4/5+tyrone-node4/4+tyrone-node4/3+t
+	yrone-node4/2+tyrone-node4/1+tyrone-node4/0+tyrone-node1/31+tyrone-nod
+	e1/30+tyrone-node1/29+tyrone-node1/28+tyrone-node1/27+tyrone-node1/26+
+	tyrone-node1/25+tyrone-node1/24+tyrone-node1/23+tyrone-node1/22+tyrone
+	-node1/21+tyrone-node1/20+tyrone-node1/19+tyrone-node1/18+tyrone-node1
+	/17+tyrone-node1/16+tyrone-node1/15+tyrone-node1/14+tyrone-node1/13+ty
+	rone-node1/12+tyrone-node1/11+tyrone-node1/10+tyrone-node1/9+tyrone-no
+	de1/8+tyrone-node1/7+tyrone-node1/6+tyrone-node1/5+tyrone-node1/4+tyro
+	ne-node1/3+tyrone-node1/2+tyrone-node1/1+tyrone-node1/0
+    exec_port = 15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 21:41:43 2016
+    Output_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.o597
+	59
+    Priority = 0
+    qtime = Mon Feb  8 21:40:59 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    session_id = 19767
+    comment = Job started on Mon Feb 08 at 21:40
+    etime = Mon Feb  8 21:40:59 2016
+    submit_args = remd-128.sh
+    start_time = Mon Feb  8 21:40:59 2016
+    Walltime.Remaining = 14119
+    start_count = 1
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /localscratch/mbunisha/Vmog-remd
+
+Job Id: 59760.tyrone-cluster
+    Job_Name = Vmg-r-8
+    Job_Owner = mbunisha@tyrone-cluster
+    job_state = Q
+    queue = qp128
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 21:41:04 2016
+    Error_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.e5976
+	0
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 21:41:04 2016
+    Output_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.o597
+	60
+    Priority = 0
+    qtime = Mon Feb  8 21:41:04 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue job limit has been reached.
+    etime = Mon Feb  8 21:41:04 2016
+    submit_args = remd-128.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /localscratch/mbunisha/Vmog-remd
+
+Job Id: 59761.tyrone-cluster
+    Job_Name = Vmg-r-8
+    Job_Owner = mbunisha@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 21:41:04 2016
+    Error_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.e5976
+	1
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 21:41:04 2016
+    Output_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.o597
+	61
+    Priority = 0
+    qtime = Mon Feb  8 21:41:04 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = remd-128.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /localscratch/mbunisha/Vmog-remd
+
+Job Id: 59762.tyrone-cluster
+    Job_Name = Vmg-r-8
+    Job_Owner = mbunisha@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 21:41:06 2016
+    Error_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.e5976
+	2
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 21:41:07 2016
+    Output_Path = tyrone-cluster:/localscratch/mbunisha/Vmog-remd/Vmg-r-8.o597
+	62
+    Priority = 0
+    qtime = Mon Feb  8 21:41:06 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = remd-128.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /localscratch/mbunisha/Vmog-remd
+
+Job Id: 59763.tyrone-cluster
+    Job_Name = Emg-r-8
+    Job_Owner = mbuteja@tyrone-cluster
+    resources_used.cput = 105:23:31
+    resources_used.mem = 4286940kb
+    resources_used.vmem = 10967552kb
+    resources_used.walltime = 03:18:37
+    job_state = R
+    queue = qp64
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 21:42:36 2016
+    Error_Path = tyrone-cluster:/localscratch/mbuteja/Emog-remd/Emg-r-8.e59763
+	
+    exec_host = tyrone-node3/31+tyrone-node3/30+tyrone-node3/29+tyrone-node3/2
+	8+tyrone-node3/27+tyrone-node3/26+tyrone-node3/25+tyrone-node3/24+tyro
+	ne-node3/23+tyrone-node3/22+tyrone-node3/21+tyrone-node3/20+tyrone-nod
+	e3/19+tyrone-node3/18+tyrone-node3/17+tyrone-node3/16+tyrone-node3/15+
+	tyrone-node3/14+tyrone-node3/13+tyrone-node3/12+tyrone-node3/11+tyrone
+	-node3/10+tyrone-node3/9+tyrone-node3/8+tyrone-node3/7+tyrone-node3/6+
+	tyrone-node3/5+tyrone-node3/4+tyrone-node3/3+tyrone-node3/2+tyrone-nod
+	e3/1+tyrone-node3/0+tyrone-node2/31+tyrone-node2/30+tyrone-node2/29+ty
+	rone-node2/28+tyrone-node2/27+tyrone-node2/26+tyrone-node2/25+tyrone-n
+	ode2/24+tyrone-node2/23+tyrone-node2/22+tyrone-node2/21+tyrone-node2/2
+	0+tyrone-node2/19+tyrone-node2/18+tyrone-node2/17+tyrone-node2/16+tyro
+	ne-node2/15+tyrone-node2/14+tyrone-node2/13+tyrone-node2/12+tyrone-nod
+	e2/11+tyrone-node2/10+tyrone-node2/9+tyrone-node2/8+tyrone-node2/7+tyr
+	one-node2/6+tyrone-node2/5+tyrone-node2/4+tyrone-node2/3+tyrone-node2/
+	2+tyrone-node2/1+tyrone-node2/0
+    exec_port = 15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+1500
+	3+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 14:27:36 2016
+    Output_Path = tyrone-cluster:/localscratch/mbuteja/Emog-remd/Emg-r-8.o5976
+	3
+    Priority = 0
+    qtime = Mon Feb  8 21:42:36 2016
+    Rerunable = True
+    Resource_List.nodect = 2
+    Resource_List.nodes = 2:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    session_id = 19756
+    comment = Job started on Tue Feb 09 at 14:26
+    etime = Mon Feb  8 21:42:36 2016
+    submit_args = remd-64.sh
+    start_time = Tue Feb  9 14:26:59 2016
+    Walltime.Remaining = 74479
+    start_count = 1
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /localscratch/mbuteja/Emog-remd
+
+Job Id: 59764.tyrone-cluster
+    Job_Name = Emg-r-8
+    Job_Owner = mbuteja@tyrone-cluster
+    job_state = Q
+    queue = batch
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Mon Feb  8 21:42:38 2016
+    Error_Path = tyrone-cluster:/localscratch/mbuteja/Emog-remd/Emg-r-8.e59764
+	
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Feb  8 21:42:38 2016
+    Output_Path = tyrone-cluster:/localscratch/mbuteja/Emog-remd/Emg-r-8.o5976
+	4
+    Priority = 0
+    qtime = Mon Feb  8 21:42:38 2016
+    Rerunable = True
+    Resource_List.nodect = 2
+    Resource_List.nodes = 2:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue not an execution queue.
+    submit_args = remd-64.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /localscratch/mbuteja/Emog-remd
+
+Job Id: 59768.tyrone-cluster
+    Job_Name = cig_test
+    Job_Owner = cesthyag@tyrone-cluster
+    resources_used.cput = 87:46:16
+    resources_used.mem = 1762132kb
+    resources_used.vmem = 5763704kb
+    resources_used.walltime = 07:18:55
+    job_state = R
+    queue = qp32
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Tue Feb  9 10:25:55 2016
+    Error_Path = tyrone-cluster:/home/proj/15/cesthyag/err_s20rts_33_visc4_wea
+	k_0.1.log
+    exec_host = tyrone-node7/31+tyrone-node7/30+tyrone-node7/29+tyrone-node7/2
+	8+tyrone-node7/27+tyrone-node7/26+tyrone-node7/25+tyrone-node7/24+tyro
+	ne-node7/23+tyrone-node7/22+tyrone-node7/21+tyrone-node7/20+tyrone-nod
+	e7/19+tyrone-node7/18+tyrone-node7/17+tyrone-node7/16+tyrone-node7/15+
+	tyrone-node7/14+tyrone-node7/13+tyrone-node7/12+tyrone-node7/11+tyrone
+	-node7/10+tyrone-node7/9+tyrone-node7/8+tyrone-node7/7+tyrone-node7/6+
+	tyrone-node7/5+tyrone-node7/4+tyrone-node7/3+tyrone-node7/2+tyrone-nod
+	e7/1+tyrone-node7/0
+    exec_port = 15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 10:25:56 2016
+    Output_Path = tyrone-cluster:/home/proj/15/cesthyag/cig_test.o59768
+    Priority = 0
+    qtime = Tue Feb  9 10:25:55 2016
+    Rerunable = True
+    Resource_List.nodect = 1
+    Resource_List.nodes = 1:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    session_id = 54615
+    comment = Job started on Tue Feb 09 at 10:25
+    etime = Tue Feb  9 10:25:55 2016
+    submit_args = testscript_s20_weak
+    start_time = Tue Feb  9 10:25:56 2016
+    Walltime.Remaining = 60016
+    start_count = 1
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/proj/15/cesthyag
+
+Job Id: 59780.tyrone-cluster
+    Job_Name = Planar
+    Job_Owner = nsesidd@tyrone-cluster
+    job_state = Q
+    queue = qp64
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Tue Feb  9 15:52:16 2016
+    Error_Path = tyrone-cluster:/home/proj/14/nsesidd/Planar.e59780
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 15:52:17 2016
+    Output_Path = tyrone-cluster:/home/proj/14/nsesidd/Planar.o59780
+    Priority = 0
+    qtime = Tue Feb  9 15:52:16 2016
+    Rerunable = True
+    Resource_List.nodect = 2
+    Resource_List.nodes = 2:ppn=32:regular
+    Resource_List.walltime = 24:00:00
+    comment = Not Running: Queue job limit has been reached.
+    etime = Tue Feb  9 15:52:16 2016
+    submit_args = lumerical_jobscript_64
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/proj/14/nsesidd
+
+Job Id: 59791.tyrone-cluster
+    Job_Name = sample64
+    Job_Owner = secrav@tyrone-cluster
+    job_state = Q
+    queue = qp64
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Tue Feb  9 16:29:12 2016
+    Error_Path = tyrone-cluster:/home/mas/14/secrav/22Dec2015/ParMooN_OutPut/t
+	esting/sample64.e59791
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 16:29:12 2016
+    Output_Path = tyrone-cluster:/home/mas/14/secrav/22Dec2015/ParMooN_OutPut/
+	testing/sample64.o59791
+    Priority = 0
+    qtime = Tue Feb  9 16:29:12 2016
+    Rerunable = True
+    Resource_List.nodect = 2
+    Resource_List.nodes = 2:ppn=32:regular
+    Resource_List.walltime = 02:00:00
+    comment = Not Running: Queue job limit has been reached.
+    etime = Tue Feb  9 16:29:12 2016
+    submit_args = sp_64.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/mas/14/secrav/22Dec2015/ParMooN_OutPut/testing
+
+Job Id: 59792.tyrone-cluster
+    Job_Name = sample128
+    Job_Owner = secrav@tyrone-cluster
+    job_state = Q
+    queue = qp128
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Tue Feb  9 16:29:15 2016
+    Error_Path = tyrone-cluster:/home/mas/14/secrav/22Dec2015/ParMooN_OutPut/t
+	esting/sample128.e59792
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 16:29:16 2016
+    Output_Path = tyrone-cluster:/home/mas/14/secrav/22Dec2015/ParMooN_OutPut/
+	testing/sample128.o59792
+    Priority = 0
+    qtime = Tue Feb  9 16:29:15 2016
+    Rerunable = True
+    Resource_List.nodect = 4
+    Resource_List.nodes = 4:ppn=32:regular
+    Resource_List.walltime = 03:00:00
+    comment = Not Running: Queue job limit has been reached.
+    etime = Tue Feb  9 16:29:15 2016
+    submit_args = sp_128.sh
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/mas/14/secrav/22Dec2015/ParMooN_OutPut/testing
+
+Job Id: 59794.tyrone-cluster
+    Job_Name = shiver_X
+    Job_Owner = secabh@tyrone-cluster
+    resources_used.cput = 14:03:53
+    resources_used.mem = 3431608kb
+    resources_used.vmem = 17329060kb
+    resources_used.walltime = 00:28:39
+    job_state = R
+    queue = idqueue
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Tue Feb  9 16:39:06 2016
+    Error_Path = tyrone-cluster:/home/mas/14/secabh/MTP/HexLattice/Pics/Zitter
+	bewegung/Zwitter_X/shiver_X.e59794
+    exec_host = tyrone-cluster/31+tyrone-cluster/30+tyrone-cluster/29+tyrone-c
+	luster/28+tyrone-cluster/27+tyrone-cluster/26+tyrone-cluster/25+tyrone
+	-cluster/24+tyrone-cluster/23+tyrone-cluster/22+tyrone-cluster/21+tyro
+	ne-cluster/20+tyrone-cluster/19+tyrone-cluster/18+tyrone-cluster/17+ty
+	rone-cluster/16+tyrone-cluster/15+tyrone-cluster/14+tyrone-cluster/13+
+	tyrone-cluster/12+tyrone-cluster/11+tyrone-cluster/10+tyrone-cluster/9
+	+tyrone-cluster/8+tyrone-cluster/7+tyrone-cluster/6+tyrone-cluster/5+t
+	yrone-cluster/4+tyrone-cluster/3+tyrone-cluster/2+tyrone-cluster/1+tyr
+	one-cluster/0
+    exec_port = 15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15
+	003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+15003+
+	15003+15003+15003+15003+15003+15003+15003+15003+15003+15003
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 17:16:19 2016
+    Output_Path = tyrone-cluster:/home/mas/14/secabh/MTP/HexLattice/Pics/Zitte
+	rbewegung/Zwitter_X/shiver_X.o59794
+    Priority = 0
+    qtime = Tue Feb  9 16:39:06 2016
+    Rerunable = True
+    Resource_List.nodect = 1
+    Resource_List.nodes = 1:ppn=32:debug
+    Resource_List.walltime = 02:00:00
+    session_id = 30019
+    comment = Job started on Tue Feb 09 at 17:16
+    etime = Tue Feb  9 16:39:06 2016
+    submit_args = sub_idq
+    start_time = Tue Feb  9 17:16:19 2016
+    Walltime.Remaining = 5439
+    start_count = 1
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/mas/14/secabh/MTP/HexLattice/Pics/Zitterbewegung/Zwi
+	tter_X
+
+Job Id: 59795.tyrone-cluster
+    Job_Name = quacpy2D
+    Job_Owner = secabh@tyrone-cluster
+    job_state = Q
+    queue = idqueue
+    server = tyrone-cluster
+    Checkpoint = u
+    ctime = Tue Feb  9 16:41:34 2016
+    Error_Path = tyrone-cluster:/home/mas/14/secabh/MTP/HexLattice/Pics/Zitter
+	bewegung/quacpy2D.e59795
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Feb  9 17:16:19 2016
+    Output_Path = tyrone-cluster:/home/mas/14/secabh/MTP/HexLattice/Pics/Zitte
+	rbewegung/quacpy2D.o59795
+    Priority = 0
+    qtime = Tue Feb  9 16:41:34 2016
+    Rerunable = True
+    Resource_List.nodect = 1
+    Resource_List.nodes = 1:ppn=32:debug
+    Resource_List.walltime = 02:00:00
+    comment = Not Running: Queue job limit has been reached.
+    etime = Tue Feb  9 16:41:34 2016
+    submit_args = sub_idq
+    fault_tolerant = False
+    submit_host = tyrone-cluster
+    init_work_dir = /home/mas/14/secabh/MTP/HexLattice/Pics/Zitterbewegung
+

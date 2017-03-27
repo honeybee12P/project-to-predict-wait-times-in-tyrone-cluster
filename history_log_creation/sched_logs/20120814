@@ -1,0 +1,28 @@
+08/14/2012 10:09:22;0002; pbs_sched;Svr;Log;Log opened
+08/14/2012 10:09:22;0002; pbs_sched;Svr;die;caught signal 15
+08/14/2012 10:09:22;0002; pbs_sched;Svr;Log;Log closed
+08/14/2012 10:29:18;0002; pbs_sched;Svr;Log;Log opened
+08/14/2012 10:29:18;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20120814 opened
+08/14/2012 10:29:18;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 26582
+08/14/2012 10:39:08;0080; pbs_sched;Svr;main;brk point 6873088
+08/14/2012 12:10:29;0040; pbs_sched;Job;8809.tyrone-cluster;Job Run
+08/14/2012 12:12:07;0040; pbs_sched;Job;8810.tyrone-cluster;Job Run
+08/14/2012 12:13:35;0040; pbs_sched;Job;8811.tyrone-cluster;Job Run
+08/14/2012 12:21:22;0040; pbs_sched;Job;8811.tyrone-cluster;Job Run
+08/14/2012 12:37:16;0040; pbs_sched;Job;8812.tyrone-cluster;Job Run
+08/14/2012 12:40:17;0040; pbs_sched;Job;8812.tyrone-cluster;Job Run
+08/14/2012 14:47:47;0040; pbs_sched;Job;8813.tyrone-cluster;Not enough of the right type of nodes available
+08/14/2012 20:26:46;0040; pbs_sched;Job;8813.tyrone-cluster;Job Run
+08/14/2012 20:28:46;0040; pbs_sched;Job;8813.tyrone-cluster;Job Run
+08/14/2012 20:34:01;0040; pbs_sched;Job;8813.tyrone-cluster;Job Run
+08/14/2012 22:36:21;0040; pbs_sched;Job;8828.tyrone-cluster;Job Run
+08/14/2012 22:51:30;0040; pbs_sched;Job;8829.tyrone-cluster;Job Run
+08/14/2012 22:55:02;0040; pbs_sched;Job;8830.tyrone-cluster;Job Run
+08/14/2012 22:57:44;0002; pbs_sched;Svr;die;caught signal 15
+08/14/2012 22:57:44;0002; pbs_sched;Svr;Log;Log closed
+08/14/2012 22:57:45;0002; pbs_sched;Svr;Log;Log opened
+08/14/2012 22:57:45;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20120814 opened
+08/14/2012 22:57:45;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 38618
+08/14/2012 22:58:06;0080; pbs_sched;Svr;main;brk point 32006144
+08/14/2012 23:18:38;0040; pbs_sched;Job;8831.tyrone-cluster;Job Run
+08/15/2012 10:03:27;0002; pbs_sched;Svr;Log;Log closed

@@ -1,0 +1,32 @@
+04/14/2014 00:18:57;0002; pbs_sched;Svr;Log;Log opened
+04/14/2014 00:18:57;0040; pbs_sched;Job;37407.tyrone-cluster;Job Run
+04/14/2014 04:17:59;0040; pbs_sched;Job;37349.tyrone-cluster;Job Run
+04/14/2014 04:18:06;0040; pbs_sched;Job;37359.tyrone-cluster;Job Run
+04/14/2014 04:43:26;0040; pbs_sched;Job;37360.tyrone-cluster;Queue user limit reached
+04/14/2014 04:43:26;0040; pbs_sched;Job;37301.tyrone-cluster;Job Run
+04/14/2014 04:43:33;0040; pbs_sched;Job;37360.tyrone-cluster;Queue job limit reached
+04/14/2014 11:40:51;0040; pbs_sched;Job;37442.tyrone-cluster;Job Run
+04/14/2014 11:44:07;0040; pbs_sched;Job;37443.tyrone-cluster;Queue job limit reached
+04/14/2014 11:44:35;0040; pbs_sched;Job;37444.tyrone-cluster;Queue job limit reached
+04/14/2014 14:22:23;0040; pbs_sched;Job;37446.tyrone-cluster;Job Run
+04/14/2014 14:22:54;0040; pbs_sched;Job;37390.tyrone-cluster;Queue job limit reached
+04/14/2014 14:22:54;0040; pbs_sched;Job;37391.tyrone-cluster;Queue job limit reached
+04/14/2014 15:53:00;0080; pbs_sched;Svr;main;brk point 31436800
+04/14/2014 17:08:31;0040; pbs_sched;Job;37360.tyrone-cluster;Queue user limit reached
+04/14/2014 17:08:31;0040; pbs_sched;Job;37381.tyrone-cluster;Job Run
+04/14/2014 17:08:56;0040; pbs_sched;Job;37360.tyrone-cluster;Queue job limit reached
+04/14/2014 17:35:36;0040; pbs_sched;Job;37209.tyrone-cluster;Job Run
+04/14/2014 17:36:02;0040; pbs_sched;Job;37426.tyrone-cluster;Queue job limit reached
+04/14/2014 17:37:28;0040; pbs_sched;Job;37290.tyrone-cluster;Job Run
+04/14/2014 17:37:32;0040; pbs_sched;Job;37427.tyrone-cluster;Queue job limit reached
+04/14/2014 19:34:23;0040; pbs_sched;Job;37202.tyrone-cluster;Job Run
+04/14/2014 21:33:34;0040; pbs_sched;Job;37232.tyrone-cluster;Job Run
+04/14/2014 22:33:43;0040; pbs_sched;Job;37449.tyrone-cluster;Job Run
+04/14/2014 22:37:45;0040; pbs_sched;Job;37405.tyrone-cluster;Job Run
+04/14/2014 22:38:17;0040; pbs_sched;Job;37390.tyrone-cluster;Not enough of the right type of nodes available
+04/14/2014 22:38:17;0040; pbs_sched;Job;37391.tyrone-cluster;Not enough of the right type of nodes available
+04/14/2014 22:38:22;0040; pbs_sched;Job;37390.tyrone-cluster;Job Run
+04/14/2014 22:38:22;0040; pbs_sched;Job;37391.tyrone-cluster;Queue job limit reached
+04/14/2014 22:38:47;0040; pbs_sched;Job;37392.tyrone-cluster;Queue job limit reached
+04/14/2014 23:26:23;0040; pbs_sched;Job;37450.tyrone-cluster;Job Run
+04/15/2014 00:19:24;0002; pbs_sched;Svr;Log;Log closed

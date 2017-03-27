@@ -1,0 +1,459 @@
+11/29/2015 00:03:02;0002;PBS_Server;Svr;Log;Log opened
+11/29/2015 00:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:04:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 00:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:14:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 00:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:24:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 00:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:34:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 00:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:44:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 00:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 00:54:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 00:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:04:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 01:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:14:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 01:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:24:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 01:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:34:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 01:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:44:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 01:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 01:54:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 01:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:04:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 02:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:14:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 02:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:21:15;0100;PBS_Server;Job;58288.tyrone-cluster;enqueuing into batch, state 1 hop 1
+11/29/2015 02:21:15;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20151129 opened
+11/29/2015 02:21:15;0100;PBS_Server;Job;58288.tyrone-cluster;dequeuing from batch, state QUEUED
+11/29/2015 02:21:15;0100;PBS_Server;Job;58288.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+11/29/2015 02:21:15;0008;PBS_Server;Job;58288.tyrone-cluster;Job Queued at request of ipcdskp@tyrone-cluster, owner = ipcdskp@tyrone-cluster, job name = jobname, queue = qp32
+11/29/2015 02:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+11/29/2015 02:21:15;0008;PBS_Server;Job;58288.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+11/29/2015 02:21:15;0008;PBS_Server;Job;58288.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+11/29/2015 02:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+11/29/2015 02:21:15;000d;PBS_Server;Job;58288.tyrone-cluster;Not sending email: User does not want mail of this type.
+11/29/2015 02:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 02:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 02:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 02:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 02:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 03:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 03:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 03:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 03:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 03:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 03:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 03:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 04:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 04:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 04:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 04:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 04:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 04:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 04:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 05:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 05:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 05:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 05:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 05:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 05:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 05:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 06:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 06:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 06:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 06:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 06:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 06:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 06:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 07:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 07:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 07:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 07:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 07:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 07:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 07:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 08:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 08:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 08:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 08:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 08:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 08:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 08:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 09:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 09:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 09:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 09:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 09:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 09:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 09:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 10:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 10:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 10:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 10:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 10:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:51:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 10:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 10:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 11:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:11:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 11:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:21:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 11:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:31:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 11:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:41:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 11:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:48:57;000d;PBS_Server;Job;58282.tyrone-cluster;Not sending email: User does not want mail of this type.
+11/29/2015 11:48:57;0010;PBS_Server;Job;58282.tyrone-cluster;Exit_status=0 resources_used.cput=138:58:52 resources_used.mem=699916kb resources_used.vmem=4750636kb resources_used.walltime=20:50:02
+11/29/2015 11:48:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1ea6ce0 (substate=50)
+11/29/2015 11:48:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1ea6ce0 (substate=51)
+11/29/2015 11:48:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1ea6ce0 (substate=51)
+11/29/2015 11:48:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1ea6ce0 (substate=53)
+11/29/2015 11:48:57;0100;PBS_Server;Job;58282.tyrone-cluster;dequeuing from qp32, state COMPLETE
+11/29/2015 11:48:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+11/29/2015 11:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 11:58:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 12:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:08:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 12:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:18:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 12:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:28:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 12:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:38:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 12:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:48:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 12:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 12:58:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 13:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:08:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:08:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 13:13:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:18:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:18:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 13:23:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:28:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:28:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 13:33:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:38:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:38:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 13:43:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:48:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:48:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 13:53:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:58:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 13:58:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 14:03:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:08:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 14:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:18:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 14:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:28:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 14:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:38:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 14:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:48:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 14:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 14:58:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 15:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:08:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 15:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:18:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 15:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:28:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 15:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:38:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 15:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:48:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 15:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 15:58:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 16:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:08:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 16:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:18:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 16:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:28:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 16:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:38:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 16:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:48:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 16:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 16:58:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 17:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:08:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 17:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:18:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 17:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:28:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 17:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:35:17;000d;PBS_Server;Job;58287.tyrone-cluster;Not sending email: User does not want mail of this type.
+11/29/2015 17:35:17;0010;PBS_Server;Job;58287.tyrone-cluster;Exit_status=143 resources_used.cput=748:55:45 resources_used.mem=4484120kb resources_used.vmem=11169408kb resources_used.walltime=24:00:27
+11/29/2015 17:35:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1f334d0 (substate=50)
+11/29/2015 17:35:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1f334d0 (substate=51)
+11/29/2015 17:35:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1f334d0 (substate=51)
+11/29/2015 17:35:21;000d;PBS_Server;Job;58287.tyrone-cluster;Post job file processing error; job 58287.tyrone-cluster on host tyrone-node3/31+tyrone-node3/30+tyrone-node3/29+tyrone-node3/28+tyrone-node3/27+tyrone-node3/26+tyrone-node3/25+tyrone-node3/24+tyrone-node3/23+tyrone-node3/22+tyrone-node3/21+tyrone-node3/20+tyrone-node3/19+tyrone-node3/18+tyrone-node3/17+tyrone-node3/16+tyrone-node3/15+tyrone-node3/14+tyrone-node3/13+tyrone-node3/12+tyrone-node3/11+tyrone-node3/10+tyrone-node3/9+tyrone-node3/8+tyrone-node3/7+tyrone-node3/6+tyrone-node3/5+tyrone-node3/4+tyrone-node3/3+tyrone-node3/2+tyrone-node3/1+tyrone-node3/0+tyrone-node2/31+tyrone-node2/30+tyrone-node2/29+tyrone-node2/28+tyrone-node2/27+tyrone-node2/26+tyrone-node2/25+tyrone-node2/24+tyrone-node2/23+tyrone-node2/22+tyrone-node2/21+tyrone-node2/20+tyrone-node2/19+tyrone-node2/18+tyrone-node2/17+tyrone-node2/16+tyrone-node2/15+tyrone-node2/14+tyrone-node2/13+tyrone-node2/12+tyrone-node2/11+tyrone-node2/10+tyrone-node2/9+tyrone-node2/8+tyrone-node2/7+tyrone-node2/6+tyrone-node2/5+tyrone-node2/4+tyrone-node2/3+tyrone-node2/2+tyrone-node2/1+tyrone-node2/0
+11/29/2015 17:35:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1f334d0 (substate=53)
+11/29/2015 17:35:21;0100;PBS_Server;Job;58287.tyrone-cluster;dequeuing from qp64, state COMPLETE
+11/29/2015 17:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+11/29/2015 17:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 17:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 17:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 17:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:05:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 18:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:15:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 18:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:25:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 18:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 18:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 18:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 18:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 18:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:05:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 19:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:15:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 19:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:25:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 19:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 19:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 19:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 19:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 19:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:05:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 20:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:15:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 20:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:25:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 20:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 20:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 20:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 20:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 20:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:05:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 21:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:15:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 21:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:25:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 21:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 21:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 21:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 21:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 21:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:05:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 22:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:15:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 22:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:25:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 22:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 22:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 22:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 22:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 22:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:03:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:05:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 23:08:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:13:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:15:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 23:18:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:23:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:25:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 23:28:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:33:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:35:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 23:38:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:43:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:45:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 23:48:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:53:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/29/2015 23:55:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+11/29/2015 23:58:03;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+11/30/2015 00:03:03;0002;PBS_Server;Svr;Log;Log closed

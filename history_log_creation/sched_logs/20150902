@@ -1,0 +1,124 @@
+09/02/2015 03:08:34;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 03:08:33;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 03:08:34;0008; pbs_sched;Job;qp32;Job in unknown state
+09/02/2015 03:08:34;0008; pbs_sched;Job;qp256;Job in unknown state
+09/02/2015 03:08:34;0008; pbs_sched;Job;idqueue;Job in unknown state
+09/02/2015 03:08:34;0008; pbs_sched;Job;qp128;Job in unknown state
+09/02/2015 03:08:34;0008; pbs_sched;Job;qp64;Job in unknown state
+09/02/2015 03:08:34;0008; pbs_sched;Job;batch;Job in unknown state
+09/02/2015 04:01:41;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 04:01:51;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 04:02:08;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 59767
+09/02/2015 04:02:10;0080; pbs_sched;Svr;main;brk point 32854016
+09/02/2015 06:28:36;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 06:28:40;0008; pbs_sched;Job;qp32;Job in unknown state
+09/02/2015 06:28:40;0008; pbs_sched;Job;qp256;Job in unknown state
+09/02/2015 06:28:40;0008; pbs_sched;Job;idqueue;Job in unknown state
+09/02/2015 06:28:40;0008; pbs_sched;Job;qp128;Job in unknown state
+09/02/2015 06:28:40;0008; pbs_sched;Job;qp64;Job in unknown state
+09/02/2015 06:28:40;0008; pbs_sched;Job;batch;Job in unknown state
+09/02/2015 07:00:51;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 07:01:09;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 07:01:09;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 61517
+09/02/2015 07:01:18;0080; pbs_sched;Svr;main;brk point 16535552
+09/02/2015 07:03:07;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 07:03:12;0008; pbs_sched;Job;qp32;Job in unknown state
+09/02/2015 07:03:12;0008; pbs_sched;Job;qp256;Job in unknown state
+09/02/2015 07:03:12;0008; pbs_sched;Job;idqueue;Job in unknown state
+09/02/2015 07:03:12;0008; pbs_sched;Job;qp128;Job in unknown state
+09/02/2015 07:03:12;0008; pbs_sched;Job;qp64;Job in unknown state
+09/02/2015 07:03:12;0008; pbs_sched;Job;batch;Job in unknown state
+09/02/2015 08:00:21;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 08:00:24;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 08:00:24;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 62056
+09/02/2015 08:00:37;0080; pbs_sched;Svr;main;brk point 26537984
+09/02/2015 08:02:21;0040; pbs_sched;Job;56285.tyrone-cluster;Job Run
+09/02/2015 08:09:37;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 08:09:40;0008; pbs_sched;Job;qp32;Job in unknown state
+09/02/2015 08:09:40;0008; pbs_sched;Job;qp256;Job in unknown state
+09/02/2015 08:09:40;0008; pbs_sched;Job;idqueue;Job in unknown state
+09/02/2015 08:09:40;0008; pbs_sched;Job;qp128;Job in unknown state
+09/02/2015 08:09:40;0008; pbs_sched;Job;qp64;Job in unknown state
+09/02/2015 08:09:40;0008; pbs_sched;Job;batch;Job in unknown state
+09/02/2015 09:03:00;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 09:03:22;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 09:03:22;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 63669
+09/02/2015 09:03:32;0080; pbs_sched;Svr;main;brk point 17211392
+09/02/2015 09:28:03;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 09:28:03;0008; pbs_sched;Job;qp32;Job in unknown state
+09/02/2015 09:28:03;0008; pbs_sched;Job;qp256;Job in unknown state
+09/02/2015 09:28:03;0008; pbs_sched;Job;idqueue;Job in unknown state
+09/02/2015 09:28:03;0008; pbs_sched;Job;qp128;Job in unknown state
+09/02/2015 09:28:03;0008; pbs_sched;Job;qp64;Job in unknown state
+09/02/2015 09:28:03;0008; pbs_sched;Job;batch;Job in unknown state
+09/02/2015 10:01:17;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 10:01:18;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 10:01:18;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 64169
+09/02/2015 10:01:27;0080; pbs_sched;Svr;main;brk point 35831808
+09/02/2015 11:11:42;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 11:13:31;0040; pbs_sched;Job;56286.tyrone-cluster;Job Run
+09/02/2015 11:23:46;0040; pbs_sched;Job;56154.tyrone-cluster;Queue job limit reached
+09/02/2015 11:24:19;0040; pbs_sched;Job;56154.tyrone-cluster;Queue user limit reached
+09/02/2015 12:26:46;0040; pbs_sched;Job;56154.tyrone-cluster;Queue job limit reached
+09/02/2015 12:26:54;0040; pbs_sched;Job;56154.tyrone-cluster;Queue user limit reached
+09/02/2015 12:34:15;0040; pbs_sched;node;;Error getting nodes: Premature end of message
+09/02/2015 12:34:18;0008; pbs_sched;Job;qp32;Job in unknown state
+09/02/2015 12:34:18;0008; pbs_sched;Job;qp256;Job in unknown state
+09/02/2015 12:34:18;0008; pbs_sched;Job;idqueue;Job in unknown state
+09/02/2015 12:34:18;0008; pbs_sched;Job;qp128;Job in unknown state
+09/02/2015 12:34:18;0008; pbs_sched;Job;qp64;Job in unknown state
+09/02/2015 12:34:18;0008; pbs_sched;Job;batch;Job in unknown state
+09/02/2015 13:02:04;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 13:02:04;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 13:02:04;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 1034
+09/02/2015 13:08:47;0040; pbs_sched;Job;56154.tyrone-cluster;Job Run
+09/02/2015 13:08:47;0040; pbs_sched;Job;56283.tyrone-cluster;Queue user limit reached
+09/02/2015 13:08:47;0080; pbs_sched;Svr;main;brk point 13557760
+09/02/2015 14:48:13;0002; pbs_sched;Svr;Log;Log opened
+09/02/2015 14:48:13;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20150902 opened
+09/02/2015 14:48:13;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 4102
+09/02/2015 14:48:13;0040; pbs_sched;Job;56288.tyrone-cluster;Not enough of the right type of nodes available
+09/02/2015 14:48:13;0080; pbs_sched;Svr;main;brk point 29368320
+09/02/2015 14:58:13;0040; pbs_sched;Job;56288.tyrone-cluster;Job Run
+09/02/2015 15:02:43;0040; pbs_sched;Job;56289.tyrone-cluster;Job Run
+09/02/2015 15:07:41;0040; pbs_sched;Job;56290.tyrone-cluster;Job Run
+09/02/2015 15:15:38;0040; pbs_sched;Job;56291.tyrone-cluster;Job Run
+09/02/2015 15:15:46;0040; pbs_sched;Job;56292.tyrone-cluster;Job Run
+09/02/2015 15:16:24;0040; pbs_sched;Job;56293.tyrone-cluster;Job Run
+09/02/2015 15:16:42;0040; pbs_sched;Job;56294.tyrone-cluster;Job Run
+09/02/2015 15:16:42;0040; pbs_sched;Job;56283.tyrone-cluster;Queue job limit reached
+09/02/2015 15:16:43;0040; pbs_sched;Job;56283.tyrone-cluster;Queue user limit reached
+09/02/2015 15:18:23;0040; pbs_sched;Job;56295.tyrone-cluster;Job Run
+09/02/2015 15:18:36;0040; pbs_sched;Job;56296.tyrone-cluster;Job Run
+09/02/2015 15:20:00;0040; pbs_sched;Job;56297.tyrone-cluster;Queue job limit reached
+09/02/2015 15:20:39;0040; pbs_sched;Job;56298.tyrone-cluster;Job Run
+09/02/2015 15:20:40;0040; pbs_sched;Job;56299.tyrone-cluster;Job Run
+09/02/2015 15:22:06;0040; pbs_sched;Job;56300.tyrone-cluster;Job Run
+09/02/2015 15:23:58;0040; pbs_sched;Job;56301.tyrone-cluster;Job Run
+09/02/2015 15:53:41;0040; pbs_sched;Job;56302.tyrone-cluster;Job Run
+09/02/2015 15:54:32;0040; pbs_sched;Job;56303.tyrone-cluster;Job Run
+09/02/2015 15:55:58;0040; pbs_sched;Job;56304.tyrone-cluster;Job Run
+09/02/2015 16:05:31;0040; pbs_sched;Job;56305.tyrone-cluster;Job Run
+09/02/2015 16:07:32;0040; pbs_sched;Job;56306.tyrone-cluster;Job Run
+09/02/2015 16:07:42;0040; pbs_sched;Job;56307.tyrone-cluster;Job Run
+09/02/2015 16:09:20;0040; pbs_sched;Job;56308.tyrone-cluster;Job Run
+09/02/2015 16:10:26;0040; pbs_sched;Job;56309.tyrone-cluster;Job Run
+09/02/2015 16:12:42;0040; pbs_sched;Job;56310.tyrone-cluster;Job Run
+09/02/2015 16:17:59;0040; pbs_sched;Job;56311.tyrone-cluster;Job Run
+09/02/2015 16:19:19;0040; pbs_sched;Job;56312.tyrone-cluster;Job Run
+09/02/2015 16:57:02;0040; pbs_sched;Job;56313.tyrone-cluster;Job Run
+09/02/2015 17:49:06;0040; pbs_sched;Job;56314.tyrone-cluster;Job Run
+09/02/2015 17:54:31;0040; pbs_sched;Job;56315.tyrone-cluster;Job Run
+09/02/2015 17:56:00;0040; pbs_sched;Job;56316.tyrone-cluster;Job Run
+09/02/2015 17:59:08;0040; pbs_sched;Job;56317.tyrone-cluster;Job Run
+09/02/2015 17:59:35;0040; pbs_sched;Job;56318.tyrone-cluster;Job Run
+09/02/2015 18:01:04;0040; pbs_sched;Job;56319.tyrone-cluster;Job Run
+09/02/2015 20:05:12;0040; pbs_sched;Job;56320.tyrone-cluster;Job Run
+09/02/2015 20:14:09;0040; pbs_sched;Job;56322.tyrone-cluster;Job Run
+09/02/2015 20:17:58;0040; pbs_sched;Job;56323.tyrone-cluster;Job Run
+09/02/2015 20:23:33;0040; pbs_sched;Job;56324.tyrone-cluster;Job Run
+09/02/2015 20:24:29;0040; pbs_sched;Job;56325.tyrone-cluster;Queue job limit reached
+09/02/2015 20:56:43;0040; pbs_sched;Job;56326.tyrone-cluster;Job Run
+09/02/2015 21:40:02;0040; pbs_sched;Job;56327.tyrone-cluster;Job Run
+09/02/2015 22:36:45;0040; pbs_sched;Job;56328.tyrone-cluster;Job Run
+09/03/2015 10:57:55;0002; pbs_sched;Svr;Log;Log closed

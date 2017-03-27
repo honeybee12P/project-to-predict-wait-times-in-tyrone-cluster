@@ -1,0 +1,30 @@
+08/22/2015 09:57:06;0002;PBS_Server;Svr;Log;Log opened
+08/22/2015 09:57:06;0001;PBS_Server;Svr;PBS_Server;LOG_ERROR::stream_eof, connection to tyrone-cluster is no longer valid, connection may have been closed remotely, remote service may be down, or message may be corrupt (End of File).  setting node state to down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node1 not detected in 2678400 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node2 not detected in 2678410 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node3 not detected in 2678389 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node4 not detected in 2678404 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node5 not detected in 2678397 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node6 not detected in 2678400 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node7 not detected in 2678410 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node8 not detected in 2678415 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node9 not detected in 2678421 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node10 not detected in 2678404 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node11 not detected in 2678418 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node12 not detected in 2678424 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node13 not detected in 2678380 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node14 not detected in 2678419 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node15 not detected in 2678382 seconds, marking node down
+08/22/2015 09:57:06;0004;PBS_Server;Svr;check_nodes;node tyrone-node16 not detected in 2678421 seconds, marking node down
+08/22/2015 09:57:06;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+08/22/2015 09:57:06;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+08/22/2015 09:57:08;000d;PBS_Server;Job;54859.tyrone-cluster;Not sending email: User does not want mail of this type.
+08/22/2015 09:57:08;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20150822 opened
+08/22/2015 09:57:08;0010;PBS_Server;Job;54859.tyrone-cluster;Exit_status=143 resources_used.cput=03:47:27 resources_used.mem=1477100kb resources_used.vmem=7934836kb resources_used.walltime=744:06:49
+08/22/2015 09:57:08;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1c6fca0 (substate=50)
+08/22/2015 09:57:08;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1c6fca0 (substate=51)
+08/22/2015 09:57:08;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1c6fca0 (substate=51)
+08/22/2015 09:57:08;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1c6fca0 (substate=53)
+08/22/2015 09:57:08;0100;PBS_Server;Job;54859.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+08/22/2015 09:57:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+07/22/2015 10:00:42;0002;PBS_Server;Svr;Log;Log closed

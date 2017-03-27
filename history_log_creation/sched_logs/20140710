@@ -1,0 +1,32 @@
+07/10/2014 09:23:13;0002; pbs_sched;Svr;Log;Log opened
+07/10/2014 09:23:13;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140710 opened
+07/10/2014 09:23:13;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 52635
+07/10/2014 09:23:42;0040; pbs_sched;Job;40276.tyrone-cluster;Job Run
+07/10/2014 09:23:42;0040; pbs_sched;Job;40286.tyrone-cluster;Queue job limit reached
+07/10/2014 09:23:42;0040; pbs_sched;Job;40288.tyrone-cluster;Job Run
+07/10/2014 09:23:42;0040; pbs_sched;Job;40289.tyrone-cluster;Job Run
+07/10/2014 09:23:42;0040; pbs_sched;Job;40293.tyrone-cluster;Queue job limit reached
+07/10/2014 09:23:42;0040; pbs_sched;Job;40258.tyrone-cluster;Job Run
+07/10/2014 09:23:42;0040; pbs_sched;Job;40283.tyrone-cluster;Job Run
+07/10/2014 09:23:42;0040; pbs_sched;Job;40259.tyrone-cluster;Queue job limit reached
+07/10/2014 09:23:42;0040; pbs_sched;Job;40290.tyrone-cluster;Queue job limit reached
+07/10/2014 09:23:42;0080; pbs_sched;Svr;main;brk point 31485952
+07/10/2014 09:23:43;0040; pbs_sched;Job;40293.tyrone-cluster;Job Run
+07/10/2014 09:23:43;0040; pbs_sched;Job;40259.tyrone-cluster;Queue user limit reached
+07/10/2014 09:23:43;0040; pbs_sched;Job;40290.tyrone-cluster;Not enough of the right type of nodes available
+07/10/2014 09:23:52;0040; pbs_sched;Job;40290.tyrone-cluster;Job Run
+07/10/2014 09:29:17;0040; pbs_sched;Job;40292.tyrone-cluster;Job Run
+07/10/2014 11:12:07;0040; pbs_sched;Job;40294.tyrone-cluster;Job Run
+07/10/2014 11:36:31;0040; pbs_sched;Job;40295.tyrone-cluster;Job Run
+07/10/2014 16:33:05;0040; pbs_sched;Job;40296.tyrone-cluster;Job Run
+07/10/2014 16:33:38;0040; pbs_sched;Job;40297.tyrone-cluster;Job Run
+07/10/2014 16:34:36;0040; pbs_sched;Job;40298.tyrone-cluster;Job Run
+07/10/2014 16:38:24;0040; pbs_sched;Job;40299.tyrone-cluster;Job Run
+07/10/2014 16:43:19;0040; pbs_sched;Job;40300.tyrone-cluster;Job Run
+07/10/2014 16:44:23;0040; pbs_sched;Job;40301.tyrone-cluster;Job Run
+07/10/2014 16:57:16;0040; pbs_sched;Job;40302.tyrone-cluster;Queue job limit reached
+07/10/2014 17:59:53;0040; pbs_sched;Job;40303.tyrone-cluster;Job Run
+07/10/2014 19:09:43;0002;pbs_python;Svr;Log;Log opened
+07/10/2014 19:09:43;0008;pbs_python;Job;test1;this a test message
+07/10/2014 21:21:44;0040; pbs_sched;Job;40304.tyrone-cluster;Job Run
+07/11/2014 09:24:04;0002; pbs_sched;Svr;Log;Log closed

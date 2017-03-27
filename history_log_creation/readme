@@ -1,0 +1,23 @@
+This folder "history_log_creation", is used to create the history swf log. 
+
+
+
+sched_logs - Collect the sched logs from tyrone cluster till day before yesterday. 
+
+             Ex: If you are creating history swf log today, collect the log till day before yesterday.  
+
+
+
+server_logs - Collect the server logs from tyrone till day before yesterday. 
+
+              Ex: If you are creating history swf log today, collect the log till day before yesterday.
+              
+              
+How to generate history_log.swf and user_id_file ?
+
+python convert_log_2.py 
+
+How is user_id_file created ?
+
+During history log creation, all the usernames and their allocated user_id’s are collected in python dictionary named “user_id_map”. 
+The username’s and user_id’s are written to a file named “user_id_file”, which maintains the list of username’s and their allocated user_id’s.

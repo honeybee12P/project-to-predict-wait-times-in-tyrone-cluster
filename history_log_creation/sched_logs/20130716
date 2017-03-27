@@ -1,0 +1,6 @@
+07/16/2013 15:02:09;0002; pbs_sched;Svr;Log;Log opened
+07/16/2013 15:02:09;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20130716 opened
+07/16/2013 15:02:09;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 3867
+07/16/2013 15:02:09;0080; pbs_sched;Svr;main;brk point 35835904
+07/16/2013 15:06:33;0002; pbs_sched;Svr;die;caught signal 15
+07/16/2013 15:06:33;0002; pbs_sched;Svr;Log;Log closed

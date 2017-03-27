@@ -1,0 +1,452 @@
+10/16/2013 00:04:32;0002;PBS_Server;Svr;Log;Log opened
+10/16/2013 00:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 00:55:50;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 00:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:06:17;000d;PBS_Server;Job;30143.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 01:06:17;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20131016 opened
+10/16/2013 01:06:17;0010;PBS_Server;Job;30143.tyrone-cluster;Exit_status=0 resources_used.cput=211:17:00 resources_used.mem=1021148kb resources_used.vmem=2550080kb resources_used.walltime=13:12:20
+10/16/2013 01:06:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17af2b0 (substate=50)
+10/16/2013 01:06:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17af2b0 (substate=51)
+10/16/2013 01:06:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17af2b0 (substate=51)
+10/16/2013 01:06:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17af2b0 (substate=53)
+10/16/2013 01:06:17;0100;PBS_Server;Job;30143.tyrone-cluster;dequeuing from qp32, state COMPLETE
+10/16/2013 01:06:34;0100;PBS_Server;Job;30269.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 01:06:34;0100;PBS_Server;Job;30269.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+10/16/2013 01:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:15:24;0100;PBS_Server;Job;30322.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:15:24;0008;PBS_Server;Job;30322.tyrone-cluster;Job Queued at request of asealama@tyrone-cluster, owner = asealama@tyrone-cluster, job name = jobname, queue = batch
+10/16/2013 01:16:01;0100;PBS_Server;Job;30323.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:16:01;0008;PBS_Server;Job;30323.tyrone-cluster;Job Queued at request of asealama@tyrone-cluster, owner = asealama@tyrone-cluster, job name = jobname, queue = batch
+10/16/2013 01:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:28:20;0100;PBS_Server;Job;30324.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:20;0100;PBS_Server;Job;30324.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 01:28:20;0100;PBS_Server;Job;30324.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+10/16/2013 01:28:20;0008;PBS_Server;Job;30324.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_35, queue = qp64
+10/16/2013 01:28:25;0100;PBS_Server;Job;30325.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:25;0100;PBS_Server;Job;30325.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 01:28:25;0100;PBS_Server;Job;30325.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+10/16/2013 01:28:25;0008;PBS_Server;Job;30325.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_36, queue = qp64
+10/16/2013 01:28:30;0100;PBS_Server;Job;30326.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:30;0100;PBS_Server;Job;30326.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 01:28:30;0100;PBS_Server;Job;30326.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+10/16/2013 01:28:30;0008;PBS_Server;Job;30326.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_37_, queue = qp64
+10/16/2013 01:28:33;0100;PBS_Server;Job;30327.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:33;0008;PBS_Server;Job;30327.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_38, queue = batch
+10/16/2013 01:28:39;0100;PBS_Server;Job;30328.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:39;0008;PBS_Server;Job;30328.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_39, queue = batch
+10/16/2013 01:28:45;0100;PBS_Server;Job;30329.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:45;0008;PBS_Server;Job;30329.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_40, queue = batch
+10/16/2013 01:28:52;0100;PBS_Server;Job;30330.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 01:28:52;0008;PBS_Server;Job;30330.tyrone-cluster;Job Queued at request of mbuanuv@tyrone-node9, owner = mbuanuv@tyrone-node9, job name = santa_41, queue = batch
+10/16/2013 01:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 01:55:53;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 01:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 02:55:53;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 02:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 03:55:58;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 03:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 04:56:19;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 04:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 05:56:24;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 05:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 06:56:31;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 06:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 07:56:59;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 07:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 08:57:14;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 08:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 09:57:28;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 09:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:16:02;0100;PBS_Server;Job;30331.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 10:16:02;0100;PBS_Server;Job;30331.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 10:16:02;0100;PBS_Server;Job;30331.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+10/16/2013 10:16:02;0008;PBS_Server;Job;30331.tyrone-cluster;Job Queued at request of asepatwa@tyrone-cluster, owner = asepatwa@tyrone-cluster, job name = TBLDNS, queue = qp64
+10/16/2013 10:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 10:57:52;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 10:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:10:17;0100;PBS_Server;Job;30332.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 11:10:17;0008;PBS_Server;Job;30332.tyrone-cluster;Job Queued at request of asealama@tyrone-node9, owner = asealama@tyrone-node9, job name = jobname, queue = batch
+10/16/2013 11:10:48;0100;PBS_Server;Job;30333.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 11:10:48;0008;PBS_Server;Job;30333.tyrone-cluster;Job Queued at request of asealama@tyrone-node9, owner = asealama@tyrone-node9, job name = jobname, queue = batch
+10/16/2013 11:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 11:58:00;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 11:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 12:58:19;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 12:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:47:24;000d;PBS_Server;Job;30207.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 13:47:24;0010;PBS_Server;Job;30207.tyrone-cluster;Exit_status=271 resources_used.cput=1532:33:23 resources_used.mem=1348780kb resources_used.vmem=34459924kb resources_used.walltime=24:00:23
+10/16/2013 13:47:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17c89b0 (substate=50)
+10/16/2013 13:47:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17c89b0 (substate=51)
+10/16/2013 13:47:28;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17c89b0 (substate=51)
+10/16/2013 13:47:28;000d;PBS_Server;Job;30207.tyrone-cluster;Post job file processing error; job 30207.tyrone-cluster on host tyrone-node13/63+tyrone-node13/62+tyrone-node13/61+tyrone-node13/60+tyrone-node13/59+tyrone-node13/58+tyrone-node13/57+tyrone-node13/56+tyrone-node13/55+tyrone-node13/54+tyrone-node13/53+tyrone-node13/52+tyrone-node13/51+tyrone-node13/50+tyrone-node13/49+tyrone-node13/48+tyrone-node13/47+tyrone-node13/46+tyrone-node13/45+tyrone-node13/44+tyrone-node13/43+tyrone-node13/42+tyrone-node13/41+tyrone-node13/40+tyrone-node13/39+tyrone-node13/38+tyrone-node13/37+tyrone-node13/36+tyrone-node13/35+tyrone-node13/34+tyrone-node13/33+tyrone-node13/32+tyrone-node13/31+tyrone-node13/30+tyrone-node13/29+tyrone-node13/28+tyrone-node13/27+tyrone-node13/26+tyrone-node13/25+tyrone-node13/24+tyrone-node13/23+tyrone-node13/22+tyrone-node13/21+tyrone-node13/20+tyrone-node13/19+tyrone-node13/18+tyrone-node13/17+tyrone-node13/16+tyrone-node13/15+tyrone-node13/14+tyrone-node13/13+tyrone-node13/12+tyrone-node13/11+tyrone-node13/10+tyrone-node13/9+tyrone-node13/8+tyrone-node13/7+tyrone-node13/6+tyrone-node13/5+tyrone-node13/4+tyrone-node13/3+tyrone-node13/2+tyrone-node13/1+tyrone-node13/0
+10/16/2013 13:47:28;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17c89b0 (substate=53)
+10/16/2013 13:47:28;0100;PBS_Server;Job;30207.tyrone-cluster;dequeuing from qp64, state COMPLETE
+10/16/2013 13:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 13:58:45;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 13:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:29:18;000d;PBS_Server;Job;30287.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 14:29:18;0010;PBS_Server;Job;30287.tyrone-cluster;Exit_status=143 resources_used.cput=1510:52:49 resources_used.mem=8894516kb resources_used.vmem=132183160kb resources_used.walltime=24:00:40
+10/16/2013 14:29:18;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17f2070 (substate=50)
+10/16/2013 14:29:18;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17f2070 (substate=51)
+10/16/2013 14:29:18;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17f2070 (substate=51)
+10/16/2013 14:29:18;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17f2070 (substate=53)
+10/16/2013 14:29:18;0100;PBS_Server;Job;30287.tyrone-cluster;dequeuing from qp64, state COMPLETE
+10/16/2013 14:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:44:53;000d;PBS_Server;Job;30303.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 14:44:53;0010;PBS_Server;Job;30303.tyrone-cluster;Exit_status=271 resources_used.cput=1535:28:46 resources_used.mem=1250464kb resources_used.vmem=34355584kb resources_used.walltime=24:00:11
+10/16/2013 14:44:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1860820 (substate=50)
+10/16/2013 14:44:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1860820 (substate=51)
+10/16/2013 14:44:54;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1860820 (substate=51)
+10/16/2013 14:44:54;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1860820 (substate=53)
+10/16/2013 14:44:54;0100;PBS_Server;Job;30303.tyrone-cluster;dequeuing from qp64, state COMPLETE
+10/16/2013 14:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 14:58:59;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 14:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:27:20;000d;PBS_Server;Job;30199.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 15:27:20;0010;PBS_Server;Job;30199.tyrone-cluster;Exit_status=271 resources_used.cput=767:59:43 resources_used.mem=1224872kb resources_used.vmem=7416168kb resources_used.walltime=24:00:40
+10/16/2013 15:27:20;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17b3eb0 (substate=50)
+10/16/2013 15:27:20;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17b3eb0 (substate=51)
+10/16/2013 15:27:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17b3eb0 (substate=51)
+10/16/2013 15:27:24;000d;PBS_Server;Job;30199.tyrone-cluster;Post job file processing error; job 30199.tyrone-cluster on host tyrone-node3/31+tyrone-node3/30+tyrone-node3/29+tyrone-node3/28+tyrone-node3/27+tyrone-node3/26+tyrone-node3/25+tyrone-node3/24+tyrone-node3/23+tyrone-node3/22+tyrone-node3/21+tyrone-node3/20+tyrone-node3/19+tyrone-node3/18+tyrone-node3/17+tyrone-node3/16+tyrone-node3/15+tyrone-node3/14+tyrone-node3/13+tyrone-node3/12+tyrone-node3/11+tyrone-node3/10+tyrone-node3/9+tyrone-node3/8+tyrone-node3/7+tyrone-node3/6+tyrone-node3/5+tyrone-node3/4+tyrone-node3/3+tyrone-node3/2+tyrone-node3/1+tyrone-node3/0
+10/16/2013 15:27:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x17b3eb0 (substate=53)
+10/16/2013 15:27:24;0100;PBS_Server;Job;30199.tyrone-cluster;dequeuing from qp32, state COMPLETE
+10/16/2013 15:27:29;0100;PBS_Server;Job;30202.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 15:27:29;0100;PBS_Server;Job;30202.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+10/16/2013 15:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 15:56:59;0100;PBS_Server;Job;30334.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 15:56:59;0100;PBS_Server;Job;30334.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 15:56:59;0100;PBS_Server;Job;30334.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+10/16/2013 15:56:59;0008;PBS_Server;Job;30334.tyrone-cluster;Job Queued at request of mbunisha@tyrone-cluster, owner = mbunisha@tyrone-cluster, job name = 4GKY-16-10-13, queue = qp32
+10/16/2013 15:57:25;0100;PBS_Server;Job;30335.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 15:57:25;0100;PBS_Server;Job;30335.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 15:57:25;0100;PBS_Server;Job;30335.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+10/16/2013 15:57:25;0008;PBS_Server;Job;30335.tyrone-cluster;Job Queued at request of mbunisha@tyrone-cluster, owner = mbunisha@tyrone-cluster, job name = 4GKY-16-10-13, queue = qp32
+10/16/2013 15:59:24;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 15:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:37:42;000d;PBS_Server;Job;30317.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 16:37:42;0010;PBS_Server;Job;30317.tyrone-cluster;Exit_status=143 resources_used.cput=6096:13:45 resources_used.mem=7580032kb resources_used.vmem=153879496kb resources_used.walltime=24:00:50
+10/16/2013 16:37:42;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x19675f0 (substate=50)
+10/16/2013 16:37:42;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x19675f0 (substate=51)
+10/16/2013 16:37:42;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x19675f0 (substate=51)
+10/16/2013 16:37:42;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x19675f0 (substate=53)
+10/16/2013 16:37:42;0100;PBS_Server;Job;30317.tyrone-cluster;dequeuing from qp256, state COMPLETE
+10/16/2013 16:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 16:59:30;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 16:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:09:46;0100;PBS_Server;Job;30336.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 17:09:46;0100;PBS_Server;Job;30336.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 17:09:46;0100;PBS_Server;Job;30336.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+10/16/2013 17:09:46;0008;PBS_Server;Job;30336.tyrone-cluster;Job Queued at request of cpdkkp@tyrone-cluster, owner = cpdkkp@tyrone-cluster, job name = program256, queue = qp256
+10/16/2013 17:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:24:52;000d;PBS_Server;Job;30151.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 17:24:52;0010;PBS_Server;Job;30151.tyrone-cluster;Exit_status=271 resources_used.cput=767:42:44 resources_used.mem=621492kb resources_used.vmem=6788220kb resources_used.walltime=24:00:37
+10/16/2013 17:24:52;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x186a520 (substate=50)
+10/16/2013 17:24:52;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x186a520 (substate=51)
+10/16/2013 17:24:56;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x186a520 (substate=51)
+10/16/2013 17:24:56;000d;PBS_Server;Job;30151.tyrone-cluster;Post job file processing error; job 30151.tyrone-cluster on host tyrone-node1/31+tyrone-node1/30+tyrone-node1/29+tyrone-node1/28+tyrone-node1/27+tyrone-node1/26+tyrone-node1/25+tyrone-node1/24+tyrone-node1/23+tyrone-node1/22+tyrone-node1/21+tyrone-node1/20+tyrone-node1/19+tyrone-node1/18+tyrone-node1/17+tyrone-node1/16+tyrone-node1/15+tyrone-node1/14+tyrone-node1/13+tyrone-node1/12+tyrone-node1/11+tyrone-node1/10+tyrone-node1/9+tyrone-node1/8+tyrone-node1/7+tyrone-node1/6+tyrone-node1/5+tyrone-node1/4+tyrone-node1/3+tyrone-node1/2+tyrone-node1/1+tyrone-node1/0
+10/16/2013 17:24:56;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x186a520 (substate=53)
+10/16/2013 17:24:56;0100;PBS_Server;Job;30151.tyrone-cluster;dequeuing from qp32, state COMPLETE
+10/16/2013 17:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 17:59:30;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 17:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:03:15;0100;PBS_Server;Job;30337.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 18:03:15;0100;PBS_Server;Job;30337.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 18:03:15;0100;PBS_Server;Job;30337.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+10/16/2013 18:03:15;0008;PBS_Server;Job;30337.tyrone-cluster;Job Queued at request of ecesmndl@tyrone-cluster, owner = ecesmndl@tyrone-cluster, job name = again, queue = idqueue
+10/16/2013 18:03:24;0100;PBS_Server;Job;30338.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 18:03:24;0100;PBS_Server;Job;30338.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 18:03:24;0100;PBS_Server;Job;30338.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+10/16/2013 18:03:24;0008;PBS_Server;Job;30338.tyrone-cluster;Job Queued at request of ecesmndl@tyrone-cluster, owner = ecesmndl@tyrone-cluster, job name = again, queue = idqueue
+10/16/2013 18:03:30;0100;PBS_Server;Job;30339.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 18:03:30;0100;PBS_Server;Job;30339.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 18:03:30;0100;PBS_Server;Job;30339.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+10/16/2013 18:03:30;0008;PBS_Server;Job;30339.tyrone-cluster;Job Queued at request of ecesmndl@tyrone-cluster, owner = ecesmndl@tyrone-cluster, job name = again, queue = idqueue
+10/16/2013 18:03:32;0100;PBS_Server;Job;30340.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 18:03:32;0100;PBS_Server;Job;30340.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 18:03:32;0100;PBS_Server;Job;30340.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+10/16/2013 18:03:32;0008;PBS_Server;Job;30340.tyrone-cluster;Job Queued at request of ecesmndl@tyrone-cluster, owner = ecesmndl@tyrone-cluster, job name = again, queue = idqueue
+10/16/2013 18:03:34;0100;PBS_Server;Job;30341.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 18:03:34;0100;PBS_Server;Job;30341.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 18:03:34;0100;PBS_Server;Job;30341.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+10/16/2013 18:03:34;0008;PBS_Server;Job;30341.tyrone-cluster;Job Queued at request of ecesmndl@tyrone-cluster, owner = ecesmndl@tyrone-cluster, job name = again, queue = idqueue
+10/16/2013 18:03:35;0100;PBS_Server;Job;30342.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 18:03:35;0100;PBS_Server;Job;30342.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 18:03:35;0100;PBS_Server;Job;30342.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+10/16/2013 18:03:35;0008;PBS_Server;Job;30342.tyrone-cluster;Job Queued at request of ecesmndl@tyrone-cluster, owner = ecesmndl@tyrone-cluster, job name = again, queue = qp32
+10/16/2013 18:03:45;0008;PBS_Server;Job;30342.tyrone-cluster;Job deleted at request of ecesmndl@tyrone-cluster
+10/16/2013 18:03:45;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x18d9640 (substate=59)
+10/16/2013 18:03:45;0100;PBS_Server;Job;30342.tyrone-cluster;dequeuing from qp32, state COMPLETE
+10/16/2013 18:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 18:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:00:01;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 19:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:11:09;000d;PBS_Server;Job;30321.tyrone-cluster;Not sending email: User does not want mail of this type.
+10/16/2013 19:11:09;0010;PBS_Server;Job;30321.tyrone-cluster;Exit_status=143 resources_used.cput=278:58:56 resources_used.mem=64135580kb resources_used.vmem=116706740kb resources_used.walltime=24:01:01
+10/16/2013 19:11:09;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x18763f0 (substate=50)
+10/16/2013 19:11:09;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x18763f0 (substate=51)
+10/16/2013 19:11:19;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x18763f0 (substate=51)
+10/16/2013 19:11:19;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x18763f0 (substate=53)
+10/16/2013 19:11:19;0100;PBS_Server;Job;30321.tyrone-cluster;dequeuing from qp128, state COMPLETE
+10/16/2013 19:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 19:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:00:40;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 20:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:50:32;0100;PBS_Server;Job;30343.tyrone-cluster;enqueuing into batch, state 1 hop 1
+10/16/2013 20:50:33;0100;PBS_Server;Job;30343.tyrone-cluster;dequeuing from batch, state QUEUED
+10/16/2013 20:50:33;0100;PBS_Server;Job;30343.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+10/16/2013 20:50:33;0008;PBS_Server;Job;30343.tyrone-cluster;Job Queued at request of cpdkkp@tyrone-cluster, owner = cpdkkp@tyrone-cluster, job name = program256, queue = qp128
+10/16/2013 20:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 20:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:00:43;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 21:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 21:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:00:59;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 22:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 22:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:01:03;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+10/16/2013 23:04:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:09:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:14:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:19:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:24:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:29:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:34:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:39:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:44:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:49:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:54:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/16/2013 23:59:32;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+10/17/2013 00:01:28;0002;PBS_Server;Svr;Log;Log closed

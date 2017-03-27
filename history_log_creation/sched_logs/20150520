@@ -1,0 +1,49 @@
+05/20/2015 03:18:28;0002; pbs_sched;Svr;Log;Log opened
+05/20/2015 03:18:28;0040; pbs_sched;Job;51913.tyrone-cluster;Job Run
+05/20/2015 03:18:44;0040; pbs_sched;Job;51915.tyrone-cluster;Queue job limit reached
+05/20/2015 09:12:26;0040; pbs_sched;Job;51976.tyrone-cluster;Queue job limit reached
+05/20/2015 09:12:46;0040; pbs_sched;Job;51977.tyrone-cluster;Queue job limit reached
+05/20/2015 09:15:34;0040; pbs_sched;Job;51978.tyrone-cluster;Queue job limit reached
+05/20/2015 09:22:20;0040; pbs_sched;Job;51979.tyrone-cluster;Queue job limit reached
+05/20/2015 10:07:13;0040; pbs_sched;Job;51980.tyrone-cluster;Job Run
+05/20/2015 10:07:29;0040; pbs_sched;Job;51975.tyrone-cluster;Queue job limit reached
+05/20/2015 10:37:04;0040; pbs_sched;Job;51982.tyrone-cluster;Queue job limit reached
+05/20/2015 10:38:11;0040; pbs_sched;Job;51983.tyrone-cluster;Queue job limit reached
+05/20/2015 10:51:01;0040; pbs_sched;Job;51979.tyrone-cluster;Job Run
+05/20/2015 11:36:23;0040; pbs_sched;Job;51915.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 11:36:32;0040; pbs_sched;Job;51915.tyrone-cluster;Job Run
+05/20/2015 11:36:53;0040; pbs_sched;Job;51931.tyrone-cluster;Job Run
+05/20/2015 11:36:53;0040; pbs_sched;Job;51932.tyrone-cluster;Queue job limit reached
+05/20/2015 12:06:02;0040; pbs_sched;Job;51918.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 12:06:02;0040; pbs_sched;Job;51927.tyrone-cluster;Queue user limit reached
+05/20/2015 12:06:02;0040; pbs_sched;Job;51976.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 12:06:02;0040; pbs_sched;Job;51977.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 12:06:02;0040; pbs_sched;Job;51919.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 12:06:09;0040; pbs_sched;Job;51918.tyrone-cluster;Job Run
+05/20/2015 12:06:09;0040; pbs_sched;Job;51927.tyrone-cluster;Queue job limit reached
+05/20/2015 12:06:09;0040; pbs_sched;Job;51976.tyrone-cluster;Queue job limit reached
+05/20/2015 12:06:09;0040; pbs_sched;Job;51977.tyrone-cluster;Queue job limit reached
+05/20/2015 12:06:09;0040; pbs_sched;Job;51919.tyrone-cluster;Queue job limit reached
+05/20/2015 13:07:56;0040; pbs_sched;Job;51976.tyrone-cluster;Job Run
+05/20/2015 13:51:51;0040; pbs_sched;Job;51984.tyrone-cluster;Queue job limit reached
+05/20/2015 13:55:13;0040; pbs_sched;Job;51985.tyrone-cluster;Queue job limit reached
+05/20/2015 15:10:25;0040; pbs_sched;Job;51987.tyrone-cluster;Job Run
+05/20/2015 16:33:30;0040; pbs_sched;Job;51977.tyrone-cluster;Job Run
+05/20/2015 16:56:51;0040; pbs_sched;Job;51991.tyrone-cluster;Queue job limit reached
+05/20/2015 18:01:57;0040; pbs_sched;Job;51992.tyrone-cluster;Queue job limit reached
+05/20/2015 18:58:57;0040; pbs_sched;Job;51995.tyrone-cluster;Queue job limit reached
+05/20/2015 20:02:43;0040; pbs_sched;Job;51919.tyrone-cluster;Queue user limit reached
+05/20/2015 21:33:52;0040; pbs_sched;Job;51978.tyrone-cluster;Job Run
+05/20/2015 21:34:03;0040; pbs_sched;Job;51985.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 21:34:03;0040; pbs_sched;Job;51992.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 21:34:03;0040; pbs_sched;Job;51857.tyrone-cluster;Not enough of the right type of nodes available
+05/20/2015 21:34:04;0040; pbs_sched;Job;51985.tyrone-cluster;Job Run
+05/20/2015 21:34:04;0040; pbs_sched;Job;51992.tyrone-cluster;Queue job limit reached
+05/20/2015 21:34:04;0040; pbs_sched;Job;51857.tyrone-cluster;Queue job limit reached
+05/20/2015 21:34:12;0040; pbs_sched;Job;51992.tyrone-cluster;Job Run
+05/20/2015 21:34:35;0040; pbs_sched;Job;51986.tyrone-cluster;Queue job limit reached
+05/20/2015 23:27:21;0040; pbs_sched;Job;51857.tyrone-cluster;Job Run
+05/20/2015 23:27:31;0040; pbs_sched;Job;51986.tyrone-cluster;Job Run
+05/20/2015 23:27:51;0040; pbs_sched;Job;51858.tyrone-cluster;Job Run
+05/20/2015 23:58:55;0040; pbs_sched;Job;51996.tyrone-cluster;Job Run
+05/21/2015 00:16:13;0002; pbs_sched;Svr;Log;Log closed

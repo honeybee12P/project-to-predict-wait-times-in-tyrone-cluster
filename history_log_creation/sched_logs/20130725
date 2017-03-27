@@ -1,0 +1,23 @@
+07/25/2013 05:53:47;0002; pbs_sched;Svr;Log;Log opened
+07/25/2013 05:53:47;0040; pbs_sched;Job;27371.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27372.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27378.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27380.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27382.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27340.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27341.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:53:47;0040; pbs_sched;Job;27342.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 05:54:04;0040; pbs_sched;Job;27373.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 12:22:36;0040; pbs_sched;Job;27393.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 12:22:36;0040; pbs_sched;Job;27394.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 17:41:09;0002; pbs_sched;Svr;Log;Log opened
+07/25/2013 17:41:09;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20130725 opened
+07/25/2013 17:41:09;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 3968
+07/25/2013 17:41:10;0080; pbs_sched;Svr;main;brk point 36290560
+07/25/2013 18:33:07;0040; pbs_sched;Job;27447.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 18:33:47;0040; pbs_sched;Job;27448.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 18:36:54;0040; pbs_sched;Job;27449.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 18:39:17;0040; pbs_sched;Job;27450.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 18:39:17;0040; pbs_sched;Job;27451.tyrone-cluster;Not enough of the right type of nodes available
+07/25/2013 18:39:19;0040; pbs_sched;Job;27452.tyrone-cluster;Not enough of the right type of nodes available
+07/27/2013 14:09:56;0002; pbs_sched;Svr;Log;Log closed

@@ -1,0 +1,475 @@
+03/28/2015 00:00:02;0002;PBS_Server;Svr;Log;Log opened
+03/28/2015 00:00:02;0100;PBS_Server;Job;50106.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 00:00:02;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20150328 opened
+03/28/2015 00:00:02;0100;PBS_Server;Job;50106.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 00:00:02;0100;PBS_Server;Job;50106.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 00:00:02;0008;PBS_Server;Job;50106.tyrone-cluster;Job Queued at request of physurs@tyrone-cluster, owner = physurs@tyrone-cluster, job name = Soutik, queue = idqueue
+03/28/2015 00:00:02;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:00:02;0008;PBS_Server;Job;50106.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 00:00:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:00:45;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:01:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:01:45;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:02:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:02:45;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:03:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:03:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:04:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:04:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:05:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:05:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:06:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:06:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:07:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:07:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:08:00;000d;PBS_Server;Job;50076.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 00:08:00;0010;PBS_Server;Job;50076.tyrone-cluster;Exit_status=271 resources_used.cput=1535:38:06 resources_used.mem=2658116kb resources_used.vmem=36332952kb resources_used.walltime=24:01:00
+03/28/2015 00:08:00;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=50)
+03/28/2015 00:08:00;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 00:08:02;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 00:08:02;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=53)
+03/28/2015 00:08:02;0100;PBS_Server;Job;50076.tyrone-cluster;dequeuing from qp256, state COMPLETE
+03/28/2015 00:08:02;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 00:08:02;0008;PBS_Server;Job;50077.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 00:08:02;0008;PBS_Server;Job;50077.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 00:08:02;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 00:08:16;0100;PBS_Server;Job;50078.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 00:08:16;0100;PBS_Server;Job;50078.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+03/28/2015 00:08:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 00:08:17;0008;PBS_Server;Job;50078.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 00:18:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 00:28:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 00:38:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 00:48:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 00:58:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 01:08:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 01:18:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 01:28:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 01:38:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 01:48:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 01:49:53;000d;PBS_Server;Job;50105.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 01:49:53;0010;PBS_Server;Job;50105.tyrone-cluster;Exit_status=0 resources_used.cput=01:54:59 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=01:55:04
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=50)
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=53)
+03/28/2015 01:49:53;0100;PBS_Server;Job;50105.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 01:49:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 01:49:53;0008;PBS_Server;Job;50106.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 01:49:53;0008;PBS_Server;Job;50106.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 01:49:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 01:49:53;000d;PBS_Server;Job;50106.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 01:49:53;000d;PBS_Server;Job;50106.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 01:49:53;0010;PBS_Server;Job;50106.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:01
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=50)
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=51)
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=51)
+03/28/2015 01:49:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=53)
+03/28/2015 01:49:53;0100;PBS_Server;Job;50106.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 01:49:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 01:59:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 02:09:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 02:19:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 02:29:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 02:32:25;0100;PBS_Server;Job;50107.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 02:32:25;0100;PBS_Server;Job;50107.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 02:32:25;0100;PBS_Server;Job;50107.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 02:32:25;0008;PBS_Server;Job;50107.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = pipes.sh, queue = idqueue
+03/28/2015 02:32:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 02:32:25;0008;PBS_Server;Job;50107.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 02:32:25;0008;PBS_Server;Job;50107.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 02:32:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 02:32:25;000d;PBS_Server;Job;50107.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 02:37:57;000d;PBS_Server;Job;50107.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 02:37:57;0010;PBS_Server;Job;50107.tyrone-cluster;Exit_status=0 resources_used.cput=00:05:31 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:05:32
+03/28/2015 02:37:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=50)
+03/28/2015 02:37:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=51)
+03/28/2015 02:37:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=51)
+03/28/2015 02:37:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=53)
+03/28/2015 02:37:57;0100;PBS_Server;Job;50107.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 02:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 02:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 02:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 03:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 03:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 03:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 03:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 03:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 03:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 04:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 04:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 04:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 04:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 04:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 04:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 05:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 05:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 05:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 05:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 05:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 05:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 06:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 06:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 06:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 06:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 06:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 06:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 07:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 07:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 07:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 07:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 07:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 07:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 08:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 08:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 08:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 08:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 08:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 08:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 09:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 09:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 09:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 09:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 09:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 09:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 10:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 10:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 10:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 10:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 10:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 10:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 11:07:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 11:17:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 11:27:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 11:37:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 11:47:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 11:57:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 12:02:22;0100;PBS_Server;Job;50108.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 12:02:22;0100;PBS_Server;Job;50108.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 12:02:22;0100;PBS_Server;Job;50108.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+03/28/2015 12:02:22;0008;PBS_Server;Job;50108.tyrone-cluster;Job Queued at request of physurs@tyrone-cluster, owner = physurs@tyrone-cluster, job name = a1.cmd, queue = qp32
+03/28/2015 12:02:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 12:02:22;0008;PBS_Server;Job;50108.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 12:02:22;0008;PBS_Server;Job;50108.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 12:02:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 12:02:22;000d;PBS_Server;Job;50108.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 12:02:22;000d;PBS_Server;Job;50108.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 12:02:22;0010;PBS_Server;Job;50108.tyrone-cluster;Exit_status=1 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 12:02:22;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=50)
+03/28/2015 12:02:22;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=51)
+03/28/2015 12:02:22;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=51)
+03/28/2015 12:02:22;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x132c370 (substate=53)
+03/28/2015 12:02:22;0100;PBS_Server;Job;50108.tyrone-cluster;dequeuing from qp32, state COMPLETE
+03/28/2015 12:02:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 12:12:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 12:22:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 12:32:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 12:42:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 12:52:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 13:02:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 13:12:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 13:22:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 13:32:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 13:42:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 13:52:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 14:02:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 14:05:17;000d;PBS_Server;Job;50088.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 14:05:17;0010;PBS_Server;Job;50088.tyrone-cluster;Exit_status=271 resources_used.cput=1535:12:24 resources_used.mem=2653620kb resources_used.vmem=36334588kb resources_used.walltime=24:00:39
+03/28/2015 14:05:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=50)
+03/28/2015 14:05:18;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=51)
+03/28/2015 14:05:23;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=51)
+03/28/2015 14:05:23;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=53)
+03/28/2015 14:05:23;0100;PBS_Server;Job;50088.tyrone-cluster;dequeuing from qp256, state COMPLETE
+03/28/2015 14:05:23;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 14:05:23;0008;PBS_Server;Job;50089.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 14:05:23;0008;PBS_Server;Job;50089.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 14:05:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 14:05:26;000d;PBS_Server;Job;50089.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 14:15:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 14:25:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 14:35:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 14:45:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 14:55:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 15:05:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 15:11:35;0100;PBS_Server;Job;50109.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 15:11:35;0100;PBS_Server;Job;50109.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 15:11:35;0100;PBS_Server;Job;50109.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+03/28/2015 15:11:35;0008;PBS_Server;Job;50109.tyrone-cluster;Job Queued at request of mecmdjim@tyrone-cluster, owner = mecmdjim@tyrone-cluster, job name = A3a, queue = qp32
+03/28/2015 15:11:35;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 15:11:35;0008;PBS_Server;Job;50109.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 15:11:35;0008;PBS_Server;Job;50109.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 15:11:35;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 15:11:35;000d;PBS_Server;Job;50109.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 15:13:46;0100;PBS_Server;Job;50110.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 15:13:46;0100;PBS_Server;Job;50110.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 15:13:46;0100;PBS_Server;Job;50110.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+03/28/2015 15:13:46;0008;PBS_Server;Job;50110.tyrone-cluster;Job Queued at request of aserajsh@tyrone-cluster, owner = aserajsh@tyrone-cluster, job name = A5, queue = qp32
+03/28/2015 15:13:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 15:13:46;0008;PBS_Server;Job;50110.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 15:13:46;0008;PBS_Server;Job;50110.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 15:13:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 15:13:46;000d;PBS_Server;Job;50110.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 15:13:47;000d;PBS_Server;Job;50110.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 15:13:47;0010;PBS_Server;Job;50110.tyrone-cluster;Exit_status=1 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:02
+03/28/2015 15:13:47;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=50)
+03/28/2015 15:13:47;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=51)
+03/28/2015 15:13:49;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=51)
+03/28/2015 15:13:49;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13e8cd0 (substate=53)
+03/28/2015 15:13:49;0100;PBS_Server;Job;50110.tyrone-cluster;dequeuing from qp32, state COMPLETE
+03/28/2015 15:13:49;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 15:14:50;0100;PBS_Server;Job;50111.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 15:14:50;0100;PBS_Server;Job;50111.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 15:14:50;0100;PBS_Server;Job;50111.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+03/28/2015 15:14:50;0008;PBS_Server;Job;50111.tyrone-cluster;Job Queued at request of aserajsh@tyrone-cluster, owner = aserajsh@tyrone-cluster, job name = A5, queue = qp32
+03/28/2015 15:14:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 15:14:50;0008;PBS_Server;Job;50111.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 15:14:50;0008;PBS_Server;Job;50111.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 15:14:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 15:14:50;000d;PBS_Server;Job;50111.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 15:24:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 15:34:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 15:44:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 15:47:24;0100;PBS_Server;Job;50112.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 15:47:24;0100;PBS_Server;Job;50112.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 15:47:24;0100;PBS_Server;Job;50112.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 15:47:24;0008;PBS_Server;Job;50112.tyrone-cluster;Job Queued at request of secprak@tyrone-cluster, owner = secprak@tyrone-cluster, job name = NAS.16, queue = idqueue
+03/28/2015 15:47:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 15:47:24;0008;PBS_Server;Job;50112.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 15:47:24;0008;PBS_Server;Job;50112.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 15:47:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 15:47:24;000d;PBS_Server;Job;50112.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 15:47:24;000d;PBS_Server;Job;50112.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 15:47:24;0010;PBS_Server;Job;50112.tyrone-cluster;Exit_status=255 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 15:47:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=50)
+03/28/2015 15:47:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=51)
+03/28/2015 15:47:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=51)
+03/28/2015 15:47:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x140f4e0 (substate=53)
+03/28/2015 15:47:24;0100;PBS_Server;Job;50112.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 15:47:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 15:57:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 16:01:09;0100;PBS_Server;Job;50113.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 16:01:10;0100;PBS_Server;Job;50113.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 16:01:10;0100;PBS_Server;Job;50113.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 16:01:10;0008;PBS_Server;Job;50113.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_job, queue = idqueue
+03/28/2015 16:01:10;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 16:01:10;0008;PBS_Server;Job;50113.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 16:01:10;0008;PBS_Server;Job;50113.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 16:01:10;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 16:01:10;000d;PBS_Server;Job;50113.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 16:01:12;000d;PBS_Server;Job;50113.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 16:01:12;0010;PBS_Server;Job;50113.tyrone-cluster;Exit_status=0 resources_used.cput=00:00:50 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:02
+03/28/2015 16:01:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=50)
+03/28/2015 16:01:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 16:01:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 16:01:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=53)
+03/28/2015 16:01:12;0100;PBS_Server;Job;50113.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 16:01:12;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 16:06:04;0100;PBS_Server;Job;50114.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 16:06:04;0100;PBS_Server;Job;50114.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 16:06:04;0100;PBS_Server;Job;50114.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 16:06:04;0008;PBS_Server;Job;50114.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_job, queue = idqueue
+03/28/2015 16:06:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 16:06:04;0008;PBS_Server;Job;50114.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 16:06:04;0008;PBS_Server;Job;50114.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 16:06:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 16:06:04;000d;PBS_Server;Job;50114.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 16:06:04;000d;PBS_Server;Job;50114.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 16:06:04;0010;PBS_Server;Job;50114.tyrone-cluster;Exit_status=139 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 16:06:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=50)
+03/28/2015 16:06:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=51)
+03/28/2015 16:06:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=51)
+03/28/2015 16:06:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=53)
+03/28/2015 16:06:04;0100;PBS_Server;Job;50114.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 16:06:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 16:16:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 16:26:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 16:36:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 16:46:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 16:56:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 17:06:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 17:16:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 17:26:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 17:36:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 17:46:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 17:56:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 18:06:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 18:16:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 18:26:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 18:36:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 18:46:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 18:56:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 19:06:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 19:13:21;0100;PBS_Server;Job;50115.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 19:13:21;0100;PBS_Server;Job;50115.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 19:13:21;0100;PBS_Server;Job;50115.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+03/28/2015 19:13:21;0008;PBS_Server;Job;50115.tyrone-cluster;Job Queued at request of metshail@tyrone-cluster, owner = metshail@tyrone-cluster, job name = radiation_test128, queue = qp64
+03/28/2015 19:13:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 19:13:21;0008;PBS_Server;Job;50115.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 19:13:21;0008;PBS_Server;Job;50115.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 19:13:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 19:13:26;000d;PBS_Server;Job;50115.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 19:13:26;0010;PBS_Server;Job;50115.tyrone-cluster;Exit_status=255 resources_used.cput=00:00:29 resources_used.mem=796kb resources_used.vmem=13624kb resources_used.walltime=00:00:05
+03/28/2015 19:13:26;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=50)
+03/28/2015 19:13:26;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=51)
+03/28/2015 19:13:26;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=52)
+03/28/2015 19:13:26;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1407f70 (substate=53)
+03/28/2015 19:13:26;0100;PBS_Server;Job;50115.tyrone-cluster;dequeuing from qp64, state COMPLETE
+03/28/2015 19:13:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 19:14:08;0100;PBS_Server;Job;50116.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 19:14:08;0100;PBS_Server;Job;50116.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 19:14:08;0100;PBS_Server;Job;50116.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+03/28/2015 19:14:08;0008;PBS_Server;Job;50116.tyrone-cluster;Job Queued at request of metshail@tyrone-cluster, owner = metshail@tyrone-cluster, job name = radiation_test128, queue = qp64
+03/28/2015 19:14:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 19:14:08;0008;PBS_Server;Job;50116.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 19:14:08;0008;PBS_Server;Job;50116.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 19:14:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 19:24:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 19:34:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 19:44:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 19:54:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 20:04:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 20:14:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 20:24:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 20:34:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 20:44:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 20:54:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 21:04:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 21:14:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 21:24:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 21:32:13;0100;PBS_Server;Job;50117.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 21:32:13;0100;PBS_Server;Job;50117.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 21:32:13;0100;PBS_Server;Job;50117.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+03/28/2015 21:32:13;0008;PBS_Server;Job;50117.tyrone-cluster;Job Queued at request of metshail@tyrone-cluster, owner = metshail@tyrone-cluster, job name = radiation_test128, queue = qp128
+03/28/2015 21:32:13;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 21:32:13;0008;PBS_Server;Job;50117.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 21:32:13;0008;PBS_Server;Job;50117.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 21:32:14;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 21:42:14;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 21:42:55;0100;PBS_Server;Job;50118.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 21:42:55;0100;PBS_Server;Job;50118.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 21:42:55;0100;PBS_Server;Job;50118.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+03/28/2015 21:42:55;0008;PBS_Server;Job;50118.tyrone-cluster;Job Queued at request of metshail@tyrone-cluster, owner = metshail@tyrone-cluster, job name = radiation_test128, queue = qp128
+03/28/2015 21:42:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 21:42:56;0008;PBS_Server;Job;50118.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 21:52:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 22:02:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 22:12:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 22:22:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 22:32:12;000d;PBS_Server;Job;50109.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 22:32:12;0010;PBS_Server;Job;50109.tyrone-cluster;Exit_status=0 resources_used.cput=117:35:13 resources_used.mem=895972kb resources_used.vmem=2435880kb resources_used.walltime=07:20:36
+03/28/2015 22:32:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=50)
+03/28/2015 22:32:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 22:32:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 22:32:21;000d;PBS_Server;Job;50109.tyrone-cluster;Post job file processing error; job 50109.tyrone-cluster on host tyrone-node1/31+tyrone-node1/30+tyrone-node1/29+tyrone-node1/28+tyrone-node1/27+tyrone-node1/26+tyrone-node1/25+tyrone-node1/24+tyrone-node1/23+tyrone-node1/22+tyrone-node1/21+tyrone-node1/20+tyrone-node1/19+tyrone-node1/18+tyrone-node1/17+tyrone-node1/16+tyrone-node1/15+tyrone-node1/14+tyrone-node1/13+tyrone-node1/12+tyrone-node1/11+tyrone-node1/10+tyrone-node1/9+tyrone-node1/8+tyrone-node1/7+tyrone-node1/6+tyrone-node1/5+tyrone-node1/4+tyrone-node1/3+tyrone-node1/2+tyrone-node1/1+tyrone-node1/0
+03/28/2015 22:32:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=53)
+03/28/2015 22:32:21;0100;PBS_Server;Job;50109.tyrone-cluster;dequeuing from qp32, state COMPLETE
+03/28/2015 22:32:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 22:42:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 22:52:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 23:02:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 23:12:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 23:22:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/28/2015 23:23:03;0100;PBS_Server;Job;50119.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 23:23:03;0100;PBS_Server;Job;50119.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 23:23:03;0100;PBS_Server;Job;50119.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 23:23:03;0008;PBS_Server;Job;50119.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_KL_job, queue = idqueue
+03/28/2015 23:23:03;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 23:23:04;0008;PBS_Server;Job;50119.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 23:23:04;0008;PBS_Server;Job;50119.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 23:23:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 23:23:04;000d;PBS_Server;Job;50119.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:23:04;000d;PBS_Server;Job;50119.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:23:04;0010;PBS_Server;Job;50119.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 23:23:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=50)
+03/28/2015 23:23:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 23:23:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 23:23:04;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=53)
+03/28/2015 23:23:04;0100;PBS_Server;Job;50119.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 23:23:04;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 23:27:45;0100;PBS_Server;Job;50120.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 23:27:45;0100;PBS_Server;Job;50120.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 23:27:45;0100;PBS_Server;Job;50120.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 23:27:45;0008;PBS_Server;Job;50120.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_KL_job, queue = idqueue
+03/28/2015 23:27:45;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 23:27:45;0008;PBS_Server;Job;50120.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 23:27:45;0008;PBS_Server;Job;50120.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 23:27:45;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 23:27:45;000d;PBS_Server;Job;50120.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:27:45;000d;PBS_Server;Job;50120.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:27:45;0010;PBS_Server;Job;50120.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 23:27:45;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=50)
+03/28/2015 23:27:45;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:27:45;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:27:45;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=53)
+03/28/2015 23:27:45;0100;PBS_Server;Job;50120.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 23:27:45;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 23:32:25;0100;PBS_Server;Job;50121.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 23:32:25;0100;PBS_Server;Job;50121.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 23:32:25;0100;PBS_Server;Job;50121.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 23:32:25;0008;PBS_Server;Job;50121.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_KL_job, queue = idqueue
+03/28/2015 23:32:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 23:32:25;0008;PBS_Server;Job;50121.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 23:32:25;0008;PBS_Server;Job;50121.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 23:32:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 23:32:25;000d;PBS_Server;Job;50121.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:32:25;000d;PBS_Server;Job;50121.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:32:25;0010;PBS_Server;Job;50121.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 23:32:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=50)
+03/28/2015 23:32:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:32:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:32:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=53)
+03/28/2015 23:32:25;0100;PBS_Server;Job;50121.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 23:32:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 23:37:26;0100;PBS_Server;Job;50122.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 23:37:27;0100;PBS_Server;Job;50122.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 23:37:27;0100;PBS_Server;Job;50122.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 23:37:27;0008;PBS_Server;Job;50122.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_KL_job, queue = idqueue
+03/28/2015 23:37:27;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 23:37:27;0008;PBS_Server;Job;50122.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 23:37:27;0008;PBS_Server;Job;50122.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 23:37:27;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 23:37:27;000d;PBS_Server;Job;50122.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:37:27;000d;PBS_Server;Job;50122.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:37:27;0010;PBS_Server;Job;50122.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 23:37:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=50)
+03/28/2015 23:37:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 23:37:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=51)
+03/28/2015 23:37:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x148ab60 (substate=53)
+03/28/2015 23:37:27;0100;PBS_Server;Job;50122.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 23:37:27;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 23:43:29;0100;PBS_Server;Job;50123.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 23:43:29;0100;PBS_Server;Job;50123.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 23:43:29;0100;PBS_Server;Job;50123.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 23:43:29;0008;PBS_Server;Job;50123.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_KL_job, queue = idqueue
+03/28/2015 23:43:29;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 23:43:30;0008;PBS_Server;Job;50123.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 23:43:30;0008;PBS_Server;Job;50123.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 23:43:30;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 23:43:30;000d;PBS_Server;Job;50123.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:43:30;000d;PBS_Server;Job;50123.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:43:30;0010;PBS_Server;Job;50123.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 23:43:30;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=50)
+03/28/2015 23:43:30;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:43:30;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:43:30;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=53)
+03/28/2015 23:43:30;0100;PBS_Server;Job;50123.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 23:43:30;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 23:45:15;0100;PBS_Server;Job;50124.tyrone-cluster;enqueuing into batch, state 1 hop 1
+03/28/2015 23:45:15;0100;PBS_Server;Job;50124.tyrone-cluster;dequeuing from batch, state QUEUED
+03/28/2015 23:45:15;0100;PBS_Server;Job;50124.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+03/28/2015 23:45:15;0008;PBS_Server;Job;50124.tyrone-cluster;Job Queued at request of secak@tyrone-cluster, owner = secak@tyrone-cluster, job name = ankit_KL_job, queue = idqueue
+03/28/2015 23:45:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+03/28/2015 23:45:15;0008;PBS_Server;Job;50124.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+03/28/2015 23:45:15;0008;PBS_Server;Job;50124.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+03/28/2015 23:45:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+03/28/2015 23:45:15;000d;PBS_Server;Job;50124.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:45:15;000d;PBS_Server;Job;50124.tyrone-cluster;Not sending email: User does not want mail of this type.
+03/28/2015 23:45:15;0010;PBS_Server;Job;50124.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+03/28/2015 23:45:15;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=50)
+03/28/2015 23:45:15;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:45:15;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=51)
+03/28/2015 23:45:15;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1330ed0 (substate=53)
+03/28/2015 23:45:15;0100;PBS_Server;Job;50124.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+03/28/2015 23:45:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+03/28/2015 23:55:15;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+03/29/2015 00:05:15;0002;PBS_Server;Svr;Log;Log closed

@@ -1,0 +1,87 @@
+01/29/2014 10:07:50;0002; pbs_sched;Svr;Log;Log opened
+01/29/2014 10:07:50;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140129 opened
+01/29/2014 10:07:50;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 46394
+01/29/2014 10:08:08;0002; pbs_sched;Svr;die;caught signal 15
+01/29/2014 10:08:08;0002; pbs_sched;Svr;Log;Log closed
+01/29/2014 10:08:08;0002; pbs_sched;Svr;Log;Log opened
+01/29/2014 10:08:08;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140129 opened
+01/29/2014 10:08:08;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 46420
+01/29/2014 10:08:19;0040; pbs_sched;Job;34594.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34584.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34585.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34593.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34578.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34579.tyrone-cluster;Queue user limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34580.tyrone-cluster;Queue user limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34582.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34583.tyrone-cluster;Queue user limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34587.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34590.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34591.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34592.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34555.tyrone-cluster;Job Run
+01/29/2014 10:08:20;0040; pbs_sched;Job;34574.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34575.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:20;0040; pbs_sched;Job;34589.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:20;0080; pbs_sched;Svr;main;brk point 27025408
+01/29/2014 10:08:21;0040; pbs_sched;Job;34579.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:21;0040; pbs_sched;Job;34580.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:21;0040; pbs_sched;Job;34583.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:21;0040; pbs_sched;Job;34556.tyrone-cluster;Job Run
+01/29/2014 10:08:21;0080; pbs_sched;Svr;main;brk point 27160576
+01/29/2014 10:08:22;0040; pbs_sched;Job;34574.tyrone-cluster;Job Run
+01/29/2014 10:08:52;0040; pbs_sched;Job;34557.tyrone-cluster;Queue job limit reached
+01/29/2014 10:08:52;0040; pbs_sched;Job;34558.tyrone-cluster;Queue job limit reached
+01/29/2014 10:12:04;0040; pbs_sched;Job;34579.tyrone-cluster;Job Run
+01/29/2014 10:12:25;0040; pbs_sched;Job;34581.tyrone-cluster;Queue job limit reached
+01/29/2014 10:17:42;0040; pbs_sched;Job;34596.tyrone-cluster;Queue job limit reached
+01/29/2014 10:19:17;0040; pbs_sched;Job;34580.tyrone-cluster;Job Run
+01/29/2014 10:19:41;0040; pbs_sched;Job;34583.tyrone-cluster;Queue user limit reached
+01/29/2014 10:19:41;0040; pbs_sched;Job;34591.tyrone-cluster;Job Run
+01/29/2014 10:25:11;0040; pbs_sched;Job;34597.tyrone-cluster;Queue job limit reached
+01/29/2014 10:25:11;0040; pbs_sched;Job;34583.tyrone-cluster;Queue job limit reached
+01/29/2014 11:42:28;0040; pbs_sched;Job;34598.tyrone-cluster;Job Run
+01/29/2014 11:47:34;0040; pbs_sched;Job;34599.tyrone-cluster;Queue job limit reached
+01/29/2014 11:48:39;0040; pbs_sched;Job;34600.tyrone-cluster;Queue job limit reached
+01/29/2014 11:52:07;0040; pbs_sched;Job;34601.tyrone-cluster;Queue job limit reached
+01/29/2014 13:58:12;0040; pbs_sched;Job;34602.tyrone-cluster;Job Run
+01/29/2014 14:59:58;0040; pbs_sched;Job;34603.tyrone-cluster;Queue job limit reached
+01/29/2014 15:00:36;0040; pbs_sched;Job;34604.tyrone-cluster;Job Run
+01/29/2014 15:01:44;0040; pbs_sched;Job;34605.tyrone-cluster;Job Run
+01/29/2014 15:03:20;0040; pbs_sched;Job;34606.tyrone-cluster;Job Run
+01/29/2014 15:04:08;0040; pbs_sched;Job;34607.tyrone-cluster;Job Run
+01/29/2014 15:07:22;0040; pbs_sched;Job;34608.tyrone-cluster;Queue job limit reached
+01/29/2014 15:08:19;0040; pbs_sched;Job;34609.tyrone-cluster;Queue job limit reached
+01/29/2014 15:08:46;0040; pbs_sched;Job;34610.tyrone-cluster;Job Run
+01/29/2014 15:13:47;0040; pbs_sched;Job;34611.tyrone-cluster;Job Run
+01/29/2014 15:33:47;0040; pbs_sched;Job;34612.tyrone-cluster;Job Run
+01/29/2014 15:49:43;0040; pbs_sched;Job;34613.tyrone-cluster;Job Run
+01/29/2014 15:51:30;0040; pbs_sched;Job;34614.tyrone-cluster;Job Run
+01/29/2014 15:56:24;0040; pbs_sched;Job;34615.tyrone-cluster;Queue job limit reached
+01/29/2014 15:56:32;0040; pbs_sched;Job;34616.tyrone-cluster;Queue job limit reached
+01/29/2014 15:57:36;0040; pbs_sched;Job;34617.tyrone-cluster;Job Run
+01/29/2014 15:59:22;0040; pbs_sched;Job;34618.tyrone-cluster;Job Run
+01/29/2014 16:01:39;0040; pbs_sched;Job;34619.tyrone-cluster;Job Run
+01/29/2014 16:20:26;0040; pbs_sched;Job;34597.tyrone-cluster;Job Run
+01/29/2014 16:21:26;0040; pbs_sched;Job;34620.tyrone-cluster;Queue job limit reached
+01/29/2014 16:22:08;0040; pbs_sched;Job;34621.tyrone-cluster;Queue job limit reached
+01/29/2014 16:23:13;0040; pbs_sched;Job;34620.tyrone-cluster;Job Run
+01/29/2014 16:38:11;0040; pbs_sched;Job;34622.tyrone-cluster;Job Run
+01/29/2014 16:46:04;0040; pbs_sched;Job;34583.tyrone-cluster;Queue user limit reached
+01/29/2014 16:46:04;0040; pbs_sched;Job;34592.tyrone-cluster;Queue user limit reached
+01/29/2014 16:46:04;0040; pbs_sched;Job;34581.tyrone-cluster;Job Run
+01/29/2014 16:53:10;0040; pbs_sched;Job;34583.tyrone-cluster;Queue job limit reached
+01/29/2014 16:53:10;0040; pbs_sched;Job;34592.tyrone-cluster;Queue job limit reached
+01/29/2014 16:53:10;0040; pbs_sched;Job;34623.tyrone-cluster;Job Run
+01/29/2014 16:54:31;0040; pbs_sched;Job;34583.tyrone-cluster;Queue user limit reached
+01/29/2014 16:54:31;0040; pbs_sched;Job;34592.tyrone-cluster;Queue user limit reached
+01/29/2014 16:54:32;0040; pbs_sched;Job;34596.tyrone-cluster;Job Run
+01/29/2014 17:04:37;0040; pbs_sched;Job;34583.tyrone-cluster;Queue job limit reached
+01/29/2014 17:04:37;0040; pbs_sched;Job;34592.tyrone-cluster;Queue job limit reached
+01/29/2014 18:18:48;0040; pbs_sched;Job;34624.tyrone-cluster;Queue job limit reached
+01/29/2014 18:19:17;0040; pbs_sched;Job;34625.tyrone-cluster;Queue job limit reached
+01/29/2014 18:23:16;0040; pbs_sched;Job;34626.tyrone-cluster;Queue job limit reached
+01/29/2014 18:35:17;0040; pbs_sched;Job;34628.tyrone-cluster;Queue job limit reached
+01/29/2014 21:12:20;0040; pbs_sched;Job;34601.tyrone-cluster;Job Run
+01/29/2014 22:56:59;0040; pbs_sched;Job;34628.tyrone-cluster;Job Run
+01/30/2014 00:12:47;0002; pbs_sched;Svr;Log;Log closed

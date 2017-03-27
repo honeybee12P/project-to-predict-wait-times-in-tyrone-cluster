@@ -1,0 +1,969 @@
+<html>
+ {% load staticfiles %}
+ 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="/static/js/smoothscroll.js"></script>.
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://www.bootply.com/plugins/bootstrap-select.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="bootstrap-master/docs/assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script> 
+
+ <style type="text/css">
+
+.mt-100 {
+    margin-top: 100px; 
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 7px 8px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.header {
+    padding-top: 50px;
+    background-color: #eee;
+    overflow: hidden;
+}
+.footer {
+    color: #887;
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content {
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+}
+.pull-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btn-circle {
+    border-radius: 20px;
+}
+
+.input-group input {
+    border: 0;
+    box-shadow: none;
+    padding-right: 30px;
+}
+.input-group input:focus,
+.input-group input:active {
+    outline: 0;
+    box-shadow: none;
+}
+.input-group-btn:last-child>.btn {
+    z-index: 2;
+    margin-left: -18px;   
+    border-radius: 20px;
+}
+
+.phone {
+    position: relative;
+    max-width: 263px;
+    margin: 0 auto;
+    padding: 65px 15px 55px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    background-color: #222;
+    box-shadow: 20px 20px 40px #887;
+}
+.icon {
+  display: block;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+}
+
+.icon:before,
+.icon:after {
+  content: "";
+  position: absolute;
+}
+
+.dropp {
+  width: 100%;
+  box-shadow: 0 1px 3px #0a0a0a;
+}
+
+.dropp-header {
+  background: #242424;
+  color: #fff;
+  border-bottom: 2px solid #78AB46;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  -o-align-items: stretch;
+  align-items: stretch;
+  -ms-flex-align: stretch;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: start;
+}
+
+.dropp-header__title {
+  display: block;
+  padding: 0.8em 0.5em;
+  -webkit-box-flex: 8;
+  -moz-box-flex: 8;
+  box-flex: 8;
+  -webkit-flex: 8;
+  -moz-flex: 8;
+  -ms-flex: 8;
+  flex: 8;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.dropp-header__btn {
+  display: block;
+  background: #1c1c1c;
+  color: #fff;
+  padding: 0.8em 0.5em;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropp-header__btn .icon {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.dropp-header__btn .icon:before,
+.dropp-header__btn .icon:after {
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  height: 15%;
+  background: #78AB46;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.dropp-header__btn .icon:after {
+  top: 55%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.dropp-header__btn.js-open { background: #78AB46; }
+
+.dropp-header__btn.js-open .icon {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.dropp-header__btn.js-open .icon:before,
+.dropp-header__btn.js-open .icon:after { background: #fff; }
+
+.dropp-header__btn:focus { outline: none; }
+.dropp-body {
+  overflow: hidden;
+  width: 100%;
+  max-height: 0;
+  background: #292929;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropp-body.js-open { max-height: 20em; }
+
+.dropp-body label {
+  display: block;
+  font-size: 0.875em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 0.5em;
+  font-weight: 400;
+  box-shadow: 0 -1px 0 #171717, inset 0 1px 0 #313131;
+  cursor: pointer;
+}
+
+.dropp-body label:first-child { box-shadow: none; }
+
+.dropp-body label:hover,
+.dropp-body label.js-open { background: #78AB46; }
+
+.dropp-body label > input { display: none; }
+.btn3d.btn-success {
+    box-shadow:0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#78d739;
+}
+.btn3d.btn-success:active, .btn3d.btn-success.active {
+    box-shadow:0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #78d739;
+}
+.get-in-touch {
+
+position: relative;
+margin: 0 auto;
+padding: 30px;
+max-width: 370px;
+border-radius: 2px;
+background: rgb(255, 255, 255) ;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.get-in-touch input[type=text],.get-in-touch input[type=email], .get-in-touch textarea {
+background: white;
+color: rgb(36, 39, 41);
+border-color:green;
+}
+.get-in-touch  input:focus, .get-in-touch  textarea:focus {
+outline: 0;
+background: #FFF;
+}
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #777777;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+    background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+    background-color: #427fed;
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background: url("http://lorempixel.com/850/280/nature/4/");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-success.btn-outline {
+    color: #006400;
+}
+.btn-success.btn-outline:hover {
+    color: #ffffff;
+}
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+  // Default dropdown action to show/hide dropdown content
+  $('.js-dropp-action').click(function(e) {
+    e.preventDefault();
+    $(this).toggleClass('js-open');
+    $(this).parent().next('.dropp-body').toggleClass('js-open');
+  });
+
+  // Using as fake input select dropdown
+  $('label').click(function() {
+    $(this).addClass('js-open').siblings().removeClass('js-open');
+    $('.dropp-body,.js-dropp-action').removeClass('js-open');
+  });
+  // get the value of checked input radio and display as dropp title
+  $('input[name="dropp"]').change(function() {
+    var value = $("input[name='dropp']:checked").val();
+    $('.js-value').text(value);
+  });
+
+});
+
+$(document).ready(function(){
+
+$(function(){
+ 
+    $(document).on( 'scroll', function(){
+ 
+    	if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+
+});
+
+</script>
+
+</head>
+<body style="overflow-x: hidden;">
+<div class="wrapper">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/interface/" style="color:white;"><strong>Prediction of Queue Waiting Time in Supercomputing Systems</strong>&nbsp;<span class="label label-success text-capitalize">Beta</span></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#section4" target="_blank">How it Works</a></li>
+                <li><a href="#section5">Contributors</a></li>
+                <li><a href="#section3">Contact Us</a></li>
+                <li><a href="http://mars.serc.iisc.ernet.in/" target="_blank">MARS Lab</a></li>
+                <!--<li><button type="button" class="btn btn-success navbar-btn btn-circle">Sign in</button></li>-->
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header" id="section1" style="height:100%;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="content" style="vertical-align: top;">
+                  <div class="pull-middle">
+                    <h2 class="page-header" style="color:#78AB46;"><strong><font size="10">Predict wait time of your job in Tyrone</font></strong></h2>
+                    <p class="lead"></p>
+                    <!--<div class="panel panel-default">-->
+                       <!-- <div class="panel-body">-->
+                            <form action="/submit/#section2" role="form" id="predict" >
+                                <!--<div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                    <span class="input-group-btn">
+                                      <button class="btn btn-success btn-circle" type="submit">Predict</button>
+                                    </span>                        
+                                </div>-->
+<!--<p><label>user id</label>&nbsp;<input type="text" id="userid" name="userid" required />@tyrone-cluster.serc.iisc.ernet.in</p>-->
+
+    <!--<div class="col-md-6">-->
+<p ><div class="input-group col-xs-6" style="margin-left:25%;">
+  <input type="text" class="form-control" style="color:#78AB46;border:#78AB46;" id="userid" name="userid" placeholder="Username" aria-describedby="basic-addon2" >
+  <span class="input-group-addon" id="basic-addon2" style="background-color:#78AB46;color:white;">@tyrone-cluster.serc.iisc.ernet.in</span>
+</div></p>
+<!--</div>-->
+                                 <div class="dropp">
+  <div class="dropp-header">
+    <span class="dropp-header__title js-value">Choose the queue</span> 
+    <a href="#" class="dropp-header__btn js-dropp-action">
+      <i class="icon"></i>
+    </a> 
+  </div>
+  <div class="dropp-body">
+    <label for="radio1">qp32
+      <input type="radio" id="radio1" name="dropp" value="qp32" required>
+    </label>
+    <label for="radio2">qp64
+      <input type="radio" id="radio2" name="dropp" value="qp64" required>
+    </label>
+    <label for="radio3">qp128
+      <input type="radio" id="radio3" name="dropp" value="qp128" required>
+    </label>
+    <label for="radio4">qp256
+      <input type="radio" id="radio4" name="dropp" value="qp256" required>
+    </label>
+  </div>
+</div>
+
+<!--<button type="submit" style="margin-top:5%;margin-left:40%;width:20%;" class="btn btn-success btn-lg" required="Choose the queue">Predict</button>-->
+ <a class="btn btn-success btn-outline" style="margin-top:5%;margin-left:40%;width:20%;" href="javascript:{}" onclick="document.getElementById('predict').submit(); return false;">Predict</a>
+                            </form>
+                        <!--</div>
+                    </div>-->
+                  </div>              
+                </div>
+            </div>
+            <!--<div class="col-md-4 col-md-offset-1 text-center mt-100 mb-100">
+                <div class="circle-image">
+                    <img class="img-responsive img-rounded" src="/static/images/SC.jpg">
+                </div>-->
+            </div>
+          </div>
+        </div>
+    </header>
+    <section class="section" id="section2" style="height:100%;">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="content">
+                        <div class="pull-middle">
+                            <!--<h2 class="h1 page-header">Predicted Wait Time for the queue {{queue}}</h2>-->
+                   
+                               <div class="panel" style="">
+                <div class="panel-heading" style="border-color:green;">
+
+                        <div class="panel-title" style="color:#000000;"><font size="10"><strong><h2 style="color:#000000;"><b><span class="glyphicon glyphicon-time" style="color:black;size:1;"></span>&nbsp;Predicted Wait Time for the queue {{queue}}</b></h2></strong></font></div>
+
+                </div>
+
+                <div style="padding-top:30px;" class="panel-body" >
+
+                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                        <div>
+
+                                   <!-- <p style="font-family:Ubuntu;"><strong>Job Id:</strong>&nbsp; &nbsp;{{id}}</p>--> <!--<p style="font-family:Ubuntu;"><strong style="color:#009966;">Actual Wait Time:</strong>  &nbsp; &nbsp;{{ActualTime}} &nbsp; seconds</p> --> <p style="color:black;margin-left:10%;margin-top:1%;"><h1 style="margin-left:30%;"><strong><font size="30">{{PredictedTime}}</font></strong></h1> &nbsp; </p>
+                                    <p style="font-family:Ubuntu;margin-top:1%;"> <span class="glyphicon glyphicon-search" style="color:black;"></span>&nbsp;<a href="http://www.serc.iisc.ernet.in/facilities/ComputingFacilities/systems/tyrone/" target="_blank" style="text-decoration:none;color:black;margin-top:50%;" title="Click here"><i style="color:black;">About Tyrone Cluster</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-cog"></span>&nbsp;<a href="#section4" target="_blank" style="text-decoration:none;color:black;margin-top:50%;" title="Click here"><i style="color:black;">How does it work ?</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-edit"></span>&nbsp;<a href="#section3" target="_blank" style="text-decoration:none;color:black;margin-top:50%;" title="Click here"><i style="color:black;">Report a bug</i></a></p>
+                        </div>
+<p><a href="#section1" style=" text-decoration:none;"><button style="font-family:Ubuntu;color:#ffffff;margin-top:5%;" class="btn btn-success btn btn-block">Predict for another job &nbsp; <span class="glyphicon glyphicon-refresh"></span></button></a></p>
+                <!--<p><button class="btn btn-primary btn btn-block" onclick="location.href = '/interface/'">Predict for another job</button></p>-->
+
+                </div>
+            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="section3" style="">
+       
+            
+               <div class="container">
+
+   <div class="row">
+        <div class="col-mid-4">
+            <form action="/contact_us/" method="get" class="form" style="margin-top:2.5%;">{% csrf_token %}
+             	<div class="get-in-touch">
+                	<h3 class="text-center" style="color:green;">
+                    	Report Bug</h3>
+                	<div class="form-group">
+                    		<input type="text" class="form-control" id="name" name="cname" placeholder="Name" required/>
+                	</div>
+                	<div class="form-group">
+                    		<input type="email" class="form-control" id="Email" name="cemail" placeholder="Email" required/>
+                	</div>
+                	<div class="form-group">
+                    		<textarea class="form-control" rows="3" placeholder="Message" name="cmessage" required></textarea>
+                	</div>
+                 	<div class="form-group">
+                 		<p><button style="font-family:Ubuntu;"  style="color:#78AB46;background-color:#78AB46;" class="btn btn-success" >Submit Report</button></p>
+                                
+              		</div>
+		</div>
+            </form>
+        </div>
+    </div>
+</div>
+            </div>
+       
+    </section>
+    <section class="section" id="section4">
+        <div class="container">
+            <div class="row">
+                
+              
+               <div class="container">
+<p style="margin-top:9%;align=center;font-family:Ubuntu;"><h1 style="color:#000000;margin-left:40%;"><font size="5"><b>How does it work ?</b></font></h1></p>
+<p style="margin-top:5%;align=center;font-family:Ubuntu;">Production parallel systems are space-shared and resource allocation on such
+systems is usually performed using a batch queue scheduler. Jobs submitted to
+the batch queue experience a variable delay before the requested resources are
+granted. Predicting this delay can assist users in planning experiment timeframes
+and choosing sites with less turnaround times, and can also help metaschedulers
+make scheduling decisions. In this work, we present an integrated
+adaptive framework for prediction of queue waiting times on parallel systems.
+We propose a novel algorithm based on spatial clustering for predictions using
+history of job submissions and executions. The framework uses adaptive set
+of strategies for choosing either distributions or summary of features to represent
+the system state and to compare with history jobs, varying the weights
+associated with the features for each job prediction, and selecting a particular
+algorithm dynamically for performing the prediction depending on the characteristics
+of the target and history jobs. Our experiments with real workload
+traces from different production systems demonstrate up to 22% reduction in
+average absolute error and up to 56% reduction in percentage prediction error
+over existing techniques. We also report prediction errors of less than one hour
+for a majority of the jobs across widely varying workload conditions.
+
+</p>
+       
+       <p>  <img alt="" src="/static/images/tyrone.png" style="margin-top:5%;margin-left:25%;" ></p>
+<p> For more reference take a look at the technical report on&nbsp;&nbsp; <a href="http://mars.serc.iisc.ernet.in/downloads/batchsystems/techreports/prakash-qwait-trmarsserc32014.pdf" target="_blank" > <i>An Adaptive Framework for
+Prediction of Queue Waiting
+Times in Supercomputer Systems</i></a></p>
+
+</div> 
+            </div>
+        </div>
+    </section>
+<section class="section" style="margin-top:10%;" id="section5">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-6" style="margin-left:200px;">
+
+            <div class="card hovercard" style="background-color:white;border-color:#CC3232;">
+                <!--<div class="cardheader">
+
+                </div>-->
+                <div class="avatar" style="margin-top:60px;">
+                    <img alt="" src="/static/images/satish.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="http://www.serc.iisc.ernet.in/~vss/" style="color:#78AB46;text-decoration: none;"><b>Dr.Sathish Vadhiyar</b></a>
+                    </div>
+                    <div class="desc" style="color:black;"><i>Professor</i></div>
+                    <a target="_blank" href="http://cds.iisc.in/" style="text-decoration:none;"><div class="desc">Department of Computational and Data Sciences</div></a>
+                    <div class="desc">Indian Institute of Science</div>
+                </div>
+               
+            </div>
+
+        </div>
+<div class="col-lg-3 col-sm-6" style="margin-left:200px;">
+
+            <div class="card hovercard" style="background-color:white;border-color:#CC3232;">
+                <!--<div class="cardheader">
+
+                </div>-->
+                <div class="avatar" style="margin-top:60px;">
+                     <img alt="" src="/static/images/prakash.png">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <!--<a target="_blank" href="" style="color:#78AB46;"><b>Prakash Murali</b></a>-->
+                        <b style="color:#78AB46;">Prakash Murali</b></a>
+                    </div>
+                    <div class="desc" style="color:black;"><i>MSc(Engg.), 2012-2015</i></div>
+                    <div class="desc">Department of Computational and Data Sciences</div>
+                    <div class="desc">Indian Institute of Science</div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        </div>
+	</div>
+<div class="row">
+<div class="col-lg-3 col-sm-6" style="margin-left:50px;">
+
+            <div class="card hovercard" style="background-color:white;border-color:#CC3232;">
+                <!--<div class="cardheader">
+
+                </div>-->
+                <div class="avatar" style="margin-top:60px;">
+                     <img alt="" src="/static/images/swetha.png">
+                </div>
+                <div class="info">
+                    <div class="title">
+                       <!-- <a target="_blank" href="http://scripteden.com/" style="color:#78AB46;"><b>Swetha Hariharan</b></a>-->
+                        <b style="color:#78AB46;">Swetha Hariharan</b>
+                    </div>
+                    <div class="desc" style="color:black;"><i>Project Assistant</i></div>
+                    <div class="desc">Department of Computational and Data Sciences</div>
+                    <div class="desc">Indian Institute of Science</div>
+                </div>
+                
+            </div>
+
+        </div>
+		<div class="col-lg-3 col-sm-6" style="margin-left:70px;">
+
+            <div class="card hovercard" style="background-color:white;border-color:#CC3232;">
+                <!--<div class="cardheader">
+
+                </div>-->
+                <div class="avatar" style="margin-top:60px;">
+                    <img alt="" src="">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <!--<a target="_blank" href="http://scripteden.com/" style="color:#78AB46;"><b>Siddharth Sahu</b></a>-->
+                        <b style="color:#78AB46;">Siddharth Sahu</b>
+                    </div>
+                    <div class="desc" style="color:black;"><i>Project Assistant</i></div>
+                    <div class="desc">Department of Computational and Data Sciences</div>
+                    <div class="desc">Indian Institute of Science</div>
+                </div>
+                
+            </div>
+
+        </div>
+<div class="col-lg-3 col-sm-6" style="margin-left:90px;">
+
+            <div class="card hovercard" style="background-color:white;border-color:#CC3232;">
+                <!--<div class="cardheader">
+
+                </div>-->
+                <div class="avatar" style="margin-top:60px;">
+                    <img alt="" src="">
+                </div>
+                <div class="info">
+                    <div class="title">
+                       <!-- <a target="_blank" href="" style="color:#78AB46;"><b>Kruthika Vishwanath</b></a>-->
+                   <b style="color:#78AB46;">Kruthika Vishwanath</b>
+                    </div>
+                    <div class="desc" style="color:black;"><i>Project Assistant</i></div>
+                    <div class="desc">Department of Computational and Data Sciences</div>
+                    <div class="desc">Indian Institute of Science</div>
+                </div>
+                
+            </div>
+
+        </div>
+</div> 
+
+</section>
+<div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"  title="Click to return on top of page"></i>
+  </span>
+</div>
+    <footer class="footer text-center">
+        <div class="container">
+            <small>© Department of Computational and Data Sciences, Indian Institute Science <!--<a href="https://www.twitter.com/maridlcrmn">@maridlcrmn</a>--></small>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+08/08/2012 10:53:01;0002; pbs_sched;Svr;Log;Log opened
+08/08/2012 10:53:01;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20120808 opened
+08/08/2012 10:53:01;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 4499
+08/08/2012 11:02:55;0040; pbs_sched;node;;Error getting nodes: Server has no node list MSG=node list is empty - check 'server_priv/nodes' file
+08/08/2012 11:02:55;0080; pbs_sched;Svr;main;brk point 8654848
+08/08/2012 11:12:55;0040; pbs_sched;node;;Error getting nodes: Server has no node list MSG=node list is empty - check 'server_priv/nodes' file
+08/08/2012 11:22:55;0040; pbs_sched;node;;Error getting nodes: Server has no node list MSG=node list is empty - check 'server_priv/nodes' file
+08/08/2012 11:32:55;0040; pbs_sched;node;;Error getting nodes: Server has no node list MSG=node list is empty - check 'server_priv/nodes' file
+08/08/2012 11:42:55;0040; pbs_sched;node;;Error getting nodes: Server has no node list MSG=node list is empty - check 'server_priv/nodes' file
+08/08/2012 11:51:01;0002; pbs_sched;Svr;die;caught signal 15
+08/08/2012 11:51:01;0002; pbs_sched;Svr;Log;Log closed
+08/08/2012 11:58:39;0002; pbs_sched;Svr;Log;Log opened
+08/08/2012 11:58:39;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20120808 opened
+08/08/2012 11:58:39;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 4184
+08/08/2012 11:58:52;0080; pbs_sched;Svr;main;brk point 21938176
+08/11/2012 18:23:53;0002; pbs_sched;Svr;Log;Log closed

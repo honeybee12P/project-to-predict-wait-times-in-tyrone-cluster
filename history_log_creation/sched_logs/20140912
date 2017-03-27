@@ -1,0 +1,19 @@
+09/12/2014 00:00:02;0002; pbs_sched;Svr;Log;Log opened
+09/12/2014 00:00:02;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140912 opened
+09/12/2014 00:00:02;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 58259
+09/12/2014 00:00:20;0040; pbs_sched;Job;42192.tyrone-cluster;Job Run
+09/12/2014 00:00:20;0040; pbs_sched;Job;42140.tyrone-cluster;Job Run
+09/12/2014 00:00:20;0040; pbs_sched;Job;42153.tyrone-cluster;Queue job limit reached
+09/12/2014 00:00:20;0080; pbs_sched;Svr;main;brk point 20713472
+09/12/2014 00:00:20;0040; pbs_sched;Job;41865.tyrone-cluster;Job Run
+09/12/2014 11:06:14;0040; pbs_sched;Job;42193.tyrone-cluster;Job Run
+09/12/2014 13:38:25;0040; pbs_sched;Job;42195.tyrone-cluster;Job Run
+09/12/2014 13:43:28;0040; pbs_sched;Job;42196.tyrone-cluster;Job Run
+09/12/2014 13:49:39;0040; pbs_sched;Job;42197.tyrone-cluster;Job Run
+09/12/2014 13:50:29;0040; pbs_sched;Job;42057.tyrone-cluster;Job Run
+09/12/2014 15:36:12;0040; pbs_sched;Job;42198.tyrone-cluster;Job Run
+09/12/2014 15:36:12;0040; pbs_sched;Job;42194.tyrone-cluster;Job Run
+09/12/2014 16:16:48;0040; pbs_sched;Job;42199.tyrone-cluster;Queue job limit reached
+09/12/2014 18:12:13;0040; pbs_sched;Job;42200.tyrone-cluster;Queue job limit reached
+09/12/2014 20:08:32;0040; pbs_sched;Job;42201.tyrone-cluster;Queue job limit reached
+09/13/2014 00:00:12;0002; pbs_sched;Svr;Log;Log closed

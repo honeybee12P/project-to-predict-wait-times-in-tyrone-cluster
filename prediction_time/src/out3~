@@ -1,0 +1,15 @@
+....
+jobs <generator object _job_inputs_to_jobs at 0x7f9ebb44a500>
+parent sleeping
+....
+jobs <generator object _job_inputs_to_jobs at 0x7f9ebb44a500>
+value of history: 3000
+job_num: 3000 
+
+Waittime: 2023 
+
+Num of Processors:  800
+Input file:  <open file '/home/sharath/Desktop/pyss-read-only/src/5K_sample', mode 'r' at 0x7f9ebb444270>
+Scheduler: <class 'schedulers.easy_scheduler.EasyBackfillScheduler'>
+Total scheduled jobs: 3000
+--- 39.5454239845 seconds ---

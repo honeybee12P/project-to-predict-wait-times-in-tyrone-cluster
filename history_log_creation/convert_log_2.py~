@@ -1,0 +1,362 @@
+import os
+import datetime
+import calendar
+import operator
+
+def sort_table(table, col=0):
+    return sorted(table, key=operator.itemgetter(col))
+
+job_start_time = {}
+job_queued_time = {}
+job_user_name = {}
+job_exec_name = {}
+job_queue_name = {}
+job_exit_status = {}
+job_cpu_time = {}
+job_wall_time = {}
+job_mem_used = {}
+job_vmem_used = {}
+user_id_map = {}
+unique_user_id = 1
+exec_id_map = {}
+unique_exec_id = 1
+queue_id_map = {}
+queue_id_map['idqueue'] = 0
+queue_id_map['qp32'] = 1
+queue_id_map['qp64'] = 2
+queue_id_map['qp128'] = 3
+queue_id_map['qp256'] = 4
+#queue_id_map['batch'] = 5 
+
+path = r'/home/siddharthsahu/Desktop/Deployment_codes/Log_conversion/Tyrone_logs/sched_logs'  
+
+#user_id for Deployment
+user_id_file = open("/home/siddharthsahu/Desktop/Deployment_codes/Log_conversion/Tyrone_logs/user_id_file",'w')
+
+sched_data = {}
+for dir_entry in os.listdir(path):
+    dir_entry_path = os.path.join(path, dir_entry)
+    if os.path.isfile(dir_entry_path):
+        with open(dir_entry_path, 'r') as my_file:
+            sched_data[dir_entry] = my_file.readlines()
+print 'Read', len(sched_data), 'sched logs'
+
+path = r'/home/siddharthsahu/Desktop/Deployment_codes/Log_conversion/Tyrone_logs/server_logs'  
+
+server_data = {}
+for dir_entry in os.listdir(path):
+    dir_entry_path = os.path.join(path, dir_entry)
+    if os.path.isfile(dir_entry_path):
+        with open(dir_entry_path, 'r') as my_file:
+            server_data[dir_entry] = my_file.readlines()
+print 'Read', len(server_data), 'server logs'
+
+for sched_file_id in sched_data:
+    sched_file_data = sched_data[sched_file_id]
+    
+    for line in sched_file_data:
+        
+        sline = line.split()
+        if sline[-1] == 'Run':
+            temp = sline[2]
+            job_id = int((temp.split('.')[0]).split(';')[2])
+            date = sline[0]
+            time = sline[1].split(';')[0]
+            sdate = date.split('/')
+            month = int(sdate[0])
+            day = int(sdate[1])
+            year = int(sdate[2])
+            stime = ((time.split(';'))[0]).split(':')
+            hour = int(stime[0])
+            mins = int(stime[1])
+            sec = int(stime[2])
+            startTime = datetime.datetime(year, month, day, hour, mins, sec)
+            timeStamp = calendar.timegm(startTime.utctimetuple())
+            job_start_time[job_id] = timeStamp
+            
+print 'No. of job start times read:', len(job_start_time.keys()) 
+'''
+ 08/30/2012 10:18:44;0008;PBS_Server;Job;9590.tyrone-cluster;Job Queued at request of csdsuben@tyrone-cluster, owner = csdsuben@tyrone-cluster, job name = zrph6, queue = batch
+['08/30/2012', '10:18:44;0008;PBS_Server;Job;9590.tyrone-cluster;Job', 'Queued', 'at', 'request', 'of', 'csdsuben@tyrone-cluster,', 'owner', '=', 'csdsuben@tyrone-cluster,', 'job', 'name', '=', 'zrph6,', 'queue', '=', 'batch']
+08/30/2012 10:19:37;0010;PBS_Server;Job;9497.tyrone-cluster;Exit_status=0 resources_used.cput=729:39:16 resources_used.mem=2482064kb resources_used.vmem=16582964kb resources_used.walltime=23:32:24
+['8/30/2012', '10:19:37;0010;PBS_Server;Job;9497.tyrone-cluster;Exit_status=0', 'resources_used.cput=729:39:16', 'resources_used.mem=2482064kb', 'resources_used.vmem=16582964kb', 'resources_used.walltime=23:32:24']
+'''
+job_queued_date = {}
+deleted_jobs_list = []
+
+for server_file_id in server_data:
+    server_file_data = server_data[server_file_id]
+    
+    for line in server_file_data:
+        
+        sline = line.split()
+        if len(sline) > 2 and sline[2] == 'Queued':
+
+            # get job id
+            job_id = int((sline[1].split(';'))[4].split('.')[0])
+            date = sline[0]
+            time = sline[1].split(';')[0]
+            sdate = date.split('/')
+            month = int(sdate[0])
+            day = int(sdate[1])
+            year = int(sdate[2])
+            stime = ((time.split(';'))[0]).split(':')
+            hour = int(stime[0])
+            mins = int(stime[1])
+            sec = int(stime[2])
+            #job_queued_date_time[job_id] = [date, time]
+            
+            queuedTime = datetime.datetime(year, month, day, hour, mins, sec)
+            timeStamp = calendar.timegm(queuedTime.utctimetuple())
+
+            job_queued_time[job_id] = timeStamp
+            job_user_name[job_id] = sline[6].split('@')[0]
+            job_exec_name[job_id] = sline[13][:-1]
+            job_queue_name[job_id] = sline[-1]
+            #print "intialvalue:",job_id, job_queued_time[job_id], job_user_name[job_id], job_exec_name[job_id], job_queue_name[job_id]
+
+        if len(sline) > 2 and sline[2].startswith('resources_used'):
+            #print 'here'
+            job_id = int((sline[1].split(';'))[4].split('.')[0])
+            date = sline[0]
+            time = sline[1].split(';')[0]
+            sdate = date.split('/')
+            month = int(sdate[0])
+            day = int(sdate[1])
+            year = int(sdate[2])
+            stime = ((time.split(';'))[0]).split(':')
+            hour = int(stime[0])
+            mins = int(stime[1])
+            sec = int(stime[2])
+            finishTime = datetime.datetime(year, month, day, hour, mins, sec)
+            timeStamp = calendar.timegm(finishTime.utctimetuple())
+            job_exit_status[job_id] = int(sline[1].split(';')[-1].split('=')[1])
+            cput = sline[2].split('=')[1]
+            cputseconds = int(cput.split(':')[0])*3600 + int(cput.split(':')[1])*60 + int(cput.split(':')[2])
+            used_memory = int((sline[3].split('=')[1][:-2]))
+            vmem = int((sline[4].split('=')[1][:-2]))
+            wallt = sline[5].split('=')[1]
+            walltseconds = int(wallt.split(':')[0])*3600 + int(wallt.split(':')[1])*60 + int(wallt.split(':')[2])
+	    walltseconds = max(walltseconds, 1)
+
+            job_cpu_time[job_id] = cputseconds
+            job_wall_time[job_id] = walltseconds
+            job_mem_used[job_id] = used_memory
+            job_vmem_used[job_id] = vmem
+          
+        if len(sline) > 2 and sline[2] == 'deleted':
+            job_id = int((sline[1].split(';'))[4].split('.')[0])
+            deleted_jobs_list.append(job_id)
+print 'No. of job queued times read:', len(job_queued_time.keys())           
+#print job_queued_time
+
+temp_count = 0
+for key in job_start_time:
+  if key not in job_wall_time:
+    temp_count += 1
+    print key
+print "temp_count = ",temp_count,''
+
+anomalies = 0
+both_Exist = 0
+for key in job_queued_time:
+    if key in job_start_time:
+        both_Exist += 1
+        #print job_queued_time[key], job_start_time[key]
+        
+        if job_start_time[key] <job_queued_time[key]:
+            #print  job_start_time[key]-job_queued_time[key]
+            anomalies += 1
+
+#print anomalies, 'out of', both_Exist
+
+
+swf_log = []
+job_unique_id = 1
+date_boundary = datetime.datetime.today() - datetime.timedelta(seconds=86400*30)
+utc_date_boundary = calendar.timegm(date_boundary.utctimetuple())
+utc_current_time =  calendar.timegm(datetime.datetime.today().utctimetuple())
+queued_list_file = open("/home/siddharthsahu/Desktop/Deployment_codes/Log_conversion/For_history/tyrone_queued_list.log", 'w')
+target_jobs_count = 0
+#print "This is key"
+#print key 
+#print "This is key"
+for key in job_queued_time.keys():
+    job_id = key
+    
+    target_job = False
+    try:
+        if not job_id in job_start_time and job_id in job_queued_time and not job_id in deleted_jobs_list and utc_date_boundary <= job_queued_time[job_id]:
+            print >>queued_list_file, job_id
+            print job_id, job_user_name[job_id], job_queue_name[job_id]
+            target_job = True
+            target_jobs_count += 1
+            # Each target job has been waiting till the current time. So we can write the wait time as at least current time - submit time and the queue
+            # states for the prediction algorithm won't be affected
+        wait_time = 0
+        if target_job: 
+            wait_time = utc_current_time - job_queued_time[job_id] + 3600 # just to ensure it doesn't interfere with the discerete event simulator
+        else:
+            wait_time = job_start_time[job_id] - job_queued_time[job_id]
+            if job_start_time[key] <job_queued_time[key]:
+                continue
+
+        current_job = []
+
+        current_job.append(job_id)
+        current_job.append(job_queued_time[job_id])
+        current_job.append(wait_time)
+
+        if target_job: 
+            current_job.append(0)
+        else:
+	    if key not in job_wall_time:
+              current_job.append(-1)
+            else:
+              current_job.append(job_wall_time[job_id])
+        
+        nodes = 1
+        #if job_queue_name[job_id] == 'qp128' or job_queue_name[job_id] == 'qp256' : 
+        #    nodes = 4
+        avg_cpu_time = 0
+
+        if target_job or key not in job_wall_time:
+            job_cpu_time[job_id] = 0
+            job_mem_used[job_id] = 0
+            job_exit_status[job_id] = 99999
+
+        if job_queue_name[job_id] == 'qp256': 
+            nodes = 256
+            avg_cpu_time = job_cpu_time[job_id]/256
+        if job_queue_name[job_id] == 'qp128': 
+            nodes = 128
+            avg_cpu_time = job_cpu_time[job_id]/128
+        if job_queue_name[job_id] == 'qp64': 
+            nodes = 64
+            avg_cpu_time = job_cpu_time[job_id]/64
+        if job_queue_name[job_id] == 'qp32': 
+            nodes = 32
+            avg_cpu_time = job_cpu_time[job_id]/32
+        if job_queue_name[job_id] == 'idqueue': 
+            nodes = 32
+            avg_cpu_time = job_cpu_time[job_id]/32
+            
+        current_job.append(nodes)
+        current_job.append(avg_cpu_time)
+        current_job.append(job_mem_used[job_id])
+        current_job.append(nodes)
+        #print "current_job:",current_job//print correctly the first 8 values
+        requested_time = 24*3600
+        if job_queue_name[job_id] == 'idqueue': 
+            requested_time = 2*3600
+        requested_mem = -1
+
+        status = job_exit_status[job_id]
+        user_id = 0
+        if job_user_name[job_id] in user_id_map.keys():
+            user_id =  user_id_map[job_user_name[job_id]]
+            #user_id_file.write(str(user_id_map))
+            
+        else:
+            user_id_map[job_user_name[job_id]] = unique_user_id
+            unique_user_id += 1
+            user_id =  user_id_map[job_user_name[job_id]]
+            #user_id_file.write(str(user_id_map))
+        exec_id = 0
+        if job_exec_name[job_id] in exec_id_map.keys():
+            exec_id =  exec_id_map[job_exec_name[job_id]]
+        else:
+            exec_id_map[job_exec_name[job_id]] = unique_exec_id
+            unique_exec_id += 1
+            exec_id =  exec_id_map[job_exec_name[job_id]]
+
+        group_id = -1
+        partition_id = -1
+        preceeding_job = -1
+        think_time = -1
+
+        current_job.append(requested_time)
+        current_job.append(requested_mem)
+        current_job.append(status)
+        current_job.append(user_id)
+        
+        current_job.append(group_id)
+        current_job.append(exec_id)
+        current_job.append(queue_id_map[job_queue_name[job_id]])
+        #print "current_job:",current_job//print correctly the first 15 values
+        current_job.append(partition_id)
+        
+        current_job.append(preceeding_job)
+        current_job.append(think_time)
+        #print "current_job:",current_job
+        #current_job.append(job_id)
+        #current_job.append(job_user_name[job_id])
+        #current_job.append(job_exec_name[job_id])
+        #current_job[0] = job_unique_id
+        #job_unique_id += 1 #line number here
+        swf_log.append(current_job)
+        #, job_user_name[job_id], job_exec_name[job_id], job_queue_name[job_id], job_cpu_time[job_id], job_wall_time[job_id], job_mem_used[job_id], job_vmem_used[job_id], job_start_time[job_id], wait_time, 'cpus:', job_cpu_time[job_id]/job_wall_time[job_id]
+        
+    except Exception as ex:
+	print "exception key = ",key," ", type(ex).__name__," ",ex.args, " "        
+	pass
+sort_table(swf_log,col=1)
+
+ofile = open("/home/siddharthsahu/Documents/scheduling/scheduling-virtualenv/prediction/history_log_creation/history_log.swf", 'w')
+for item in swf_log:
+    for val in item:
+	#print val
+        print >>ofile, val,' ',
+	#print val
+    print >>ofile,""
+
+#user_id for Deployment
+
+for key, value in user_id_map.iteritems():
+    user_id_file.write(str(key))
+    user_id_file.write("\t")
+    user_id_file.write(str(value))
+    user_id_file.write("\n")
+
+ofile.close()
+#user_id for Deployment
+user_id_file.close()
+data_structures=[
+job_start_time,
+job_queued_time,
+job_user_name,
+job_exec_name,
+job_queue_name,
+
+job_exit_status,
+job_cpu_time,
+job_wall_time,
+job_mem_used,
+job_vmem_used,
+
+user_id_map,
+exec_id_map,
+queue_id_map]
+
+data_structures_names=[
+'job_start_time',
+'job_queued_time',
+'job_user_name',
+'job_exec_name',
+'job_queue_name',
+
+'job_exit_status',
+'job_cpu_time',
+'job_wall_time',
+'job_mem_used',
+'job_vmem_used',
+
+'user_id_map',
+'exec_id_map',
+'queue_id_map']
+
+
+for ids in range(len(data_structures)):
+    print data_structures_names[ids], len(data_structures[ids].keys())
+
+print 'Target jobs:', target_jobs_count

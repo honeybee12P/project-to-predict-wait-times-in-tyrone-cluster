@@ -1,0 +1,25 @@
+1. 'handle_submission_event()' in metaScheduler is changed to run only wait time prediction and not run time prediction
+2. New scheduler 'LogScheduler' is added to schedule job based on wait time in logs
+3. Change in '_job_input_to_job' function in base/prototype.py: addition of actual wait time
+4. Change in 'Job' class in prototype.py. Addition of 'actual_wait_time'
+5. Changed scheduler type in 'run_simulator_parent'
+6. Why are we checking and submitting 'JobStartEvent' at the time of handling of 'JobSubmissionEvent' ?????
+
+
+
+
+
+
+
+
+
+
+
+How to change ?
+1. New scheduler 'LogScheduler' is added(copied from FCFS). In it, use 'submit_time+wait_time' to schedule instead of scheduling algorithm. In each scheduler '_schedule_jobs' schedule the job based on scheduling algorithm. Modified '_schedule_jobs'(marked with #by Siddharth) has been added which schedule based on above mentioned way
+
+
+
+Problem:
+1 'start_to_run_at_time' couldn't be initialized hence giving error in 'delTailofJobFromCPUSlices'. It is initialized in common.py of scheduler1
+2 We need to perform 'addJob' at the handling of jobStartEvent. They are calling this in scheduler only for those which can be scheduled at that time. But we need to call at jobStartEvent

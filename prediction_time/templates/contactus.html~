@@ -1,0 +1,191 @@
+<html>
+    {% load staticfiles %}
+    <head>
+        <title>Prediction of Wait Time Prediction</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://www.bootply.com/plugins/bootstrap-select.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="bootstrap-master/docs/assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <script type="text/javascript">
+    		var people = {
+        		idqueue:  {
+            			processors: "32"
+            			},
+        		qp32: {
+            			processors: "32"
+            			},
+        		qp64: {
+            			processors: "64"
+            			},
+                        qp128: {
+            			processors: "128"
+            			},
+                        qp256: {
+            			processors: "256"
+            			}
+        	};
+
+    		window.onload = function() {
+        	var list = document.getElementById("queue");
+        	list.onchange = function() {
+            		document.getElementById("processors").value = people[this.value].processors;
+        	}   
+    }
+</script>
+        <style type="text/css">
+            .navbar-default{
+
+                background: #CC3232;
+                height:80px;
+                
+            }
+            .panel-body {
+                background:#FFFFFF; border:#CC3232;
+            }
+
+            .panel > .panel-heading {
+                    background-image: none;
+                    background-color: white;
+                    color: #CC3232;
+                    border-color:#CC3232;
+
+            }
+            .panel > .panel-footer {
+                    background-image: none;
+                    background-color: white;
+                    color: #CC3232;
+
+            }
+
+ .get-in-touch {
+
+position: relative;
+margin: 0 auto;
+padding: 30px;
+max-width: 370px;
+border-radius: 2px;
+background: rgb(255, 255, 255) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAGCAYAAACFIR03AAAAV0lEQVR42tXOMRWAQAwE0RWFDRTg5d47Jeg4Q9gI06RbqlwKil/P6LpXbDCf85AxEBtMGjKG/jyPUHUerfP4nEeoOo/Wedj5pOo8Wudh55Oq82idh51PLxpvled7kLAXAAAAAElFTkSuQmCC) repeat-x;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.get-in-touch input[type=text],.get-in-touch input[type=email], .get-in-touch textarea {
+background: rgb(235, 241, 245);
+color: rgb(36, 39, 41);
+}
+.get-in-touch  input:focus, .get-in-touch  textarea:focus {
+outline: 0;
+background: #FFF;
+}
+
+
+
+ </style>
+
+    </head>
+
+
+   <!-- <nav class="navbar navbar-default">
+        <div class="container-fluid">
+           <div style="float:left;">
+              <a href="http://www.iisc.ernet.in/" target="_blank">  <img src="/static/images/IISc.jpg" title="Indian Institute of Science" height="60px;" style="margin-top:8px;"/> </a>
+            </div>
+            <div class="navbar-header">
+
+                <strong>
+                        <h3>
+                            <p style="align:left;color:#FFFFFF;font-family:Ubuntu;margin-top:25px;margin-left:10px;">Prediction of Queue Waiting Time</p>
+                        </h3>
+                </strong>
+                      <h6>
+                            <p style="align:right;color:#FFFFFF;font-family:Ubuntu;margin-top:5px;margin-left:1000px;"> How it works</p>
+                        </h6>
+   <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                       
+            </div>
+            
+
+                  
+              
+
+        </div>
+    </nav>-->
+<nav id="header" class="navbar navbar-default" style=" background-color: #ffffff;">
+            <div id="header-container" class="container navbar-container">
+                <div class="navbar-header">
+                   
+<div style="float:left;">
+              <a href="http://www.iisc.ernet.in/" target="_blank">  <img src="/static/images/IISc.jpg" title="Indian Institute of Science" height="60px;" style="margin-top:8px;"/> </a>
+            </div>
+                    <p id="brand" class="navbar-brand" href="//" style="margin-top:10px;margin-left:10px;color:CC3232;"><strong>Prediction of Queue Waiting Time</p></strong>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" style="margin-top:10px;margin-left:10px;">
+                         <li ><a href="/interface/" style="color:CC3232;">Home</a></li>
+                        <li ><a href="/howitworks/" style="color:CC3232;">How it works</a></li>
+                        <!--<li style="margin-top:10px;margin-left:10px;"><a href="#about">About</a></li>-->
+                        <li ><a href="/contributors/" style="color:CC3232;">Contributors</a></li>
+<li ><a href="/contactus/" style="color:CC3232;">Contact</a></li>
+<li ><a href="http://mars.serc.iisc.ernet.in/" target="_blank" style="color:CC3232;">MARS Lab</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+
+
+
+<div class="container">
+   <div class="row">
+        <div class="col-mid-4">
+            <form action="/contact_us/" method="get" class="form" style="margin-top:5%;">{% csrf_token %}
+             	<div class="get-in-touch">
+                	<h3 class="text-center">
+                    	Report Bug</h3>
+                	<div class="form-group">
+                    		<input type="text" class="form-control" id="name" name="cname" placeholder="Name" required/>
+                	</div>
+                	<div class="form-group">
+                    		<input type="email" class="form-control" id="Email" name="cemail" placeholder="Email" required/>
+                	</div>
+                	<div class="form-group">
+                    		<textarea class="form-control" rows="3" placeholder="Message" name="cmessage" required></textarea>
+                	</div>
+                 	<div class="form-group">
+                 		<p><button style="font-family:Ubuntu;" class="btn btn-danger btn" >Submit Report</button></p>
+                                
+              		</div>
+		</div>
+            </form>
+        </div>
+    </div>
+</div>
+
+        
+
+<nav class="navbar navbar-default navbar-fixed-bottom" style="height:20px;background-color:white;">
+        <div class="navbar-inner navbar-content-center">
+            <p style="font-family:Ubuntu; color:CC3232;float:right;margin-top:10px;padding-right:10px;">  
+            <a href="http://www.serc.iisc.in/" target="_blank" style="text-decoration:none;color:CC3232;" title="Click here"> &copy;&nbsp;Department of Computational & Data Sciences, Indian Institute of Science</a> </p>
+        </div>
+</nav>
+</body>
+</html>

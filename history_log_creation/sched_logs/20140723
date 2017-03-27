@@ -1,0 +1,59 @@
+07/23/2014 00:19:16;0002; pbs_sched;Svr;Log;Log opened
+07/23/2014 00:19:16;0040; pbs_sched;Job;40599.tyrone-cluster;Job Run
+07/23/2014 00:20:47;0040; pbs_sched;Job;40600.tyrone-cluster;Job Run
+07/23/2014 00:22:11;0040; pbs_sched;Job;40601.tyrone-cluster;Job Run
+07/23/2014 09:55:16;0040; pbs_sched;Job;40602.tyrone-cluster;Job Run
+07/23/2014 09:56:25;0040; pbs_sched;Job;40603.tyrone-cluster;Queue user limit reached
+07/23/2014 10:41:06;0040; pbs_sched;Job;40604.tyrone-cluster;Job Run
+07/23/2014 10:44:10;0040; pbs_sched;Job;40605.tyrone-cluster;Job Run
+07/23/2014 10:46:02;0040; pbs_sched;Job;40606.tyrone-cluster;Job Run
+07/23/2014 10:54:01;0040; pbs_sched;Job;40607.tyrone-cluster;Job Run
+07/23/2014 10:57:22;0040; pbs_sched;Job;40608.tyrone-cluster;Job Run
+07/23/2014 10:57:22;0040; pbs_sched;Job;40603.tyrone-cluster;Queue job limit reached
+07/23/2014 10:59:20;0040; pbs_sched;Job;40609.tyrone-cluster;Job Run
+07/23/2014 11:26:25;0040; pbs_sched;Job;40610.tyrone-cluster;Job Run
+07/23/2014 11:29:48;0040; pbs_sched;Job;40611.tyrone-cluster;Queue job limit reached
+07/23/2014 11:31:51;0040; pbs_sched;Job;40603.tyrone-cluster;Queue user limit reached
+07/23/2014 11:31:56;0040; pbs_sched;Job;40612.tyrone-cluster;Job Run
+07/23/2014 11:33:20;0040; pbs_sched;Job;40603.tyrone-cluster;Queue job limit reached
+07/23/2014 11:33:20;0040; pbs_sched;Job;40613.tyrone-cluster;Queue job limit reached
+07/23/2014 11:45:58;0040; pbs_sched;Job;40603.tyrone-cluster;Queue user limit reached
+07/23/2014 11:45:58;0040; pbs_sched;Job;40613.tyrone-cluster;Job Run
+07/23/2014 11:46:05;0040; pbs_sched;Job;40603.tyrone-cluster;Queue job limit reached
+07/23/2014 11:46:22;0040; pbs_sched;Job;40615.tyrone-cluster;Queue job limit reached
+07/23/2014 11:50:19;0002; pbs_sched;Svr;Log;Log opened
+07/23/2014 11:50:19;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140723 opened
+07/23/2014 11:50:19;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 64552
+07/23/2014 11:50:44;0080; pbs_sched;Svr;main;brk point 28794880
+07/23/2014 11:51:54;0040; pbs_sched;Job;40616.tyrone-cluster;Queue job limit reached
+07/23/2014 11:53:29;0040; pbs_sched;Job;40618.tyrone-cluster;Job Run
+07/23/2014 11:55:12;0040; pbs_sched;Job;40619.tyrone-cluster;Queue job limit reached
+07/23/2014 12:06:57;0040; pbs_sched;Job;40620.tyrone-cluster;Queue job limit reached
+07/23/2014 12:09:40;0040; pbs_sched;Job;40621.tyrone-cluster;Job Run
+07/23/2014 12:12:01;0040; pbs_sched;Job;40619.tyrone-cluster;Job Run
+07/23/2014 12:13:21;0040; pbs_sched;Job;40603.tyrone-cluster;Queue user limit reached
+07/23/2014 13:32:43;0040; pbs_sched;Job;40622.tyrone-cluster;Job Run
+07/23/2014 13:56:00;0040; pbs_sched;Job;40623.tyrone-cluster;Job Run
+07/23/2014 14:17:21;0040; pbs_sched;Job;40624.tyrone-cluster;Job Run
+07/23/2014 14:48:45;0040; pbs_sched;Job;40626.tyrone-cluster;Job Run
+07/23/2014 14:50:16;0040; pbs_sched;Job;40627.tyrone-cluster;Job Run
+07/23/2014 14:50:35;0040; pbs_sched;Job;40603.tyrone-cluster;Queue job limit reached
+07/23/2014 14:51:25;0040; pbs_sched;Job;40628.tyrone-cluster;Job Run
+07/23/2014 16:45:09;0040; pbs_sched;Job;40630.tyrone-cluster;Job Run
+07/23/2014 17:04:20;0002; pbs_sched;Svr;die;caught signal 15
+07/23/2014 17:04:20;0002; pbs_sched;Svr;Log;Log closed
+07/23/2014 17:04:20;0002; pbs_sched;Svr;Log;Log opened
+07/23/2014 17:04:20;0002; pbs_sched;Svr;TokenAct;Account file /var/spool/torque/sched_priv/accounting/20140723 opened
+07/23/2014 17:04:20;0002; pbs_sched;Svr;main;/opt/toque-305/sbin/pbs_sched startup pid 21474
+07/23/2014 17:04:49;0080; pbs_sched;Svr;main;brk point 8499200
+07/23/2014 18:24:28;0040; pbs_sched;Job;40631.tyrone-cluster;Job Run
+07/23/2014 18:27:24;0040; pbs_sched;Job;40632.tyrone-cluster;Job Run
+07/23/2014 18:31:02;0040; pbs_sched;Job;40633.tyrone-cluster;Job Run
+07/23/2014 18:35:45;0040; pbs_sched;Job;40634.tyrone-cluster;Job Run
+07/23/2014 18:41:57;0040; pbs_sched;Job;40635.tyrone-cluster;Job Run
+07/23/2014 18:45:16;0040; pbs_sched;Job;40636.tyrone-cluster;Job Run
+07/23/2014 18:49:30;0040; pbs_sched;Job;40637.tyrone-cluster;Job Run
+07/23/2014 21:26:16;0040; pbs_sched;Job;40629.tyrone-cluster;Job Run
+07/23/2014 21:55:59;0040; pbs_sched;Job;40638.tyrone-cluster;Job Run
+07/23/2014 22:03:19;0040; pbs_sched;Job;40639.tyrone-cluster;Job Run
+07/24/2014 09:55:40;0002; pbs_sched;Svr;Log;Log closed

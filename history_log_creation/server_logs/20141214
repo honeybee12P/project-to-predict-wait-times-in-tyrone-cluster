@@ -1,0 +1,810 @@
+12/14/2014 00:04:34;0002;PBS_Server;Svr;Log;Log opened
+12/14/2014 00:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 00:06:40;0100;PBS_Server;Job;45717.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 00:06:40;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20141214 opened
+12/14/2014 00:06:40;0100;PBS_Server;Job;45717.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 00:06:40;0100;PBS_Server;Job;45717.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+12/14/2014 00:06:40;0008;PBS_Server;Job;45717.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp64
+12/14/2014 00:06:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 00:06:40;0008;PBS_Server;Job;45717.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 00:06:40;0008;PBS_Server;Job;45717.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 00:06:40;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 00:06:41;000d;PBS_Server;Job;45717.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 00:06:41;0010;PBS_Server;Job;45717.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:01
+12/14/2014 00:06:41;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=50)
+12/14/2014 00:06:41;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=51)
+12/14/2014 00:06:41;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=51)
+12/14/2014 00:06:41;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=53)
+12/14/2014 00:06:41;0100;PBS_Server;Job;45717.tyrone-cluster;dequeuing from qp64, state COMPLETE
+12/14/2014 00:06:41;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 00:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:15:19;0100;PBS_Server;Job;45718.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 00:15:19;0100;PBS_Server;Job;45718.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 00:15:19;0100;PBS_Server;Job;45718.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+12/14/2014 00:15:19;0008;PBS_Server;Job;45718.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp64
+12/14/2014 00:15:19;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 00:15:24;0008;PBS_Server;Job;45718.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 00:15:24;0008;PBS_Server;Job;45718.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 00:15:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 00:15:24;000d;PBS_Server;Job;45718.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 00:15:24;0010;PBS_Server;Job;45718.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:00
+12/14/2014 00:15:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=50)
+12/14/2014 00:15:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=51)
+12/14/2014 00:15:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=51)
+12/14/2014 00:15:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=53)
+12/14/2014 00:15:25;0100;PBS_Server;Job;45718.tyrone-cluster;dequeuing from qp64, state COMPLETE
+12/14/2014 00:15:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 00:15:39;0020;PBS_Server;Job;45711.tyrone-cluster;Unauthorized Request, request type: 6, Object: Job, Name: 45711.tyrone-cluster, request from: chemraja@tyrone-cluster
+12/14/2014 00:15:39;0080;PBS_Server;Req;req_reject;Reject reply code=15007(Unauthorized Request  MSG=operation not permitted), aux=0, type=DeleteJob, from chemraja@tyrone-cluster
+12/14/2014 00:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:24:57;000d;PBS_Server;Job;45707.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 00:24:57;0010;PBS_Server;Job;45707.tyrone-cluster;Exit_status=143 resources_used.cput=698:28:10 resources_used.mem=2818220kb resources_used.vmem=71120148kb resources_used.walltime=24:00:43
+12/14/2014 00:24:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=50)
+12/14/2014 00:24:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=51)
+12/14/2014 00:24:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=51)
+12/14/2014 00:24:57;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=53)
+12/14/2014 00:24:57;0100;PBS_Server;Job;45707.tyrone-cluster;dequeuing from qp32, state COMPLETE
+12/14/2014 00:24:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 00:24:57;0008;PBS_Server;Job;45711.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 00:24:57;0008;PBS_Server;Job;45711.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 00:24:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 00:24:58;000d;PBS_Server;Job;45711.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 00:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:34:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 00:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:44:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 00:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 00:54:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 00:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:04:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 01:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:14:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 01:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:24:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 01:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:34:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 01:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:44:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 01:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 01:54:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 01:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:04:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 02:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:14:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 02:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:24:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 02:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:34:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 02:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 02:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 02:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 02:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 03:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 03:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 03:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:34:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 03:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 03:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 03:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 03:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 04:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 04:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 04:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:34:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 04:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 04:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 04:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 04:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 05:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 05:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 05:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:34:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 05:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 05:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 05:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 05:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 06:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 06:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 06:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:34:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 06:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 06:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 06:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 06:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 07:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 07:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 07:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:34:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 07:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 07:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 07:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 07:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 08:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 08:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 08:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:34:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 08:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:44:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 08:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 08:54:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 08:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:04:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 09:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:14:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 09:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:21:57;0100;PBS_Server;Job;45719.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 09:21:57;0100;PBS_Server;Job;45719.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 09:21:57;0100;PBS_Server;Job;45719.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 09:21:57;0008;PBS_Server;Job;45719.tyrone-cluster;Job Queued at request of asebala@tyrone-cluster, owner = asebala@tyrone-cluster, job name = JOBNAME, queue = qp256
+12/14/2014 09:21:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 09:21:57;0008;PBS_Server;Job;45719.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 09:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:31:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 09:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:41:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 09:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:51:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 09:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 09:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:01:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 10:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:11:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 10:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:16:58;0008;PBS_Server;Job;45719.tyrone-cluster;Job deleted at request of asebala@tyrone-cluster
+12/14/2014 10:16:58;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=59)
+12/14/2014 10:16:58;0100;PBS_Server;Job;45719.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 10:16:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 10:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:21:42;0100;PBS_Server;Job;45720.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 10:21:42;0100;PBS_Server;Job;45720.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 10:21:42;0100;PBS_Server;Job;45720.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 10:21:42;0008;PBS_Server;Job;45720.tyrone-cluster;Job Queued at request of asebala@tyrone-cluster, owner = asebala@tyrone-cluster, job name = JOBNAME, queue = qp256
+12/14/2014 10:21:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 10:21:43;0008;PBS_Server;Job;45720.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 10:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:31:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 10:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:41:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 10:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:51:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 10:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 10:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:01:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 11:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:11:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 11:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:21:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 11:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:31:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 11:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:41:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 11:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:51:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 11:53:55;000d;PBS_Server;Job;45711.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 11:53:55;0010;PBS_Server;Job;45711.tyrone-cluster;Exit_status=0 resources_used.cput=367:09:29 resources_used.mem=563632kb resources_used.vmem=12260856kb resources_used.walltime=11:28:59
+12/14/2014 11:53:55;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1307aa0 (substate=50)
+12/14/2014 11:53:55;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1307aa0 (substate=51)
+12/14/2014 11:53:56;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1307aa0 (substate=51)
+12/14/2014 11:53:56;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1307aa0 (substate=53)
+12/14/2014 11:53:56;0100;PBS_Server;Job;45711.tyrone-cluster;dequeuing from qp32, state COMPLETE
+12/14/2014 11:53:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 11:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 11:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:03:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 12:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:13:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 12:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:23:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 12:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:33:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 12:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:43:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 12:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:53:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 12:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 12:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:03:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 13:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:13:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 13:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:23:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 13:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:33:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 13:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:43:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 13:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:53:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 13:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 13:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:03:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 14:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:13:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 14:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:23:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 14:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:33:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 14:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:43:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 14:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:53:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 14:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 14:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:03:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 15:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:13:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 15:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:23:56;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 15:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:24:49;000d;PBS_Server;Job;45708.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 15:24:49;0010;PBS_Server;Job;45708.tyrone-cluster;Exit_status=143 resources_used.cput=164:09:55 resources_used.mem=792292kb resources_used.vmem=20215132kb resources_used.walltime=24:01:05
+12/14/2014 15:24:49;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=50)
+12/14/2014 15:24:49;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=51)
+12/14/2014 15:24:49;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=51)
+12/14/2014 15:24:49;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=53)
+12/14/2014 15:24:49;0100;PBS_Server;Job;45708.tyrone-cluster;dequeuing from qp128, state COMPLETE
+12/14/2014 15:24:49;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 15:24:50;0008;PBS_Server;Job;45714.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 15:24:50;0008;PBS_Server;Job;45714.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 15:24:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 15:25:27;000d;PBS_Server;Job;45714.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 15:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:34:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 15:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:44:15;000d;PBS_Server;Job;45709.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 15:44:15;0010;PBS_Server;Job;45709.tyrone-cluster;Exit_status=143 resources_used.cput=672:15:27 resources_used.mem=2986960kb resources_used.vmem=71120144kb resources_used.walltime=24:00:17
+12/14/2014 15:44:15;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13067e0 (substate=50)
+12/14/2014 15:44:15;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13067e0 (substate=51)
+12/14/2014 15:44:16;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13067e0 (substate=51)
+12/14/2014 15:44:16;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x13067e0 (substate=53)
+12/14/2014 15:44:16;0100;PBS_Server;Job;45709.tyrone-cluster;dequeuing from qp32, state COMPLETE
+12/14/2014 15:44:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 15:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:49:33;0100;PBS_Server;Job;45721.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 15:49:33;0100;PBS_Server;Job;45721.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 15:49:33;0100;PBS_Server;Job;45721.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+12/14/2014 15:49:33;0008;PBS_Server;Job;45721.tyrone-cluster;Job Queued at request of nisabish@tyrone-cluster, owner = nisabish@tyrone-cluster, job name = SFE_fe12mn22, queue = qp128
+12/14/2014 15:49:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 15:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:49:34;0008;PBS_Server;Job;45721.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 15:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:56:59;0008;PBS_Server;Job;45721.tyrone-cluster;Job deleted at request of nisabish@tyrone-cluster
+12/14/2014 15:56:59;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=59)
+12/14/2014 15:56:59;0100;PBS_Server;Job;45721.tyrone-cluster;dequeuing from qp128, state COMPLETE
+12/14/2014 15:56:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 15:58:00;0100;PBS_Server;Job;45722.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 15:58:03;0100;PBS_Server;Job;45722.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 15:58:03;0100;PBS_Server;Job;45722.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+12/14/2014 15:58:03;0008;PBS_Server;Job;45722.tyrone-cluster;Job Queued at request of nisabish@tyrone-cluster, owner = nisabish@tyrone-cluster, job name = SFE_fe12mn22, queue = qp32
+12/14/2014 15:58:03;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 15:58:36;0008;PBS_Server;Job;45722.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 15:58:36;0008;PBS_Server;Job;45722.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 15:58:37;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 15:58:37;000d;PBS_Server;Job;45722.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 15:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 15:59:37;0008;PBS_Server;Job;45722.tyrone-cluster;Job deleted at request of nisabish@tyrone-cluster
+12/14/2014 15:59:37;0008;PBS_Server;Job;45722.tyrone-cluster;Job sent signal SIGTERM on delete
+12/14/2014 15:59:38;000d;PBS_Server;Job;45722.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 15:59:38;0010;PBS_Server;Job;45722.tyrone-cluster;Exit_status=143 resources_used.cput=00:01:34 resources_used.mem=188776kb resources_used.vmem=618484kb resources_used.walltime=00:01:01
+12/14/2014 15:59:38;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=50)
+12/14/2014 15:59:39;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=51)
+12/14/2014 15:59:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=51)
+12/14/2014 15:59:53;000d;PBS_Server;Job;45722.tyrone-cluster;Post job file processing error; job 45722.tyrone-cluster on host tyrone-node1/31+tyrone-node1/30+tyrone-node1/29+tyrone-node1/28+tyrone-node1/27+tyrone-node1/26+tyrone-node1/25+tyrone-node1/24+tyrone-node1/23+tyrone-node1/22+tyrone-node1/21+tyrone-node1/20+tyrone-node1/19+tyrone-node1/18+tyrone-node1/17+tyrone-node1/16+tyrone-node1/15+tyrone-node1/14+tyrone-node1/13+tyrone-node1/12+tyrone-node1/11+tyrone-node1/10+tyrone-node1/9+tyrone-node1/8+tyrone-node1/7+tyrone-node1/6+tyrone-node1/5+tyrone-node1/4+tyrone-node1/3+tyrone-node1/2+tyrone-node1/1+tyrone-node1/0
+12/14/2014 15:59:53;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130d980 (substate=53)
+12/14/2014 15:59:53;0100;PBS_Server;Job;45722.tyrone-cluster;dequeuing from qp32, state COMPLETE
+12/14/2014 15:59:53;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 16:00:42;0100;PBS_Server;Job;45723.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 16:00:42;0100;PBS_Server;Job;45723.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 16:00:42;0100;PBS_Server;Job;45723.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+12/14/2014 16:00:42;0008;PBS_Server;Job;45723.tyrone-cluster;Job Queued at request of nisabish@tyrone-cluster, owner = nisabish@tyrone-cluster, job name = SFE_fe12mn22, queue = qp64
+12/14/2014 16:00:42;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 16:01:16;0008;PBS_Server;Job;45723.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 16:01:16;0008;PBS_Server;Job;45723.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 16:01:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 16:02:30;000d;PBS_Server;Job;45723.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 16:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:11:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 16:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:21:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 16:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:31:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 16:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:41:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 16:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:51:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 16:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 16:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:01:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 17:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:11:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 17:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:21:22;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 17:22:32;000d;PBS_Server;Job;45715.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:22:32;0010;PBS_Server;Job;45715.tyrone-cluster;Exit_status=143 resources_used.cput=02:43:56 resources_used.mem=16463992kb resources_used.vmem=64652756kb resources_used.walltime=24:00:49
+12/14/2014 17:22:32;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fea90 (substate=50)
+12/14/2014 17:22:32;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fea90 (substate=51)
+12/14/2014 17:22:32;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fea90 (substate=51)
+12/14/2014 17:22:32;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fea90 (substate=53)
+12/14/2014 17:22:32;0100;PBS_Server;Job;45715.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 17:22:32;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:22:36;0008;PBS_Server;Job;45720.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:22:36;0008;PBS_Server;Job;45720.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 17:22:36;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 17:23:25;000d;PBS_Server;Job;45720.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:27:01;0100;PBS_Server;Job;45724.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:27:01;0100;PBS_Server;Job;45724.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:27:01;0100;PBS_Server;Job;45724.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 17:27:01;0008;PBS_Server;Job;45724.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp256
+12/14/2014 17:27:01;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:27:01;0008;PBS_Server;Job;45724.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:27:46;0100;PBS_Server;Job;45725.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:27:46;0100;PBS_Server;Job;45725.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:27:46;0100;PBS_Server;Job;45725.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+12/14/2014 17:27:46;0008;PBS_Server;Job;45725.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp32
+12/14/2014 17:27:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:27:46;0008;PBS_Server;Job;45725.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:27:46;0008;PBS_Server;Job;45725.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 17:27:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 17:27:46;000d;PBS_Server;Job;45725.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:27:47;000d;PBS_Server;Job;45725.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:27:47;0010;PBS_Server;Job;45725.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:00
+12/14/2014 17:27:47;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130f200 (substate=50)
+12/14/2014 17:27:47;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130f200 (substate=51)
+12/14/2014 17:27:47;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130f200 (substate=51)
+12/14/2014 17:27:47;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130f200 (substate=53)
+12/14/2014 17:27:47;0100;PBS_Server;Job;45725.tyrone-cluster;dequeuing from qp32, state COMPLETE
+12/14/2014 17:27:47;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:28:24;0100;PBS_Server;Job;45726.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:28:24;0100;PBS_Server;Job;45726.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:28:24;0100;PBS_Server;Job;45726.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+12/14/2014 17:28:24;0008;PBS_Server;Job;45726.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp64
+12/14/2014 17:28:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:28:24;0008;PBS_Server;Job;45726.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:28:55;0008;PBS_Server;Job;45726.tyrone-cluster;Job deleted at request of chemraja@tyrone-cluster
+12/14/2014 17:28:55;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x130f200 (substate=59)
+12/14/2014 17:28:55;0100;PBS_Server;Job;45726.tyrone-cluster;dequeuing from qp64, state COMPLETE
+12/14/2014 17:28:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:33:11;000d;PBS_Server;Job;45720.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:33:11;0010;PBS_Server;Job;45720.tyrone-cluster;Exit_status=134 resources_used.cput=00:04:55 resources_used.mem=1468556kb resources_used.vmem=34803528kb resources_used.walltime=00:10:35
+12/14/2014 17:33:11;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=50)
+12/14/2014 17:33:11;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=51)
+12/14/2014 17:33:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=51)
+12/14/2014 17:33:12;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=53)
+12/14/2014 17:33:12;0100;PBS_Server;Job;45720.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 17:33:12;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:33:16;0008;PBS_Server;Job;45724.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:33:16;0008;PBS_Server;Job;45724.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 17:33:16;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 17:33:17;000d;PBS_Server;Job;45724.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:33:17;0010;PBS_Server;Job;45724.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:01
+12/14/2014 17:33:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=50)
+12/14/2014 17:33:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=51)
+12/14/2014 17:33:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=51)
+12/14/2014 17:33:17;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f97e0 (substate=53)
+12/14/2014 17:33:17;0100;PBS_Server;Job;45724.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 17:33:17;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:40:48;0100;PBS_Server;Job;45727.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:40:48;0100;PBS_Server;Job;45727.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:40:48;0100;PBS_Server;Job;45727.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 17:40:48;0008;PBS_Server;Job;45727.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = script_PBC, queue = qp256
+12/14/2014 17:40:48;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:40:53;0008;PBS_Server;Job;45727.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:40:53;0008;PBS_Server;Job;45727.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 17:40:55;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 17:41:03;000d;PBS_Server;Job;45727.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:41:03;0010;PBS_Server;Job;45727.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:08
+12/14/2014 17:41:03;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=50)
+12/14/2014 17:41:03;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=51)
+12/14/2014 17:41:03;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=51)
+12/14/2014 17:41:03;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1f10 (substate=53)
+12/14/2014 17:41:03;0100;PBS_Server;Job;45727.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 17:41:03;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:42:30;000d;PBS_Server;Job;45716.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:42:30;0010;PBS_Server;Job;45716.tyrone-cluster;Exit_status=255 resources_used.cput=1093:21:26 resources_used.mem=17464992kb resources_used.vmem=50444064kb resources_used.walltime=19:41:03
+12/14/2014 17:42:30;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f80e0 (substate=50)
+12/14/2014 17:42:30;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f80e0 (substate=51)
+12/14/2014 17:42:31;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f80e0 (substate=51)
+12/14/2014 17:42:31;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f80e0 (substate=53)
+12/14/2014 17:42:31;0100;PBS_Server;Job;45716.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 17:42:31;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:47:26;0100;PBS_Server;Job;45728.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:47:26;0100;PBS_Server;Job;45728.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:47:26;0100;PBS_Server;Job;45728.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 17:47:26;0008;PBS_Server;Job;45728.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = script_PBC, queue = qp256
+12/14/2014 17:47:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:47:26;0008;PBS_Server;Job;45728.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:47:26;0008;PBS_Server;Job;45728.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 17:47:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 17:47:27;000d;PBS_Server;Job;45728.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:47:27;0010;PBS_Server;Job;45728.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:01
+12/14/2014 17:47:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1ef0 (substate=50)
+12/14/2014 17:47:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1ef0 (substate=51)
+12/14/2014 17:47:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1ef0 (substate=51)
+12/14/2014 17:47:27;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1ef0 (substate=53)
+12/14/2014 17:47:27;0100;PBS_Server;Job;45728.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 17:47:27;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:49:14;0100;PBS_Server;Job;45729.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:49:14;0100;PBS_Server;Job;45729.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:49:14;0100;PBS_Server;Job;45729.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+12/14/2014 17:49:14;0008;PBS_Server;Job;45729.tyrone-cluster;Job Queued at request of nisabish@tyrone-cluster, owner = nisabish@tyrone-cluster, job name = SFE, queue = qp128
+12/14/2014 17:49:14;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:49:15;0008;PBS_Server;Job;45729.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:49:46;0008;PBS_Server;Job;45729.tyrone-cluster;Job deleted at request of nisabish@tyrone-cluster
+12/14/2014 17:49:46;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1ef0 (substate=59)
+12/14/2014 17:49:46;0100;PBS_Server;Job;45729.tyrone-cluster;dequeuing from qp128, state COMPLETE
+12/14/2014 17:49:46;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:49:58;0100;PBS_Server;Job;45730.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:49:58;0100;PBS_Server;Job;45730.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:49:58;0100;PBS_Server;Job;45730.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+12/14/2014 17:49:58;0008;PBS_Server;Job;45730.tyrone-cluster;Job Queued at request of nisabish@tyrone-cluster, owner = nisabish@tyrone-cluster, job name = SFE, queue = qp128
+12/14/2014 17:49:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:49:58;0008;PBS_Server;Job;45730.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:50:25;0008;PBS_Server;Job;45730.tyrone-cluster;Job deleted at request of nisabish@tyrone-cluster
+12/14/2014 17:50:25;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12f1ef0 (substate=59)
+12/14/2014 17:50:25;0100;PBS_Server;Job;45730.tyrone-cluster;dequeuing from qp128, state COMPLETE
+12/14/2014 17:50:25;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 17:51:28;0100;PBS_Server;Job;45731.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 17:51:28;0100;PBS_Server;Job;45731.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 17:51:28;0100;PBS_Server;Job;45731.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+12/14/2014 17:51:28;0008;PBS_Server;Job;45731.tyrone-cluster;Job Queued at request of nisabish@tyrone-cluster, owner = nisabish@tyrone-cluster, job name = SFE, queue = qp32
+12/14/2014 17:51:28;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 17:51:28;0008;PBS_Server;Job;45731.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 17:51:28;0008;PBS_Server;Job;45731.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 17:51:28;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 17:51:28;000d;PBS_Server;Job;45731.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 17:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 17:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:01:28;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 18:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:11:28;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 18:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:21:28;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 18:23:48;0100;PBS_Server;Job;45732.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 18:23:48;0100;PBS_Server;Job;45732.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 18:23:48;0100;PBS_Server;Job;45732.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+12/14/2014 18:23:48;0008;PBS_Server;Job;45732.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp64
+12/14/2014 18:23:48;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 18:23:48;0008;PBS_Server;Job;45732.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 18:24:20;0100;PBS_Server;Job;45733.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 18:24:20;0100;PBS_Server;Job;45733.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 18:24:20;0100;PBS_Server;Job;45733.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 18:24:20;0008;PBS_Server;Job;45733.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp256
+12/14/2014 18:24:20;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 18:24:21;0008;PBS_Server;Job;45733.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 18:24:21;0008;PBS_Server;Job;45733.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 18:24:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 18:24:21;000d;PBS_Server;Job;45733.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 18:24:21;0010;PBS_Server;Job;45733.tyrone-cluster;Exit_status=1 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:00
+12/14/2014 18:24:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=50)
+12/14/2014 18:24:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=51)
+12/14/2014 18:24:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=51)
+12/14/2014 18:24:21;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=53)
+12/14/2014 18:24:21;0100;PBS_Server;Job;45733.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 18:24:21;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 18:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:24:58;0100;PBS_Server;Job;45734.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 18:24:58;0100;PBS_Server;Job;45734.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 18:24:58;0100;PBS_Server;Job;45734.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 18:24:58;0008;PBS_Server;Job;45734.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp256
+12/14/2014 18:24:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 18:24:58;0008;PBS_Server;Job;45734.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 18:24:58;0008;PBS_Server;Job;45734.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 18:24:58;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 18:24:59;000d;PBS_Server;Job;45734.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 18:24:59;0010;PBS_Server;Job;45734.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=804kb resources_used.vmem=13624kb resources_used.walltime=00:00:01
+12/14/2014 18:24:59;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=50)
+12/14/2014 18:24:59;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=51)
+12/14/2014 18:24:59;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=51)
+12/14/2014 18:24:59;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x12fe650 (substate=53)
+12/14/2014 18:24:59;0100;PBS_Server;Job;45734.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 18:24:59;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 18:25:08;0008;PBS_Server;Job;45732.tyrone-cluster;Job deleted at request of chemraja@tyrone-cluster
+12/14/2014 18:25:08;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=59)
+12/14/2014 18:25:08;0100;PBS_Server;Job;45732.tyrone-cluster;dequeuing from qp64, state COMPLETE
+12/14/2014 18:25:08;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 18:25:32;0100;PBS_Server;Job;45735.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 18:25:32;0100;PBS_Server;Job;45735.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 18:25:32;0100;PBS_Server;Job;45735.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+12/14/2014 18:25:32;0008;PBS_Server;Job;45735.tyrone-cluster;Job Queued at request of chemraja@tyrone-cluster, owner = chemraja@tyrone-cluster, job name = CHELPG, queue = qp256
+12/14/2014 18:25:32;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 18:25:32;0008;PBS_Server;Job;45735.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 18:25:32;0008;PBS_Server;Job;45735.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 18:25:32;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 18:25:33;000d;PBS_Server;Job;45735.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 18:25:33;0010;PBS_Server;Job;45735.tyrone-cluster;Exit_status=127 resources_used.cput=00:00:00 resources_used.mem=800kb resources_used.vmem=13624kb resources_used.walltime=00:00:01
+12/14/2014 18:25:33;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=50)
+12/14/2014 18:25:33;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=51)
+12/14/2014 18:25:33;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=51)
+12/14/2014 18:25:33;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=53)
+12/14/2014 18:25:33;0100;PBS_Server;Job;45735.tyrone-cluster;dequeuing from qp256, state COMPLETE
+12/14/2014 18:25:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 18:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:35:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 18:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:45:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 18:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 18:55:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 18:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:05:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 19:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:15:33;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 19:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:23:30;0100;PBS_Server;Job;45736.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 19:23:30;0008;PBS_Server;Job;45736.tyrone-cluster;Job rejected by all possible destinations (check syntax, queue resources, ...)
+12/14/2014 19:23:30;0100;PBS_Server;Job;45736.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 19:23:30;0080;PBS_Server;Req;req_reject;Reject reply code=15041(Job rejected by all possible destinations (check syntax, queue resources, ...)), aux=0, type=Commit, from asepk@tyrone-cluster
+12/14/2014 19:23:30;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 19:23:57;0100;PBS_Server;Job;45737.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 19:23:57;0100;PBS_Server;Job;45737.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 19:23:57;0100;PBS_Server;Job;45737.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+12/14/2014 19:23:57;0008;PBS_Server;Job;45737.tyrone-cluster;Job Queued at request of asepk@tyrone-cluster, owner = asepk@tyrone-cluster, job name = DNsFlo, queue = qp64
+12/14/2014 19:23:57;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 19:23:57;0008;PBS_Server;Job;45737.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 19:24:24;0008;PBS_Server;Job;45737.tyrone-cluster;Job deleted at request of asepk@tyrone-cluster
+12/14/2014 19:24:24;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=59)
+12/14/2014 19:24:24;0100;PBS_Server;Job;45737.tyrone-cluster;dequeuing from qp64, state COMPLETE
+12/14/2014 19:24:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 19:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:34:24;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 19:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:40:19;0100;PBS_Server;Job;45738.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 19:40:19;0100;PBS_Server;Job;45738.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 19:40:19;0100;PBS_Server;Job;45738.tyrone-cluster;enqueuing into idqueue, state 1 hop 1
+12/14/2014 19:40:19;0008;PBS_Server;Job;45738.tyrone-cluster;Job Queued at request of asepk@tyrone-cluster, owner = asepk@tyrone-cluster, job name = DNsFlo, queue = idqueue
+12/14/2014 19:40:19;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 19:40:19;0008;PBS_Server;Job;45738.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 19:40:19;0008;PBS_Server;Job;45738.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 19:40:19;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 19:40:19;000d;PBS_Server;Job;45738.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 19:43:38;0008;PBS_Server;Job;45738.tyrone-cluster;Job deleted at request of asepk@tyrone-cluster
+12/14/2014 19:43:38;0008;PBS_Server;Job;45738.tyrone-cluster;Job sent signal SIGTERM on delete
+12/14/2014 19:43:39;000d;PBS_Server;Job;45738.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 19:43:39;0010;PBS_Server;Job;45738.tyrone-cluster;Exit_status=143 resources_used.cput=01:41:53 resources_used.mem=1237416kb resources_used.vmem=8079128kb resources_used.walltime=00:03:20
+12/14/2014 19:43:39;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=50)
+12/14/2014 19:43:39;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=51)
+12/14/2014 19:43:39;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=51)
+12/14/2014 19:43:39;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=53)
+12/14/2014 19:43:39;0100;PBS_Server;Job;45738.tyrone-cluster;dequeuing from idqueue, state COMPLETE
+12/14/2014 19:43:39;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 19:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:45:26;0100;PBS_Server;Job;45740.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 19:45:26;0100;PBS_Server;Job;45740.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 19:45:26;0100;PBS_Server;Job;45740.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+12/14/2014 19:45:26;0008;PBS_Server;Job;45740.tyrone-cluster;Job Queued at request of asepk@tyrone-cluster, owner = asepk@tyrone-cluster, job name = DNsFlo, queue = qp32
+12/14/2014 19:45:26;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 19:45:29;0008;PBS_Server;Job;45740.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 19:45:29;0008;PBS_Server;Job;45740.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 19:45:29;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 19:45:29;000d;PBS_Server;Job;45740.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 19:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 19:54:50;0008;PBS_Server;Job;45740.tyrone-cluster;Job deleted at request of asepk@tyrone-cluster
+12/14/2014 19:54:50;0008;PBS_Server;Job;45740.tyrone-cluster;Job sent signal SIGTERM on delete
+12/14/2014 19:54:51;000d;PBS_Server;Job;45740.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 19:54:51;0010;PBS_Server;Job;45740.tyrone-cluster;Exit_status=143 resources_used.cput=03:29:12 resources_used.mem=1304788kb resources_used.vmem=7885324kb resources_used.walltime=00:09:22
+12/14/2014 19:54:51;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=50)
+12/14/2014 19:54:51;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=51)
+12/14/2014 19:55:00;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=51)
+12/14/2014 19:55:00;000d;PBS_Server;Job;45740.tyrone-cluster;Post job file processing error; job 45740.tyrone-cluster on host tyrone-node8/31+tyrone-node8/30+tyrone-node8/29+tyrone-node8/28+tyrone-node8/27+tyrone-node8/26+tyrone-node8/25+tyrone-node8/24+tyrone-node8/23+tyrone-node8/22+tyrone-node8/21+tyrone-node8/20+tyrone-node8/19+tyrone-node8/18+tyrone-node8/17+tyrone-node8/16+tyrone-node8/15+tyrone-node8/14+tyrone-node8/13+tyrone-node8/12+tyrone-node8/11+tyrone-node8/10+tyrone-node8/9+tyrone-node8/8+tyrone-node8/7+tyrone-node8/6+tyrone-node8/5+tyrone-node8/4+tyrone-node8/3+tyrone-node8/2+tyrone-node8/1+tyrone-node8/0
+12/14/2014 19:55:00;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x1398f40 (substate=53)
+12/14/2014 19:55:00;0100;PBS_Server;Job;45740.tyrone-cluster;dequeuing from qp32, state COMPLETE
+12/14/2014 19:55:00;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command term
+12/14/2014 19:58:52;0100;PBS_Server;Job;45741.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 19:58:52;0100;PBS_Server;Job;45741.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 19:58:52;0100;PBS_Server;Job;45741.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+12/14/2014 19:58:52;0008;PBS_Server;Job;45741.tyrone-cluster;Job Queued at request of asepk@tyrone-cluster, owner = asepk@tyrone-cluster, job name = DNsFlo, queue = qp32
+12/14/2014 19:58:52;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 19:58:54;0008;PBS_Server;Job;45741.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 19:58:54;0008;PBS_Server;Job;45741.tyrone-cluster;Job Run at request of Scheduler@tyrone-cluster
+12/14/2014 19:58:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command recyc
+12/14/2014 19:58:54;000d;PBS_Server;Job;45741.tyrone-cluster;Not sending email: User does not want mail of this type.
+12/14/2014 19:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:08:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 20:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:18:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 20:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:28:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 20:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:38:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 20:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:48:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 20:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 20:58:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 20:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:08:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 21:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:18:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 21:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:28:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 21:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:38:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 21:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:48:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 21:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 21:58:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 21:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:08:54;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 22:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:17:50;0100;PBS_Server;Job;45742.tyrone-cluster;enqueuing into batch, state 1 hop 1
+12/14/2014 22:17:50;0100;PBS_Server;Job;45742.tyrone-cluster;dequeuing from batch, state QUEUED
+12/14/2014 22:17:50;0100;PBS_Server;Job;45742.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+12/14/2014 22:17:50;0008;PBS_Server;Job;45742.tyrone-cluster;Job Queued at request of csdrjain@tyrone-cluster, owner = csdrjain@tyrone-cluster, job name = n12, queue = qp32
+12/14/2014 22:17:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command new
+12/14/2014 22:17:50;0008;PBS_Server;Job;45742.tyrone-cluster;Job Modified at request of Scheduler@tyrone-cluster
+12/14/2014 22:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:27:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 22:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:37:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 22:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:47:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 22:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 22:57:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 22:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:04:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:07:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 23:09:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:14:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:17:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 23:19:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:24:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:27:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 23:29:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:34:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:37:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 23:39:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:44:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:47:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 23:49:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:54:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/14/2014 23:57:50;0040;PBS_Server;Svr;tyrone-cluster;Scheduler was sent the command time
+12/14/2014 23:59:34;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+12/15/2014 00:04:34;0002;PBS_Server;Svr;Log;Log closed

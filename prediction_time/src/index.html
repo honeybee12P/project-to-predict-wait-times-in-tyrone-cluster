@@ -1,0 +1,304 @@
+<html>
+
+<head><title>Quickstarter Prediction</title></head>
+
+<script type="text/javascript" language="javascript">
+
+function validateMyForm ( )
+
+{
+
+       var isValid = true;
+
+       if ( ( document.form1.queue[0].checked == false ) && ( document.form1.queue[1].checked == false ) && ( document.form1.queue[2].checked == false ) && ( document.form1.queue[3].checked == false ) && ( document.form1.queue[4].checked == false ) && ( document.form1.queue[5].checked == false ))
+
+       {
+
+              alert("please select queue");
+
+              isValid = false;
+
+       }
+
+ 
+
+       else if(document.form1.nprocs.value == "")
+
+       {
+
+              alert("please enter number of processors");
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+       else if((document.form1.queue[0].checked == true) && (document.form1.nprocs.value <16))
+
+       {
+
+              alert("please select Number of processors for idqueue b/w 16 to 32");
+
+              document.form1.nprocs.value="";
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+      else if((document.form1.queue[0].checked == true) && (document.form1.nprocs.value >32))
+
+       {
+
+              alert("please select Number of processors for idqueue b/w 16 to 32");
+
+              document.form1.nprocs.value="";
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+ 
+
+       else if((document.form1.queue[1].checked == true) && (document.form1.nprocs.value > 32))
+
+       {
+
+              alert("please select less Number of processors for qp32");
+
+              document.form1.nprocs.value="";
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+       else if((document.form1.queue[2].checked == true) && (document.form1.nprocs.value > 64))
+
+       {
+
+              alert("please select less Number of processors for qp64");
+
+              document.form1.nprocs.value="";
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+     else if((document.form1.queue[3].checked == true) && (document.form1.nprocs.value > 128))
+
+       {
+
+              alert("please select less Number of processors for qp128");
+
+              document.form1.nprocs.value="";
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+     else if((document.form1.queue[4].checked == true) && (document.form1.nprocs.value > 256))
+
+       {
+
+              alert("please select less Number of processors for qp256");
+
+              document.form1.nprocs.value="";
+
+              document.form1.nprocs.focus();
+
+              isValid = false;
+
+       }
+
+       else if(document.form1.e_rt.value == "")
+
+       {
+
+              alert("Please enter wallclock time");
+
+              document.form1.e_rt.focus();
+
+              isValid = false;
+
+       }
+
+       else if((document.form1.queue[0].checked == true) && (document.form1.e_rt.value > 2))
+
+       {
+
+              alert("Exceeding maximum time limit for idqueue");
+
+              document.form1.e_rt.value="";
+
+              document.form1.e_rt.focus();
+
+              isValid = false;
+
+       }
+
+       else if((document.form1.queue[1].checked == true) && (document.form1.e_rt.value > 24))
+
+       {
+
+              alert("Exceeding maximum time limit for qp32");
+
+              document.form1.e_rt.value="";
+
+              document.form1.e_rt.focus();
+
+              isValid = false;
+
+       }
+
+       else if((document.form1.queue[2].checked == true) && (document.form1.e_rt.value > 24))
+
+       {
+
+              alert("Exceeding maximum time limit for qp64");
+
+              document.form1.e_rt.value="";
+
+              document.form1.e_rt.focus();
+
+              isValid = false;
+
+       }
+
+     else if((document.form1.queue[3].checked == true) && (document.form1.e_rt.value > 24))
+
+       {
+
+              alert("Exceeding maximum time limit for qp128");
+
+              document.form1.e_rt.value="";
+
+              document.form1.e_rt.focus();
+
+              isValid = false;
+
+       }
+
+     else if((document.form1.queue[4].checked == true) && (document.form1.e_rt.value > 24))
+
+       {
+
+              alert("Exceeding maximum time limit for qp256");
+
+              document.form1.e_rt.value="";
+
+              document.form1.e_rt.focus();
+
+              isValid = false;
+
+       }
+
+
+       return isValid;
+
+}
+
+</script>
+
+<body>
+
+<br />
+
+<table width="95%" border="0" align="center" ><tr><td colspan="2" align="center"><h1><u>Tyrone Cluster</u></h1></td></tr></table>
+
+<br />
+
+<table width="95%" border="0" align="center" ><tr><td colspan="2" align="center"><h2><u>Wait and Run Time Prediction Form: Tyrone</u></h2></td></tr></table>
+
+<br />
+
+<h4 align="center"><a href="http://www.serc.iisc.ernet.in/facilities/ComputingFacilities/systems/tyrone/" target="_blank">More about tyrone</a></h4>
+
+<form name = "form1" action="/cgi-bin/run_simulator.py" method="get">     <!--/cgi-bin/my_starter.py" method="get">-->
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr>
+
+    <td><b>Select Queue :</b> </td>
+
+    <td>idqueue<input type = "radio" name = "queue" value = "1"/>
+
+       qp32<input type = "radio" name = "queue" value = "2"/>
+
+       qp64<input type = "radio" name = "queue" value = "3"/>
+
+qp128<input type = "radio" name = "queue" value = "4"/>
+
+qp256<input type = "radio" name = "queue" value = "5"/>
+
+    </td>
+
+    </tr>
+
+<tr>
+
+       <td><b>No Of Processor<font color="grey">[Max: idqueue(b/w)=16 to 32,qp32=32,qp64=64,qp128=128,qp256=256]</font> </b></td>
+
+       <td><input type="text" name="nprocs" maxlength='3' /></td>
+
+    </tr>
+
+    <tr>
+
+       <td><b>Requested WallClockTime <font color= "grey">[In Hours(Max :24,idqueue :2)]</font>:</b></td>
+
+       <td><input type="text" name="e_rt" maxlength='2' /></td>
+
+    </tr>
+
+<tr>
+
+<td align = "center" colspan = "2">
+
+<br />
+
+Check all fields are correct and are non zero values then press submit
+
+<br />
+
+</td></tr>
+
+<tr>
+
+<td align = "center" colspan = "2"><input type="submit" value="Submit" onclick="javascript:return validateMyForm();" /></td>
+
+</tr>
+
+</table>
+      
+</form>
+
+<br /><br />
+
+<p><h4 align="center">Large number of jobs are submitted to batch system. Our method predicts wait time and runtime. There by helping the user to decide accordingly. The algorithm has given overall 80% accuracy.</h4></p>
+
+<br /><br />
+
+<tr>
+
+<td colspan = "2"><b><u>Reference:</u></b><td>
+
+<td align = "center" colspan = "2"><!--<a href = "www.cs.huji.ac.il/~feit/parsched/jsspp12/p11-kumar.pdf">--><i><b>End-to-End Predictions-Based Resource Management Framework for Supercomputer Jobs</b></i> , Swetha Hariharan, Prakash Murali, Abhishek Pasari, Sathish Vadhiyar , Supercomputer Education and Research Center, Indian Institute of Science, Bangalore India<!--</a>-->
+
+</td>
+
+</tr>
+
+</body>
+
+</html>

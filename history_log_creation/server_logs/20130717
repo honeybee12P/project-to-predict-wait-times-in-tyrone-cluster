@@ -1,0 +1,441 @@
+07/17/2013 11:33:57;0002;PBS_Server;Svr;Log;Log opened
+07/17/2013 11:33:57;0006;PBS_Server;Svr;PBS_Server;Server tyrone-cluster started, initialization type = 1
+07/17/2013 11:33:57;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20130717 opened
+07/17/2013 11:33:57;0040;PBS_Server;Req;setup_nodes;setup_nodes()
+07/17/2013 11:33:57;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp32
+07/17/2013 11:33:57;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp256
+07/17/2013 11:33:57;0086;PBS_Server;Svr;PBS_Server;Recovered queue idqueue
+07/17/2013 11:33:57;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp128
+07/17/2013 11:33:57;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp64
+07/17/2013 11:33:57;0086;PBS_Server;Svr;PBS_Server;Recovered queue batch
+07/17/2013 11:33:57;0002;PBS_Server;Svr;PBS_Server;Expected 6, recovered 6 queues
+07/17/2013 11:33:57;0100;PBS_Server;Job;27102.tyrone-cluster;enqueuing into qp64, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27102.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27103.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27103.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27067.tyrone-cluster;enqueuing into qp64, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27067.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27048.tyrone-cluster;enqueuing into qp64, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27048.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27090.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27090.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27123.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27123.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27128.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27128.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp256
+07/17/2013 11:33:57;0100;PBS_Server;Job;27129.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27129.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp256
+07/17/2013 11:33:57;0100;PBS_Server;Job;27130.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27130.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27131.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27131.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27132.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27132.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27133.tyrone-cluster;enqueuing into qp32, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27133.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27134.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27134.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27147.tyrone-cluster;enqueuing into qp32, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27147.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27153.tyrone-cluster;enqueuing into qp32, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27153.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27119.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27119.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27155.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27155.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27157.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27157.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27158.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27158.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27160.tyrone-cluster;enqueuing into qp128, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27160.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp128
+07/17/2013 11:33:57;0100;PBS_Server;Job;27161.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27161.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27162.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27162.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27163.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27163.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27164.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27164.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27165.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27165.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27166.tyrone-cluster;enqueuing into qp32, state 4 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27166.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27167.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27167.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27168.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27168.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27169.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27169.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27170.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27170.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27171.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27171.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27172.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27172.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:33:57;0100;PBS_Server;Job;27173.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27173.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27106.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27106.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27174.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27174.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27175.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27175.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27176.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27176.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27177.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27177.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27178.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27178.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27179.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27179.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27180.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27180.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27181.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27181.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27182.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27182.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27183.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27183.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27184.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27184.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27185.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27185.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27186.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27186.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0100;PBS_Server;Job;27187.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27187.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:33:57;0100;PBS_Server;Job;27188.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:33:57;0086;PBS_Server;Job;27188.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:33:57;0003;PBS_Server;Svr;PBS_Server;Expected 48, recovered 49 jobs
+07/17/2013 11:33:57;0006;PBS_Server;Svr;PBS_Server;Using ports Server:15001  Scheduler:15004  MOM:15002 (server: 'tyrone-cluster')
+07/17/2013 11:33:57;0002;PBS_Server;Svr;daemonize_server;INFO:      parent is exiting
+07/17/2013 11:33:57;0002;PBS_Server;Svr;daemonize_server;INFO:      parent is exiting
+07/17/2013 11:33:57;0002;PBS_Server;Svr;daemonize_server;INFO:      child process in background
+07/17/2013 11:33:57;0002;PBS_Server;Svr;PBS_Server;Server Ready, pid = 27157, loglevel=0
+07/17/2013 11:33:57;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 11:34:02;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 11:34:15;0086;PBS_Server;Svr;PBS_Server;Starting to shutdown the server, type is By Signal
+07/17/2013 11:34:20;0002;PBS_Server;Svr;Log;Log opened
+07/17/2013 11:34:20;0006;PBS_Server;Svr;PBS_Server;Server tyrone-cluster started, initialization type = 1
+07/17/2013 11:34:20;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20130717 opened
+07/17/2013 11:34:20;0040;PBS_Server;Req;setup_nodes;setup_nodes()
+07/17/2013 11:34:20;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp32
+07/17/2013 11:34:20;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp256
+07/17/2013 11:34:20;0086;PBS_Server;Svr;PBS_Server;Recovered queue idqueue
+07/17/2013 11:34:20;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp128
+07/17/2013 11:34:20;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp64
+07/17/2013 11:34:20;0086;PBS_Server;Svr;PBS_Server;Recovered queue batch
+07/17/2013 11:34:20;0002;PBS_Server;Svr;PBS_Server;Expected 6, recovered 6 queues
+07/17/2013 11:34:20;0100;PBS_Server;Job;27102.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27102.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27103.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27103.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27067.tyrone-cluster;enqueuing into qp64, state 4 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27067.tyrone-cluster;Requeueing job, substate: 42 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27048.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27048.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27090.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27090.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27123.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27123.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27128.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27128.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp256
+07/17/2013 11:34:20;0100;PBS_Server;Job;27129.tyrone-cluster;enqueuing into qp256, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27129.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp256
+07/17/2013 11:34:20;0100;PBS_Server;Job;27130.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27130.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27131.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27131.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27132.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27132.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27133.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27133.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27134.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27134.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27147.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27147.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27153.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27153.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27119.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27119.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27155.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27155.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27157.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27157.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27158.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27158.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27160.tyrone-cluster;enqueuing into qp128, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27160.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp128
+07/17/2013 11:34:20;0100;PBS_Server;Job;27161.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27161.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27162.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27162.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27163.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27163.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27164.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27164.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27165.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27165.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27166.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27166.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27167.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27167.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27168.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27168.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27169.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27169.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27170.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27170.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27171.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27171.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27172.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27172.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp32
+07/17/2013 11:34:20;0100;PBS_Server;Job;27173.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27173.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27106.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27106.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27174.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27174.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27175.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27175.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27176.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27176.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27177.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27177.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27178.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27178.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27179.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27179.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27180.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27180.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27181.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27181.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27182.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27182.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27183.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27183.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27184.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27184.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27185.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27185.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27186.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27186.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0100;PBS_Server;Job;27187.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27187.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: qp64
+07/17/2013 11:34:20;0100;PBS_Server;Job;27188.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 11:34:20;0086;PBS_Server;Job;27188.tyrone-cluster;Requeueing job, substate: 10 Requeued in queue: batch
+07/17/2013 11:34:20;0003;PBS_Server;Svr;PBS_Server;Expected 48, recovered 49 jobs
+07/17/2013 11:34:20;0006;PBS_Server;Svr;PBS_Server;Using ports Server:15001  Scheduler:15004  MOM:15002 (server: 'tyrone-cluster')
+07/17/2013 11:34:20;0002;PBS_Server;Svr;daemonize_server;INFO:      parent is exiting
+07/17/2013 11:34:20;0002;PBS_Server;Svr;daemonize_server;INFO:      parent is exiting
+07/17/2013 11:34:20;0002;PBS_Server;Svr;daemonize_server;INFO:      child process in background
+07/17/2013 11:34:20;0002;PBS_Server;Svr;PBS_Server;Server Ready, pid = 27184, loglevel=0
+07/17/2013 11:34:20;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 11:34:25;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 11:34:52;0004;PBS_Server;node;tyrone-node16;attributes set:  at request of root@tyrone-cluster
+07/17/2013 11:34:52;0004;PBS_Server;node;tyrone-node16;node tyrone-node16 state changed from offline to free
+07/17/2013 11:34:52;0004;PBS_Server;node;tyrone-node16;attributes set: state - offline
+07/17/2013 11:36:50;0004;PBS_Server;Svr;check_nodes;node tyrone-node12 not detected in 1374041210 seconds, marking node down
+07/17/2013 11:36:50;0004;PBS_Server;Svr;check_nodes;node tyrone-node16 not detected in 1374041210 seconds, marking node down
+07/17/2013 11:38:30;0100;PBS_Server;Job;27067.tyrone-cluster;dequeuing from qp64, state EXITING
+07/17/2013 11:39:20;0100;PBS_Server;Job;27123.tyrone-cluster;dequeuing from batch, state QUEUED
+07/17/2013 11:39:20;0100;PBS_Server;Job;27123.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 11:39:25;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 11:43:12;0001;PBS_Server;Svr;PBS_Server;LOG_ERROR::stream_eof, connection to tyrone-cluster is no longer valid, connection may have been closed remotely, remote service may be down, or message may be corrupt (End of File).  setting node state to down
+07/17/2013 11:44:25;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 11:45:22;0086;PBS_Server;Svr;PBS_Server;Starting to shutdown the server, type is By Signal
+07/17/2013 11:45:22;0002;PBS_Server;Svr;PBS_Server;Server shutdown completed
+07/17/2013 11:45:22;0002;PBS_Server;Svr;Log;Log closed
+07/17/2013 11:45:23;0002;PBS_Server;Svr;Log;Log opened
+07/17/2013 11:45:23;0006;PBS_Server;Svr;PBS_Server;Server tyrone-cluster started, initialization type = 1
+07/17/2013 11:45:23;0002;PBS_Server;Svr;Act;Account file /var/spool/torque/server_priv/accounting/20130717 opened
+07/17/2013 11:45:23;0040;PBS_Server;Req;setup_nodes;setup_nodes()
+07/17/2013 11:45:23;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp32
+07/17/2013 11:45:23;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp256
+07/17/2013 11:45:23;0086;PBS_Server;Svr;PBS_Server;Recovered queue idqueue
+07/17/2013 11:45:23;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp128
+07/17/2013 11:45:23;0086;PBS_Server;Svr;PBS_Server;Recovered queue qp64
+07/17/2013 11:45:23;0086;PBS_Server;Svr;PBS_Server;Recovered queue batch
+07/17/2013 11:45:23;0002;PBS_Server;Svr;PBS_Server;Expected 6, recovered 6 queues
+07/17/2013 11:45:23;0003;PBS_Server;Svr;PBS_Server;Expected 48, recovered 0 jobs
+07/17/2013 11:45:23;0006;PBS_Server;Svr;PBS_Server;Using ports Server:15001  Scheduler:15004  MOM:15002 (server: 'tyrone-cluster')
+07/17/2013 11:45:23;0002;PBS_Server;Svr;daemonize_server;INFO:      parent is exiting
+07/17/2013 11:45:23;0002;PBS_Server;Svr;daemonize_server;INFO:      parent is exiting
+07/17/2013 11:45:23;0002;PBS_Server;Svr;daemonize_server;INFO:      child process in background
+07/17/2013 11:45:23;0002;PBS_Server;Svr;PBS_Server;Server Ready, pid = 27334, loglevel=0
+07/17/2013 11:45:23;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 11:45:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 11:50:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 11:55:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:00:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:05:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:10:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:15:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:20:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:25:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:30:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:35:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:40:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:45:23;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 12:45:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:50:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 12:55:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:00:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:05:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:10:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:15:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:20:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:25:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:30:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:35:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:40:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:45:23;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 13:45:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:50:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 13:55:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:00:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:05:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:10:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:15:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:20:28;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:25:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:30:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:35:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:40:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:45:23;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 14:45:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:50:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 14:55:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:00:29;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:45:23;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 15:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 15:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:45:23;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 16:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 16:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:17:44;0100;PBS_Server;Job;27189.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 17:17:44;0100;PBS_Server;Job;27189.tyrone-cluster;dequeuing from batch, state QUEUED
+07/17/2013 17:17:44;0100;PBS_Server;Job;27189.tyrone-cluster;enqueuing into qp64, state 1 hop 1
+07/17/2013 17:17:44;0008;PBS_Server;Job;27189.tyrone-cluster;Job Queued at request of ipcdskp@tyrone-cluster, owner = ipcdskp@tyrone-cluster, job name = n10, queue = qp64
+07/17/2013 17:17:56;0008;PBS_Server;Job;27189.tyrone-cluster;Job deleted at request of ipcdskp@tyrone-cluster
+07/17/2013 17:17:56;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x2b2ea10 (substate=59)
+07/17/2013 17:17:56;0100;PBS_Server;Job;27189.tyrone-cluster;dequeuing from qp64, state COMPLETE
+07/17/2013 17:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:47:56;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 17:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 17:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:47:56;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 18:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 18:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:47:56;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 19:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 19:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:27:45;0100;PBS_Server;Job;27190.tyrone-cluster;enqueuing into batch, state 1 hop 1
+07/17/2013 20:27:45;0100;PBS_Server;Job;27190.tyrone-cluster;dequeuing from batch, state QUEUED
+07/17/2013 20:27:45;0100;PBS_Server;Job;27190.tyrone-cluster;enqueuing into qp32, state 1 hop 1
+07/17/2013 20:27:45;0008;PBS_Server;Job;27190.tyrone-cluster;Job Queued at request of ipcmthen@tyrone-cluster, owner = ipcmthen@tyrone-cluster, job name = tyrn1, queue = qp32
+07/17/2013 20:30:26;0008;PBS_Server;Job;27190.tyrone-cluster;Job deleted at request of ipcmthen@tyrone-cluster
+07/17/2013 20:30:26;0008;PBS_Server;Job;NULL;on_job_exit valid pjob: 0x2b309b0 (substate=59)
+07/17/2013 20:30:26;0100;PBS_Server;Job;27190.tyrone-cluster;dequeuing from qp32, state COMPLETE
+07/17/2013 20:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:50:26;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 20:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 20:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:50:26;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 21:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 21:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:50:26;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 22:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 22:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:00:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:05:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:10:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:15:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:20:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:25:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:30:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:35:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:40:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:45:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:50:26;0004;PBS_Server;Svr;WARNING;ALERT: unable to contact node tyrone-cluster
+07/17/2013 23:50:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/17/2013 23:55:30;0002;PBS_Server;Svr;PBS_Server;Torque Server Version = 3.0.5, loglevel = 0
+07/18/2013 00:00:30;0002;PBS_Server;Svr;Log;Log closed

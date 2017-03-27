@@ -1,0 +1,2 @@
+1. Target job is processed w/o any job scheduled in running state
+2. Why do we need event queue, can't we just update queued jobs and running jobs info and get prediction
